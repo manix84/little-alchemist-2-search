@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/little-alchemist-2-search/precache-manifest.60444a9e92a92bf568d492a0a8ded726.js"
+  "/little-alchemist-2-search/precache-manifest.9b218ae37c104ac29b7f751575c3f094.js"
 );
 
 workbox.clientsClaim();
