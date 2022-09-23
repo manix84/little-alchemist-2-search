@@ -19,7 +19,6 @@ export const App = () => {
   }, []);
 
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
-
   const theme = React.useMemo(
     () =>
       createTheme({
