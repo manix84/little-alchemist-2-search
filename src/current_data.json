@@ -1,0 +1,8337 @@
+[
+  {
+    "key": "acid_rain",
+    "name": "Acid Rain",
+    "internalID": 152,
+    "combinations": [
+      ["rain", "smoke"],
+      ["rain", "smog"],
+      ["rain", "sickness"],
+      ["cloud", "smoke"],
+      ["cloud", "smog"],
+      ["cloud", "sickness"],
+      ["rain", "city"]
+    ]
+  },
+  {
+    "key": "air",
+    "name": "Air",
+    "internalID": 4,
+    "combinations": [["fire", "mist"]]
+  },
+  {
+    "key": "airplane",
+    "name": "Airplane",
+    "internalID": 153,
+    "combinations": [
+      ["metal", "bird"],
+      ["steel", "bird"],
+      ["bird", "machine"],
+      ["bird", "steam_engine"],
+      ["bird", "train"],
+      ["bird", "car"],
+      ["bird", "boat"],
+      ["bird", "steamboat"],
+      ["bird", "sailboat"],
+      ["metal", "owl"],
+      ["steel", "owl"],
+      ["steam_engine", "owl"],
+      ["metal", "vulture"],
+      ["steel", "vulture"],
+      ["metal", "duck"],
+      ["steel", "duck"],
+      ["metal", "seagull"],
+      ["steel", "seagull"],
+      ["metal", "bat"],
+      ["steel", "bat"],
+      ["metal", "eagle"],
+      ["steel", "eagle"],
+      ["steel", "pigeon"],
+      ["metal", "pigeon"],
+      ["metal", "hummingbird"],
+      ["steel", "hummingbird"],
+      ["metal", "crow"],
+      ["steel", "crow"],
+      ["owl", "machine"],
+      ["vulture", "machine"],
+      ["duck", "machine"],
+      ["seagull", "machine"],
+      ["bat", "machine"],
+      ["eagle", "machine"],
+      ["pigeon", "machine"],
+      ["hummingbird", "machine"],
+      ["crow", "machine"],
+      ["pilot", "container"]
+    ]
+  },
+  {
+    "key": "alarm clock",
+    "name": "Alarm Clock",
+    "internalID": 374,
+    "combinations": [
+      ["clock", "sound"],
+      ["clock", "dawn"],
+      ["clock", "bell"],
+      ["sound", "watch"],
+      ["watch", "dawn"],
+      ["watch", "bell"]
+    ]
+  },
+  {
+    "key": "alchemist",
+    "name": "Alchemist",
+    "internalID": 661,
+    "combinations": [
+      ["human", "gold"],
+      ["gold", "philosophy"]
+    ]
+  },
+  {
+    "key": "alcohol",
+    "name": "Alcohol",
+    "internalID": 203,
+    "combinations": [
+      ["time", "juice"],
+      ["wheat", "fruit"],
+      ["wheat", "juice"],
+      ["fruit", "sun"]
+    ]
+  },
+  {
+    "key": "algae",
+    "name": "Algae",
+    "internalID": 154,
+    "combinations": [
+      ["water", "plant"],
+      ["grass", "pond"],
+      ["grass", "lake"],
+      ["water", "grass"]
+    ]
+  },
+  {
+    "key": "alien",
+    "name": "Alien",
+    "internalID": 313,
+    "combinations": [
+      ["life", "space"],
+      ["life", "galaxy"],
+      ["life", "galaxy_cluster"],
+      ["life", "solar_system"],
+      ["life", "mars"],
+      ["life", "venus"],
+      ["life", "mercury"],
+      ["life", "jupiter"],
+      ["life", "saturn"]
+    ]
+  },
+  {
+    "key": "allergy",
+    "name": "Allergy",
+    "internalID": 155,
+    "combinations": [
+      ["dust", "human"],
+      ["human", "pollen"]
+    ]
+  },
+  {
+    "key": "alligator",
+    "name": "Alligator",
+    "internalID": 156,
+    "combinations": [
+      ["lizard", "river"],
+      ["swamp", "lizard"],
+      ["lizard", "lake"]
+    ]
+  },
+  {
+    "key": "alpaca",
+    "name": "Alpaca",
+    "internalID": 477,
+    "combinations": [
+      ["mountain", "sheep"],
+      ["sheep", "mountain_range"],
+      ["sheep", "mountain_goat"]
+    ]
+  },
+  {
+    "key": "ambulance",
+    "name": "Ambulance",
+    "internalID": 306,
+    "combinations": [
+      ["car", "hospital"],
+      ["car", "doctor"]
+    ]
+  },
+  {
+    "key": "angel",
+    "name": "Angel",
+    "internalID": 158,
+    "combinations": [
+      ["bird", "human"],
+      ["human", "light"]
+    ]
+  },
+  {
+    "key": "angler",
+    "name": "Angler",
+    "internalID": 463,
+    "combinations": [
+      ["human", "fishing rod"],
+      ["sailor", "fishing rod"]
+    ]
+  },
+  {
+    "key": "animal",
+    "name": "Animal",
+    "internalID": 140,
+    "combinations": [
+      ["life", "land"],
+      ["life", "forest"],
+      ["life", "mountain"],
+      ["life", "mountain_range"],
+      ["life", "beach"],
+      ["life", "desert"]
+    ]
+  },
+  {
+    "key": "ant farm",
+    "name": "Ant Farm",
+    "internalID": 697,
+    "combinations": [
+      ["farm", "ant"],
+      ["ant", "jar"],
+      ["glass", "ant"],
+      ["farm", "anthill"],
+      ["jar", "anthill"]
+    ]
+  },
+  {
+    "key": "ant",
+    "name": "Ant",
+    "internalID": 486,
+    "combinations": [
+      ["grass", "animal"],
+      ["grass", "spider"]
+    ]
+  },
+  {
+    "key": "antarctica",
+    "name": "Antarctica",
+    "internalID": 159,
+    "combinations": [
+      ["desert", "snow"],
+      ["desert", "ice"],
+      ["snow", "continent"],
+      ["ice", "continent"]
+    ]
+  },
+  {
+    "key": "anthill",
+    "name": "Anthill",
+    "internalID": 656,
+    "combinations": [
+      ["house", "ant"],
+      ["ant", "container"],
+      ["ant", "hill"],
+      ["earth", "ant"],
+      ["ant", "land"],
+      ["ant", "soil"]
+    ]
+  },
+  {
+    "key": "apron",
+    "name": "Apron",
+    "internalID": 684,
+    "combinations": [
+      ["fabric", "cook"],
+      ["baker", "fabric"]
+    ]
+  },
+  {
+    "key": "aquarium",
+    "name": "Aquarium",
+    "internalID": 34,
+    "combinations": [
+      ["water", "glass"],
+      ["glass", "fish"],
+      ["glass", "puddle"],
+      ["glass", "pond"],
+      ["fish", "container"],
+      ["small", "swimming pool"]
+    ]
+  },
+  {
+    "key": "archeologist",
+    "name": "Archeologist",
+    "internalID": 688,
+    "combinations": [
+      ["human", "ruins"],
+      ["ruins", "science"]
+    ]
+  },
+  {
+    "key": "archipelago",
+    "name": "Archipelago",
+    "internalID": 160,
+    "combinations": [
+      ["island", "island"],
+      ["sea", "island"],
+      ["ocean", "island"]
+    ]
+  },
+  {
+    "key": "arctic",
+    "name": "Arctic",
+    "internalID": 589,
+    "combinations": [
+      ["ocean", "cold"],
+      ["sea", "cold"]
+    ]
+  },
+  {
+    "key": "armadillo",
+    "name": "Armadillo",
+    "internalID": 351,
+    "combinations": [
+      ["animal", "armor"],
+      ["armor", "dog"],
+      ["armor", "cat"]
+    ]
+  },
+  {
+    "key": "armor",
+    "name": "Armor",
+    "internalID": 161,
+    "combinations": [
+      ["metal", "fabric"],
+      ["steel", "fabric"]
+    ]
+  },
+  {
+    "key": "arrow",
+    "name": "Arrow",
+    "internalID": 611,
+    "combinations": [
+      ["bullet", "wood"],
+      ["wood", "bow"]
+    ]
+  },
+  {
+    "key": "ash",
+    "name": "Ash",
+    "internalID": 29,
+    "combinations": [
+      ["fire", "mineral"],
+      ["fire", "plant"],
+      ["fire", "tree"],
+      ["water", "campfire"],
+      ["time", "campfire"],
+      ["rain", "campfire"],
+      ["storm", "campfire"],
+      ["fire", "grass"],
+      ["phoenix", "paper"],
+      ["campfire", "paper"],
+      ["fire", "paper"],
+      ["sun", "vampire"],
+      ["vampire", "dawn"]
+    ]
+  },
+  {
+    "key": "astronaut",
+    "name": "Astronaut",
+    "internalID": 162,
+    "combinations": [
+      ["human", "space"],
+      ["human", "spaceship"],
+      ["human", "space station"],
+      ["human", "rocket"],
+      ["human", "moon"],
+      ["human", "mars"],
+      ["human", "solar_system"],
+      ["human", "mercury"],
+      ["human", "jupiter"],
+      ["human", "saturn"],
+      ["human", "venus"],
+      ["human", "moon_rover"]
+    ]
+  },
+  {
+    "key": "atmosphere",
+    "name": "Atmosphere",
+    "internalID": 163,
+    "combinations": [
+      ["air", "planet"],
+      ["air", "sky"]
+    ]
+  },
+  {
+    "key": "atomic bomb",
+    "name": "Atomic Bomb",
+    "internalID": 164,
+    "combinations": [
+      ["energy", "explosion"],
+      ["explosion", "big"],
+      ["explosion", "explosion"]
+    ]
+  },
+  {
+    "key": "aurora",
+    "name": "Aurora",
+    "internalID": 533,
+    "combinations": [
+      ["electricity", "atmosphere"],
+      ["electricity", "antarctica"],
+      ["sky", "antarctica"],
+      ["sky", "electricity"],
+      ["electricity", "arctic"],
+      ["sky", "arctic"],
+      ["sun", "atmosphere"]
+    ]
+  },
+  {
+    "key": "avalanche",
+    "name": "Avalanche",
+    "internalID": 318,
+    "combinations": [
+      ["earthquake", "snow"],
+      ["wave", "glacier"],
+      ["earthquake", "glacier"],
+      ["earthquake", "mountain"],
+      ["wave", "mountain"],
+      ["earthquake", "mountain_range"],
+      ["wave", "mountain_range"],
+      ["glacier", "sound"],
+      ["mountain", "sound"],
+      ["gun", "glacier"],
+      ["gun", "mountain"],
+      ["gun", "mountain_range"]
+    ]
+  },
+  {
+    "key": "aviary",
+    "name": "Aviary",
+    "internalID": 719,
+    "combinations": [["birdcage", "big"]]
+  },
+  {
+    "key": "axe",
+    "name": "Axe",
+    "internalID": 57,
+    "combinations": [
+      ["blade", "wood"],
+      ["tool", "wood"],
+      ["stone", "wood"],
+      ["tool", "lumberjack"]
+    ]
+  },
+  {
+    "key": "bacon",
+    "name": "Bacon",
+    "internalID": 220,
+    "combinations": [
+      ["fire", "pig"],
+      ["campfire", "pig"],
+      ["fire", "ham"],
+      ["campfire", "ham"]
+    ]
+  },
+  {
+    "key": "bacteria",
+    "name": "Bacteria",
+    "internalID": 166,
+    "combinations": [
+      ["life", "primordial soup"],
+      ["life", "small"],
+      ["mud", "life"]
+    ]
+  },
+  {
+    "key": "baker",
+    "name": "Baker",
+    "internalID": 232,
+    "combinations": [
+      ["human", "bakery"],
+      ["human", "bread"],
+      ["human", "banana bread"],
+      ["human", "pizza"],
+      ["human", "toast"],
+      ["human", "batter"],
+      ["human", "pie"],
+      ["human", "donut"],
+      ["human", "cookie"],
+      ["human", "cookie dough"],
+      ["human", "dough"]
+    ]
+  },
+  {
+    "key": "bakery",
+    "name": "Bakery",
+    "internalID": 495,
+    "combinations": [
+      ["house", "bread"],
+      ["house", "baker"],
+      ["house", "donut"],
+      ["house", "cake"],
+      ["bread", "city"],
+      ["baker", "city"],
+      ["city", "donut"],
+      ["city", "cake"],
+      ["bread", "village"],
+      ["baker", "village"],
+      ["village", "donut"],
+      ["village", "cake"],
+      ["baker", "container"]
+    ]
+  },
+  {
+    "key": "banana bread",
+    "name": "Banana Bread",
+    "internalID": 522,
+    "combinations": [
+      ["bread", "banana"],
+      ["dough", "banana"]
+    ]
+  },
+  {
+    "key": "banana",
+    "name": "Banana",
+    "internalID": 364,
+    "combinations": [["fruit", "monkey"]]
+  },
+  {
+    "key": "bandage",
+    "name": "Bandage",
+    "internalID": 474,
+    "combinations": [
+      ["blood", "fabric"],
+      ["sword", "fabric"],
+      ["blade", "fabric"]
+    ]
+  },
+  {
+    "key": "bank",
+    "name": "Bank",
+    "internalID": 404,
+    "combinations": [
+      ["house", "gold"],
+      ["skyscraper", "gold"],
+      ["house", "safe"],
+      ["skyscraper", "safe"],
+      ["house", "money"],
+      ["skyscraper", "money"],
+      ["city", "gold"],
+      ["city", "safe"],
+      ["city", "money"],
+      ["money", "container"],
+      ["house", "vault"]
+    ]
+  },
+  {
+    "key": "barn",
+    "name": "Barn",
+    "internalID": 167,
+    "combinations": [
+      ["house", "cow"],
+      ["house", "livestock"],
+      ["house", "hay"],
+      ["house", "farm"],
+      ["field", "house"],
+      ["livestock", "container"],
+      ["cow", "container"],
+      ["horse", "container"],
+      ["pig", "container"],
+      ["hay", "container"],
+      ["house", "sheep"],
+      ["sheep", "container"],
+      ["hay bale", "container"],
+      ["house", "goat"],
+      ["goat", "container"]
+    ]
+  },
+  {
+    "key": "bat",
+    "name": "Bat",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "mouse"],
+      ["air", "mouse"],
+      ["atmosphere", "mouse"],
+      ["bird", "mouse"],
+      ["mouse", "hummingbird"]
+    ]
+  },
+  {
+    "key": "batter",
+    "name": "Batter",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "flour"],
+      ["flour", "coconut milk"]
+    ]
+  },
+  {
+    "key": "battery",
+    "name": "Battery",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "container"],
+      ["energy", "container"],
+      ["electricity", "mineral"],
+      ["electricity", "ore"]
+    ]
+  },
+  {
+    "key": "bayonet",
+    "name": "Bayonet",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "gun"],
+      ["gun", "sword"],
+      ["axe", "gun"]
+    ]
+  },
+  {
+    "key": "bbq",
+    "name": "Bbq",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "campfire"],
+      ["steel", "campfire"],
+      ["campfire", "garden"],
+      ["campfire", "house"],
+      ["campfire", "meat"]
+    ]
+  },
+  {
+    "key": "beach",
+    "name": "Beach",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "sand"],
+      ["sea", "sand"],
+      ["sand", "lake"],
+      ["water", "sand"],
+      ["sand", "wave"]
+    ]
+  },
+  {
+    "key": "beaver",
+    "name": "Beaver",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "animal"],
+      ["animal", "dam"],
+      ["animal", "river"],
+      ["animal", "stream"]
+    ]
+  },
+  {
+    "key": "bee",
+    "name": "Bee",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "flower"],
+      ["animal", "garden"]
+    ]
+  },
+  {
+    "key": "beehive",
+    "name": "Beehive",
+    "internalID": 0,
+    "combinations": [
+      ["house", "bee"],
+      ["tree", "bee"],
+      ["forest", "bee"],
+      ["wall", "bee"],
+      ["wood", "bee"],
+      ["bee", "container"]
+    ]
+  },
+  {
+    "key": "beekeeper",
+    "name": "Beekeeper",
+    "internalID": 0,
+    "combinations": [
+      ["human", "beehive"],
+      ["farmer", "beehive"],
+      ["human", "bee"],
+      ["farmer", "bee"]
+    ]
+  },
+  {
+    "key": "beer",
+    "name": "Beer",
+    "internalID": 0,
+    "combinations": [["wheat", "alcohol"]]
+  },
+  {
+    "key": "bell",
+    "name": "Bell",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "sound"],
+      ["steel", "sound"],
+      ["wood", "sound"],
+      ["metal", "hammer"],
+      ["steel", "hammer"]
+    ]
+  },
+  {
+    "key": "bicycle",
+    "name": "Bicycle",
+    "internalID": 0,
+    "combinations": [
+      ["wheel", "wheel"],
+      ["wheel", "chain"],
+      ["wheel", "machine"]
+    ]
+  },
+  {
+    "key": "big",
+    "name": "Big",
+    "internalID": 0,
+    "combinations": [
+      ["universe", "philosophy"],
+      ["galaxy", "philosophy"],
+      ["galaxy_cluster", "philosophy"],
+      ["solar_system", "philosophy"],
+      ["sun", "philosophy"],
+      ["planet", "philosophy"]
+    ]
+  },
+  {
+    "key": "binoculars",
+    "name": "Binoculars",
+    "internalID": 0,
+    "combinations": [
+      ["glasses", "glasses"],
+      ["telescope", "telescope"]
+    ]
+  },
+  {
+    "key": "bird",
+    "name": "Bird",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "animal"],
+      ["air", "animal"],
+      ["animal", "airplane"],
+      ["sky", "egg"],
+      ["air", "egg"],
+      ["egg", "airplane"],
+      ["time", "dinosaur"],
+      ["time", "pterodactyl"]
+    ]
+  },
+  {
+    "key": "birdcage",
+    "name": "Birdcage",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "container"],
+      ["bird", "wall"],
+      ["bird", "safe"]
+    ]
+  },
+  {
+    "key": "birdhouse",
+    "name": "Birdhouse",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "house"],
+      ["bird", "wall"],
+      ["egg", "container"]
+    ]
+  },
+  {
+    "key": "black hole",
+    "name": "Black Hole",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "star"],
+      ["pressure", "sun"],
+      ["star", "darkness"],
+      ["sun", "darkness"]
+    ]
+  },
+  {
+    "key": "blade",
+    "name": "Blade",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "metal"],
+      ["stone", "steel"],
+      ["metal", "rock"],
+      ["steel", "rock"]
+    ]
+  },
+  {
+    "key": "blender",
+    "name": "Blender",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "blade"],
+      ["blade", "electricity"],
+      ["blade", "windmill"],
+      ["blade", "wind_turbine"],
+      ["blade", "motion"]
+    ]
+  },
+  {
+    "key": "blizzard",
+    "name": "Blizzard",
+    "internalID": 0,
+    "combinations": [
+      ["storm", "snow"],
+      ["snow", "hurricane"],
+      ["tornado", "snow"],
+      ["wind", "snow"],
+      ["snow", "snow"],
+      ["snow", "big"]
+    ]
+  },
+  {
+    "key": "blood",
+    "name": "Blood",
+    "internalID": 0,
+    "combinations": [
+      ["human", "blade"],
+      ["sword", "warrior"]
+    ]
+  },
+  {
+    "key": "blood bag",
+    "name": "Blood Bag",
+    "internalID": 0,
+    "combinations": [
+      ["blood", "container"],
+      ["blood", "sack"],
+      ["blood", "bottle"]
+    ]
+  },
+  {
+    "key": "boat",
+    "name": "Boat",
+    "internalID": 0,
+    "combinations": [
+      ["water", "wood"],
+      ["ocean", "wood"],
+      ["sea", "wood"],
+      ["wood", "lake"],
+      ["wood", "river"]
+    ]
+  },
+  {
+    "key": "boiler",
+    "name": "Boiler",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "metal"],
+      ["pressure", "tool"],
+      ["steam", "metal"],
+      ["steam", "tool"],
+      ["pressure", "container"]
+    ]
+  },
+  {
+    "key": "bone",
+    "name": "Bone",
+    "internalID": 0,
+    "combinations": [
+      ["time", "corpse"],
+      ["corpse", "vulture"],
+      ["corpse", "wolf"],
+      ["meat", "wolf"],
+      ["meat", "vulture"]
+    ]
+  },
+  {
+    "key": "bonsai tree",
+    "name": "Bonsai Tree",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "scissors"],
+      ["tree", "pottery"],
+      ["tree", "small"],
+      ["tree", "wire"]
+    ]
+  },
+  {
+    "key": "book",
+    "name": "Book",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "legend"],
+      ["wood", "paper"],
+      ["newspaper", "newspaper"],
+      ["story", "container"],
+      ["fairy_tale", "container"],
+      ["legend", "container"],
+      ["idea", "container"]
+    ]
+  },
+  {
+    "key": "bottle",
+    "name": "Bottle",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "container"],
+      ["water", "container"],
+      ["coconut milk", "container"],
+      ["juice", "container"],
+      ["oil", "container"],
+      ["alcohol", "container"],
+      ["wine", "container"],
+      ["beer", "container"],
+      ["chocolate milk", "container"],
+      ["soda", "container"],
+      ["perfume", "container"],
+      ["liquid", "container"]
+    ]
+  },
+  {
+    "key": "boulder",
+    "name": "Boulder",
+    "internalID": 0,
+    "combinations": [
+      ["big", "rock"],
+      ["small", "hill"],
+      ["rock", "rock"],
+      ["stone", "rock"],
+      ["earth", "rock"],
+      ["stone", "big"]
+    ]
+  },
+  {
+    "key": "bow",
+    "name": "Bow",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "rope"],
+      ["wood", "wire"]
+    ]
+  },
+  {
+    "key": "box",
+    "name": "Box",
+    "internalID": 0,
+    "combinations": [
+      ["pizza", "container"],
+      ["pencil", "container"],
+      ["cookie", "container"],
+      ["cereal", "container"],
+      ["donut", "container"],
+      ["cake", "container"],
+      ["crayon", "container"]
+    ]
+  },
+  {
+    "key": "bread",
+    "name": "Bread",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "dough"],
+      ["dough", "warmth"],
+      ["energy", "dough"]
+    ]
+  },
+  {
+    "key": "brick",
+    "name": "Brick",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "mud"],
+      ["mud", "sun"],
+      ["fire", "clay"],
+      ["clay", "sun"],
+      ["stone", "clay"]
+    ]
+  },
+  {
+    "key": "bridge",
+    "name": "Bridge",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "river"],
+      ["metal", "river"],
+      ["steel", "river"],
+      ["wood", "stream"],
+      ["metal", "stream"],
+      ["steel", "stream"]
+    ]
+  },
+  {
+    "key": "broom",
+    "name": "Broom",
+    "internalID": 0,
+    "combinations": [["wood", "hay"]]
+  },
+  {
+    "key": "bucket",
+    "name": "Bucket",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "container"],
+      ["yogurt", "container"],
+      ["river", "bottle"],
+      ["paint", "container"],
+      ["paint", "bottle"],
+      ["chicken wing", "container"],
+      ["chicken wing", "box"]
+    ]
+  },
+  {
+    "key": "bullet",
+    "name": "Bullet",
+    "internalID": 0,
+    "combinations": [
+      ["gunpowder", "metal"],
+      ["gunpowder", "steel"],
+      ["gunpowder", "tool"],
+      ["gunpowder", "container"]
+    ]
+  },
+  {
+    "key": "bulletproof vest",
+    "name": "Bulletproof Vest",
+    "internalID": 0,
+    "combinations": [
+      ["bullet", "armor"],
+      ["gun", "armor"]
+    ]
+  },
+  {
+    "key": "bus",
+    "name": "Bus",
+    "internalID": 0,
+    "combinations": [
+      ["car", "car"],
+      ["train", "car"],
+      ["car", "city"],
+      ["car", "big"]
+    ]
+  },
+  {
+    "key": "butcher",
+    "name": "Butcher",
+    "internalID": 0,
+    "combinations": [
+      ["human", "meat"],
+      ["human", "ham"]
+    ]
+  },
+  {
+    "key": "butter",
+    "name": "Butter",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "milk"],
+      ["energy", "milk"],
+      ["milk", "motion"],
+      ["tool", "milk"]
+    ]
+  },
+  {
+    "key": "butterfly",
+    "name": "Butterfly",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "flower"],
+      ["animal", "garden"],
+      ["rainbow", "animal"],
+      ["double_rainbow", "animal"]
+    ]
+  },
+  {
+    "key": "butterfly net",
+    "name": "Butterfly Net",
+    "internalID": 0,
+    "combinations": [
+      ["butterfly", "net"],
+      ["bee", "net"]
+    ]
+  },
+  {
+    "key": "cable car",
+    "name": "Cable Car",
+    "internalID": 0,
+    "combinations": [
+      ["car", "mountain"],
+      ["wire", "mountain"],
+      ["car", "mountain_range"],
+      ["wire", "mountain_range"],
+      ["mountain", "rope"],
+      ["rope", "mountain_range"]
+    ]
+  },
+  {
+    "key": "cactus",
+    "name": "Cactus",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "sand"],
+      ["sand", "tree"],
+      ["plant", "desert"],
+      ["tree", "desert"]
+    ]
+  },
+  {
+    "key": "cage",
+    "name": "Cage",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "wolf"],
+      ["steel", "wolf"],
+      ["wolf", "wall"],
+      ["metal", "fox"],
+      ["steel", "fox"],
+      ["wall", "fox"],
+      ["metal", "lion"],
+      ["steel", "lion"],
+      ["wall", "lion"],
+      ["hamster", "container"],
+      ["house", "hamster"],
+      ["wall", "hamster"]
+    ]
+  },
+  {
+    "key": "cake",
+    "name": "Cake",
+    "internalID": 0,
+    "combinations": [
+      ["dough", "candle"],
+      ["donut", "candle"],
+      ["bread", "sugar"]
+    ]
+  },
+  {
+    "key": "camel",
+    "name": "Camel",
+    "internalID": 0,
+    "combinations": [
+      ["desert", "horse"],
+      ["desert", "animal"],
+      ["livestock", "desert"],
+      ["cow", "desert"],
+      ["desert", "saddle"],
+      ["desert", "horseshoe"],
+      ["sand", "horse"],
+      ["sand", "livestock"],
+      ["sand", "cow"],
+      ["dune", "horse"],
+      ["livestock", "dune"],
+      ["cow", "dune"],
+      ["animal", "dune"]
+    ]
+  },
+  {
+    "key": "campfire",
+    "name": "Campfire",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "wood"],
+      ["wood", "flamethrower"]
+    ]
+  },
+  {
+    "key": "candle",
+    "name": "Candle",
+    "internalID": 0,
+    "combinations": [
+      ["thread", "wax"],
+      ["fire", "wax"],
+      ["light", "wax"],
+      ["flashlight", "wax"],
+      ["lamp", "wax"]
+    ]
+  },
+  {
+    "key": "candy cane",
+    "name": "Candy Cane",
+    "internalID": 0,
+    "combinations": [
+      ["christmas_tree", "sugar"],
+      ["sugar", "christmas_stocking"],
+      ["sugar", "santa"],
+      ["sugar", "reindeer"]
+    ]
+  },
+  {
+    "key": "cannon",
+    "name": "Cannon",
+    "internalID": 0,
+    "combinations": [
+      ["gunpowder", "pirate_ship"],
+      ["gunpowder", "castle"],
+      ["gun", "castle"],
+      ["gun", "pirate_ship"]
+    ]
+  },
+  {
+    "key": "canvas",
+    "name": "Canvas",
+    "internalID": 0,
+    "combinations": [["fabric", "paint"]]
+  },
+  {
+    "key": "car",
+    "name": "Car",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "wheel"],
+      ["steel", "wheel"],
+      ["bicycle", "bicycle"],
+      ["wheel", "bicycle"],
+      ["motorcycle", "motorcycle"],
+      ["wheel", "motorcycle"],
+      ["motorcycle", "machine"],
+      ["wagon", "combustion engine"],
+      ["cart", "combustion engine"]
+    ]
+  },
+  {
+    "key": "caramel",
+    "name": "Caramel",
+    "internalID": 0,
+    "combinations": [["sugar", "heat"]]
+  },
+  {
+    "key": "carbon_dioxide",
+    "name": "Carbon Dioxide",
+    "internalID": 0,
+    "combinations": [
+      ["human", "oxygen"],
+      ["plant", "night"],
+      ["tree", "night"],
+      ["grass", "night"],
+      ["animal", "oxygen"],
+      ["fish", "oxygen"],
+      ["bird", "oxygen"]
+    ]
+  },
+  {
+    "key": "carrot",
+    "name": "Carrot",
+    "internalID": 0,
+    "combinations": [
+      ["snowman", "vegetable"],
+      ["sun", "snowman"],
+      ["grass", "vegetable"],
+      ["garden", "vegetable"]
+    ]
+  },
+  {
+    "key": "cart",
+    "name": "Cart",
+    "internalID": 0,
+    "combinations": [["wood", "wheel"]]
+  },
+  {
+    "key": "cashmere",
+    "name": "Cashmere",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "mountain_goat"],
+      ["thread", "mountain_goat"],
+      ["fabric", "mountain_goat"],
+      ["scissors", "mountain_goat"],
+      ["wool", "mountain_goat"]
+    ]
+  },
+  {
+    "key": "castle",
+    "name": "Castle",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "knight"],
+      ["knight", "wall"],
+      ["house", "knight"],
+      ["stone", "warrior"],
+      ["warrior", "wall"],
+      ["house", "warrior"],
+      ["knight", "container"],
+      ["house", "vampire"],
+      ["vampire", "wall"],
+      ["monarch", "container"],
+      ["house", "monarch"],
+      ["wall", "monarch"]
+    ]
+  },
+  {
+    "key": "cat",
+    "name": "Cat",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "animal"],
+      ["animal", "coconut milk"],
+      ["night", "animal"]
+    ]
+  },
+  {
+    "key": "catnip",
+    "name": "Catnip",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "cat"],
+      ["grass", "cat"],
+      ["cat", "flower"]
+    ]
+  },
+  {
+    "key": "cauldron",
+    "name": "Cauldron",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "witch"],
+      ["steel", "witch"],
+      ["fireplace", "witch"],
+      ["campfire", "witch"],
+      ["metal", "pottery"],
+      ["steel", "pottery"]
+    ]
+  },
+  {
+    "key": "cave",
+    "name": "Cave",
+    "internalID": 0,
+    "combinations": [
+      ["house", "wolf"],
+      ["house", "lion"],
+      ["house", "fox"],
+      ["house", "bat"],
+      ["bat", "container"],
+      ["wolf", "container"],
+      ["lion", "container"],
+      ["fox", "container"]
+    ]
+  },
+  {
+    "key": "caviar",
+    "name": "Caviar",
+    "internalID": 0,
+    "combinations": [
+      ["roe", "salt"],
+      ["roe", "cook"]
+    ]
+  },
+  {
+    "key": "centaur",
+    "name": "Centaur",
+    "internalID": 0,
+    "combinations": [
+      ["human", "horse"],
+      ["horse", "story"]
+    ]
+  },
+  {
+    "key": "cereal",
+    "name": "Cereal",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "wheat"],
+      ["wheat", "chocolate milk"],
+      ["wheat", "coconut milk"]
+    ]
+  },
+  {
+    "key": "chain",
+    "name": "Chain",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "rope"],
+      ["steel", "rope"],
+      ["metal", "wire"],
+      ["steel", "wire"]
+    ]
+  },
+  {
+    "key": "chainsaw",
+    "name": "Chainsaw",
+    "internalID": 0,
+    "combinations": [
+      ["axe", "machine"],
+      ["axe", "electricity"],
+      ["lumberjack", "machine"],
+      ["lumberjack", "electricity"],
+      ["axe", "motion"]
+    ]
+  },
+  {
+    "key": "chameleon",
+    "name": "Chameleon",
+    "internalID": 0,
+    "combinations": [
+      ["lizard", "rainbow"],
+      ["lizard", "double_rainbow"],
+      ["rainbow", "snake"],
+      ["double_rainbow", "snake"],
+      ["turtle", "rainbow"],
+      ["turtle", "double_rainbow"]
+    ]
+  },
+  {
+    "key": "charcoal",
+    "name": "Charcoal",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "wood"],
+      ["fire", "tree"],
+      ["fire", "corpse"],
+      ["fire", "organic_matter"]
+    ]
+  },
+  {
+    "key": "cheese",
+    "name": "Cheese",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "milk"],
+      ["time", "milk"],
+      ["milk", "cook"],
+      ["milk", "bacteria"]
+    ]
+  },
+  {
+    "key": "cheeseburger",
+    "name": "Cheeseburger",
+    "internalID": 0,
+    "combinations": [
+      ["cheese", "hamburger"],
+      ["cheese", "sandwich"]
+    ]
+  },
+  {
+    "key": "chicken",
+    "name": "Chicken",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "domestication"],
+      ["bird", "livestock"],
+      ["bird", "farmer"],
+      ["egg", "domestication"],
+      ["egg", "livestock"],
+      ["egg", "farmer"],
+      ["bird", "barn"],
+      ["egg", "barn"],
+      ["bird", "farm"],
+      ["egg", "farm"]
+    ]
+  },
+  {
+    "key": "chicken coop",
+    "name": "Chicken Coop",
+    "internalID": 0,
+    "combinations": [
+      ["house", "chicken"],
+      ["chicken", "wall"],
+      ["chicken", "barn"],
+      ["chicken", "container"]
+    ]
+  },
+  {
+    "key": "chicken soup",
+    "name": "Chicken Soup",
+    "internalID": 0,
+    "combinations": [
+      ["water", "chicken"],
+      ["water", "chicken wing"],
+      ["chicken", "liquid"],
+      ["chicken wing", "liquid"]
+    ]
+  },
+  {
+    "key": "chicken wing",
+    "name": "Chicken Wing",
+    "internalID": 0,
+    "combinations": [
+      ["chicken", "bone"],
+      ["chicken", "bbq"]
+    ]
+  },
+  {
+    "key": "chill",
+    "name": "Chill",
+    "internalID": 0,
+    "combinations": [
+      ["air", "cold"],
+      ["human", "cold"],
+      ["human", "ice"]
+    ]
+  },
+  {
+    "key": "chimney",
+    "name": "Chimney",
+    "internalID": 0,
+    "combinations": [
+      ["house", "fireplace"],
+      ["smoke", "brick"],
+      ["fireplace", "brick"],
+      ["smoke", "fireplace"],
+      ["house", "smoke"],
+      ["stone", "smoke"],
+      ["stone", "fireplace"]
+    ]
+  },
+  {
+    "key": "chocolate",
+    "name": "Chocolate",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "sugar"],
+      ["oil", "sugar"],
+      ["sugar", "seed"],
+      ["coconut milk", "sugar"]
+    ]
+  },
+  {
+    "key": "chocolate milk",
+    "name": "Chocolate Milk",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "chocolate"],
+      ["coconut milk", "chocolate"]
+    ]
+  },
+  {
+    "key": "christmas_stocking",
+    "name": "Christmas Stocking",
+    "internalID": 0,
+    "combinations": [
+      ["fireplace", "wool"],
+      ["christmas_tree", "wool"],
+      ["wool", "reindeer"],
+      ["wool", "santa"]
+    ]
+  },
+  {
+    "key": "christmas_tree",
+    "name": "Christmas Tree",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "light bulb"],
+      ["tree", "star"],
+      ["tree", "candle"],
+      ["tree", "light"],
+      ["tree", "gift"]
+    ]
+  },
+  {
+    "key": "cigarette",
+    "name": "Cigarette",
+    "internalID": 0,
+    "combinations": [["tobacco", "paper"]]
+  },
+  {
+    "key": "city",
+    "name": "City",
+    "internalID": 0,
+    "combinations": [
+      ["village", "village"],
+      ["skyscraper", "skyscraper"],
+      ["village", "skyscraper"],
+      ["skyscraper", "container"],
+      ["bank", "container"],
+      ["skyscraper", "bank"],
+      ["bank", "post office"],
+      ["skyscraper", "post office"],
+      ["village", "big"]
+    ]
+  },
+  {
+    "key": "clay",
+    "name": "Clay",
+    "internalID": 0,
+    "combinations": [
+      ["mud", "sand"],
+      ["stone", "liquid"],
+      ["sand", "mineral"],
+      ["liquid", "rock"],
+      ["stone", "mineral"],
+      ["rock", "mineral"],
+      ["mud", "stone"]
+    ]
+  },
+  {
+    "key": "clock",
+    "name": "Clock",
+    "internalID": 0,
+    "combinations": [
+      ["time", "electricity"],
+      ["time", "wheel"],
+      ["time", "tool"],
+      ["time", "machine"],
+      ["sundial", "machine"],
+      ["tool", "sundial"],
+      ["wheel", "sundial"],
+      ["electricity", "sundial"],
+      ["cuckoo", "container"],
+      ["watch", "big"]
+    ]
+  },
+  {
+    "key": "closet",
+    "name": "Closet",
+    "internalID": 0,
+    "combinations": [
+      ["broom", "container"],
+      ["container", "toolbox"],
+      ["umbrella", "container"],
+      ["vacuum cleaner", "container"],
+      ["robot vacuum", "container"]
+    ]
+  },
+  {
+    "key": "cloud",
+    "name": "Cloud",
+    "internalID": 0,
+    "combinations": [
+      ["atmosphere", "mist"],
+      ["water", "atmosphere"],
+      ["sky", "mist"],
+      ["water", "sky"]
+    ]
+  },
+  {
+    "key": "coal",
+    "name": "Coal",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "organic_matter"],
+      ["earth", "peat"],
+      ["stone", "peat"],
+      ["rock", "peat"],
+      ["time", "peat"],
+      ["pressure", "peat"]
+    ]
+  },
+  {
+    "key": "coconut",
+    "name": "Coconut",
+    "internalID": 0,
+    "combinations": [
+      ["fruit", "palm"],
+      ["palm", "nuts"],
+      ["palm", "vegetable"],
+      ["meat", "palm"],
+      ["fruit", "beach"],
+      ["beach", "vegetable"]
+    ]
+  },
+  {
+    "key": "coconut milk",
+    "name": "Coconut Milk",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "coconut"],
+      ["tool", "coconut"],
+      ["coconut", "hammer"],
+      ["sword", "coconut"],
+      ["blade", "coconut"],
+      ["axe", "coconut"]
+    ]
+  },
+  {
+    "key": "coffin",
+    "name": "Coffin",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "corpse"],
+      ["corpse", "container"],
+      ["vampire", "container"]
+    ]
+  },
+  {
+    "key": "cold",
+    "name": "Cold",
+    "internalID": 0,
+    "combinations": [
+      ["rain", "human"],
+      ["human", "mountain_range"],
+      ["human", "mountain"],
+      ["human", "snow"],
+      ["wind", "human"],
+      ["storm", "human"],
+      ["space", "thermometer"]
+    ]
+  },
+  {
+    "key": "combustion engine",
+    "name": "Combustion Engine",
+    "internalID": 0,
+    "combinations": [
+      ["machine", "petroleum"],
+      ["steam_engine", "petroleum"],
+      ["wheel", "petroleum"],
+      ["explosion", "machine"],
+      ["explosion", "steam_engine"]
+    ]
+  },
+  {
+    "key": "computer",
+    "name": "Computer",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "hacker"],
+      ["electricity", "hacker"],
+      ["wire", "hacker"],
+      ["hacker", "machine"],
+      ["email", "container"]
+    ]
+  },
+  {
+    "key": "computer mouse",
+    "name": "Computer Mouse",
+    "internalID": 0,
+    "combinations": [
+      ["computer", "mouse"],
+      ["animal", "computer"]
+    ]
+  },
+  {
+    "key": "confetti",
+    "name": "Confetti",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "scissors"],
+      ["blade", "paper"]
+    ]
+  },
+  {
+    "key": "constellation",
+    "name": "Constellation",
+    "internalID": 0,
+    "combinations": [["star", "star"]]
+  },
+  {
+    "key": "container",
+    "name": "Container",
+    "internalID": 0,
+    "combinations": [
+      ["safe", "philosophy"],
+      ["pottery", "philosophy"],
+      ["house", "philosophy"],
+      ["philosophy", "box"],
+      ["philosophy", "bottle"],
+      ["philosophy", "bucket"]
+    ]
+  },
+  {
+    "key": "continent",
+    "name": "Continent",
+    "internalID": 0,
+    "combinations": [
+      ["big", "land"],
+      ["land", "land"],
+      ["mountain_range", "mountain_range"],
+      ["earth", "land"]
+    ]
+  },
+  {
+    "key": "cook",
+    "name": "Cook",
+    "internalID": 0,
+    "combinations": [
+      ["human", "fruit"],
+      ["human", "campfire"],
+      ["human", "vegetable"],
+      ["human", "nuts"]
+    ]
+  },
+  {
+    "key": "cookbook",
+    "name": "Cookbook",
+    "internalID": 0,
+    "combinations": [
+      ["recipe", "recipe"],
+      ["book", "cook"]
+    ]
+  },
+  {
+    "key": "cookie",
+    "name": "Cookie",
+    "internalID": 0,
+    "combinations": [
+      ["cookie dough", "heat"],
+      ["fire", "cookie dough"],
+      ["baker", "cookie dough"],
+      ["cookie dough", "cookie cutter"],
+      ["dough", "cookie cutter"]
+    ]
+  },
+  {
+    "key": "cookie cutter",
+    "name": "Cookie Cutter",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "dough"],
+      ["blade", "cookie dough"]
+    ]
+  },
+  {
+    "key": "cookie dough",
+    "name": "Cookie Dough",
+    "internalID": 0,
+    "combinations": [
+      ["dough", "sugar"],
+      ["dough", "chocolate"],
+      ["dough", "cookie"]
+    ]
+  },
+  {
+    "key": "coral",
+    "name": "Coral",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "tree"],
+      ["sea", "tree"],
+      ["ocean", "fossil"],
+      ["sea", "fossil"],
+      ["ocean", "bone"],
+      ["sea", "bone"]
+    ]
+  },
+  {
+    "key": "corpse",
+    "name": "Corpse",
+    "internalID": 0,
+    "combinations": [
+      ["bullet", "human"],
+      ["human", "blade"],
+      ["human", "death"],
+      ["human", "grim reaper"],
+      ["time", "human"],
+      ["explosion", "human"],
+      ["human", "arrow"]
+    ]
+  },
+  {
+    "key": "cotton",
+    "name": "Cotton",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "plant"],
+      ["plant", "fabric"],
+      ["plant", "thread"],
+      ["plant", "wool"],
+      ["plant", "sheep"]
+    ]
+  },
+  {
+    "key": "cotton candy",
+    "name": "Cotton Candy",
+    "internalID": 0,
+    "combinations": [
+      ["air", "sugar"],
+      ["sugar", "thread"],
+      ["cloud", "sugar"]
+    ]
+  },
+  {
+    "key": "cow",
+    "name": "Cow",
+    "internalID": 0,
+    "combinations": [
+      ["livestock", "barn"],
+      ["field", "livestock"],
+      ["livestock", "grass"],
+      ["farmer", "livestock"]
+    ]
+  },
+  {
+    "key": "crayon",
+    "name": "Crayon",
+    "internalID": 0,
+    "combinations": [
+      ["rainbow", "pencil"],
+      ["double_rainbow", "pencil"],
+      ["rainbow", "wax"],
+      ["double_rainbow", "wax"],
+      ["pencil", "paint"],
+      ["wax", "paint"]
+    ]
+  },
+  {
+    "key": "crow",
+    "name": "Crow",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "scarecrow"],
+      ["bird", "field"],
+      ["scarecrow", "pigeon"],
+      ["field", "pigeon"],
+      ["owl", "scarecrow"],
+      ["field", "owl"],
+      ["scarecrow", "hummingbird"],
+      ["field", "hummingbird"]
+    ]
+  },
+  {
+    "key": "crystal_ball",
+    "name": "Crystal Ball",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "witch"],
+      ["glass", "wizard"],
+      ["glass", "magic"],
+      ["witch", "snow globe"],
+      ["wizard", "snow globe"],
+      ["snow globe", "magic"]
+    ]
+  },
+  {
+    "key": "cuckoo",
+    "name": "Cuckoo",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "clock"],
+      ["clock", "owl"],
+      ["clock", "hummingbird"],
+      ["bird", "alarm clock"],
+      ["owl", "alarm clock"],
+      ["alarm clock", "hummingbird"]
+    ]
+  },
+  {
+    "key": "cup",
+    "name": "Cup",
+    "internalID": 0,
+    "combinations": [
+      ["smoothie", "container"],
+      ["tea", "container"],
+      ["milk shake", "container"],
+      ["smoothie", "bottle"],
+      ["tea", "bottle"],
+      ["milk shake", "bottle"]
+    ]
+  },
+  {
+    "key": "current",
+    "name": "Current",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "motion"],
+      ["sea", "motion"],
+      ["ocean", "heat"],
+      ["sea", "heat"],
+      ["ocean", "cold"],
+      ["sea", "cold"],
+      ["ocean", "science"],
+      ["sea", "science"]
+    ]
+  },
+  {
+    "key": "cutting board",
+    "name": "Cutting Board",
+    "internalID": 0,
+    "combinations": [["wood", "cook"]]
+  },
+  {
+    "key": "cyborg",
+    "name": "Cyborg",
+    "internalID": 0,
+    "combinations": [
+      ["human", "robot"],
+      ["engineer", "robot"],
+      ["lumberjack", "robot"],
+      ["robot", "sailor"],
+      ["robot", "baker"],
+      ["robot", "cook"],
+      ["doctor", "robot"],
+      ["farmer", "robot"],
+      ["firefighter", "robot"],
+      ["robot", "pilot"],
+      ["astronaut", "robot"],
+      ["electrician", "robot"]
+    ]
+  },
+  {
+    "key": "cyclist",
+    "name": "Cyclist",
+    "internalID": 0,
+    "combinations": [
+      ["human", "bicycle"],
+      ["human", "wheel"]
+    ]
+  },
+  {
+    "key": "dam",
+    "name": "Dam",
+    "internalID": 0,
+    "combinations": [
+      ["beaver", "river"],
+      ["wall", "river"],
+      ["tree", "beaver"],
+      ["beaver", "stream"],
+      ["wall", "stream"],
+      ["house", "beaver"],
+      ["beaver", "lake"],
+      ["water", "beaver"]
+    ]
+  },
+  {
+    "key": "darkness",
+    "name": "Darkness",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "night"],
+      ["sky", "twilight"]
+    ]
+  },
+  {
+    "key": "dawn",
+    "name": "Dawn",
+    "internalID": 0,
+    "combinations": [
+      ["time", "night"],
+      ["day", "night"]
+    ]
+  },
+  {
+    "key": "day",
+    "name": "Day",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "sun"],
+      ["sun", "night"],
+      ["time", "sun"],
+      ["time", "dawn"]
+    ]
+  },
+  {
+    "key": "death",
+    "name": "Death",
+    "internalID": 0,
+    "combinations": [
+      ["time", "life"],
+      ["corpse", "philosophy"],
+      ["skeleton", "philosophy"],
+      ["grave", "philosophy"],
+      ["graveyard", "philosophy"]
+    ]
+  },
+  {
+    "key": "desert",
+    "name": "Desert",
+    "internalID": 0,
+    "combinations": [
+      ["sand", "sand"],
+      ["sand", "land"],
+      ["sand", "cactus"],
+      ["sand", "lizard"],
+      ["sand", "vulture"]
+    ]
+  },
+  {
+    "key": "dew",
+    "name": "Dew",
+    "internalID": 0,
+    "combinations": [
+      ["grass", "fog"],
+      ["water", "grass"],
+      ["plant", "fog"],
+      ["tree", "fog"],
+      ["grass", "dawn"],
+      ["plant", "dawn"],
+      ["tree", "dawn"],
+      ["water", "dawn"],
+      ["fog", "dawn"]
+    ]
+  },
+  {
+    "key": "diamond",
+    "name": "Diamond",
+    "internalID": 0,
+    "combinations": [["pressure", "coal"]]
+  },
+  {
+    "key": "dinosaur",
+    "name": "Dinosaur",
+    "internalID": 0,
+    "combinations": [
+      ["time", "lizard"],
+      ["lizard", "big"]
+    ]
+  },
+  {
+    "key": "diver",
+    "name": "Diver",
+    "internalID": 0,
+    "combinations": [
+      ["human", "scuba tank"],
+      ["swimmer", "scuba tank"],
+      ["ocean", "scuba tank"],
+      ["sea", "scuba tank"],
+      ["lake", "scuba tank"]
+    ]
+  },
+  {
+    "key": "doctor",
+    "name": "Doctor",
+    "internalID": 0,
+    "combinations": [
+      ["human", "hospital"],
+      ["human", "stethoscope"]
+    ]
+  },
+  {
+    "key": "dog",
+    "name": "Dog",
+    "internalID": 0,
+    "combinations": [
+      ["wolf", "domestication"],
+      ["farmer", "wolf"],
+      ["wolf", "farm"],
+      ["barn", "wolf"],
+      ["field", "wolf"],
+      ["wolf", "bone"],
+      ["campfire", "wolf"]
+    ]
+  },
+  {
+    "key": "doge",
+    "name": "Doge",
+    "internalID": 0,
+    "combinations": [
+      ["dog", "internet"],
+      ["dog", "computer"]
+    ]
+  },
+  {
+    "key": "doghouse",
+    "name": "Doghouse",
+    "internalID": 0,
+    "combinations": [
+      ["house", "dog"],
+      ["dog", "wall"],
+      ["dog", "container"],
+      ["house", "husky"],
+      ["wall", "husky"],
+      ["husky", "container"]
+    ]
+  },
+  {
+    "key": "domestication",
+    "name": "Domestication",
+    "internalID": 0,
+    "combinations": [
+      ["farmer", "animal"],
+      ["human", "animal"],
+      ["animal", "science"],
+      ["farmer", "science"]
+    ]
+  },
+  {
+    "key": "don quixote",
+    "name": "Don Quixote",
+    "internalID": 0,
+    "combinations": [
+      ["windmill", "knight"],
+      ["windmill", "story"],
+      ["windmill", "legend"],
+      ["windmill", "hero"]
+    ]
+  },
+  {
+    "key": "donut",
+    "name": "Donut",
+    "internalID": 0,
+    "combinations": [
+      ["dough", "oil"],
+      ["oil", "cookie dough"],
+      ["wheel", "dough"],
+      ["wheel", "cookie dough"]
+    ]
+  },
+  {
+    "key": "double_rainbow",
+    "name": "Double Rainbow!",
+    "internalID": 0,
+    "combinations": [["rainbow", "rainbow"]]
+  },
+  {
+    "key": "dough",
+    "name": "Dough",
+    "internalID": 0,
+    "combinations": [
+      ["water", "flour"],
+      ["flour", "puddle"],
+      ["rain", "flour"]
+    ]
+  },
+  {
+    "key": "dragon",
+    "name": "Dragon",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "lizard"],
+      ["air", "lizard"],
+      ["sky", "lizard"],
+      ["lizard", "airplane"],
+      ["lizard", "legend"],
+      ["lizard", "story"]
+    ]
+  },
+  {
+    "key": "drone",
+    "name": "Drone",
+    "internalID": 0,
+    "combinations": [
+      ["airplane", "robot"],
+      ["robot", "helicopter"],
+      ["robot", "paper airplane"],
+      ["robot", "seaplane"]
+    ]
+  },
+  {
+    "key": "drum",
+    "name": "Drum",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "leather"],
+      ["wood", "fabric"],
+      ["wood", "music"]
+    ]
+  },
+  {
+    "key": "drunk",
+    "name": "Drunk",
+    "internalID": 0,
+    "combinations": [
+      ["human", "alcohol"],
+      ["human", "wine"],
+      ["human", "beer"]
+    ]
+  },
+  {
+    "key": "dry ice",
+    "name": "Dry Ice",
+    "internalID": 0,
+    "combinations": [
+      ["cold", "carbon_dioxide"],
+      ["ice", "carbon_dioxide"]
+    ]
+  },
+  {
+    "key": "duck",
+    "name": "Duck",
+    "internalID": 0,
+    "combinations": [
+      ["water", "bird"],
+      ["bird", "pond"],
+      ["bird", "lake"],
+      ["time", "duckling"],
+      ["duckling", "big"],
+      ["water", "owl"],
+      ["owl", "pond"],
+      ["owl", "lake"],
+      ["water", "pigeon"],
+      ["pond", "pigeon"],
+      ["pigeon", "lake"],
+      ["water", "chicken"],
+      ["chicken", "pond"],
+      ["chicken", "lake"]
+    ]
+  },
+  {
+    "key": "duckling",
+    "name": "Duckling",
+    "internalID": 0,
+    "combinations": [["egg", "duck"]]
+  },
+  {
+    "key": "dune",
+    "name": "Dune",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "desert"],
+      ["wind", "sand"],
+      ["wind", "beach"],
+      ["sand", "desert"],
+      ["desert", "sandstorm"]
+    ]
+  },
+  {
+    "key": "dust",
+    "name": "Dust",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "air"],
+      ["air", "soil"],
+      ["air", "land"]
+    ]
+  },
+  {
+    "key": "dynamite",
+    "name": "Dynamite",
+    "internalID": 0,
+    "combinations": [
+      ["gunpowder", "wire"],
+      ["gunpowder", "pipe"],
+      ["gunpowder", "container"]
+    ]
+  },
+  {
+    "key": "eagle",
+    "name": "Eagle",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "mountain"],
+      ["bird", "mountain_range"]
+    ]
+  },
+  {
+    "key": "earthquake",
+    "name": "Earthquake",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "motion"],
+      ["motion", "continent"]
+    ]
+  },
+  {
+    "key": "eclipse",
+    "name": "Eclipse",
+    "internalID": 0,
+    "combinations": [["moon", "sun"]]
+  },
+  {
+    "key": "egg",
+    "name": "Egg",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "bird"],
+      ["turtle", "turtle"],
+      ["lizard", "lizard"],
+      ["vulture", "vulture"],
+      ["phoenix", "phoenix"],
+      ["chicken", "chicken"],
+      ["dragon", "dragon"],
+      ["penguin", "penguin"],
+      ["owl", "owl"],
+      ["dinosaur", "dinosaur"],
+      ["duck", "duck"],
+      ["seagull", "seagull"],
+      ["eagle", "eagle"],
+      ["scorpion", "scorpion"],
+      ["spider", "spider"],
+      ["pigeon", "pigeon"],
+      ["fish", "fish"],
+      ["piranha", "piranha"],
+      ["parrot", "parrot"],
+      ["peacock", "peacock"],
+      ["hummingbird", "hummingbird"],
+      ["chameleon", "chameleon"],
+      ["ostrich", "ostrich"],
+      ["woodpecker", "woodpecker"],
+      ["bee", "bee"],
+      ["crow", "crow"],
+      ["frog", "frog"],
+      ["pterodactyl", "pterodactyl"],
+      ["ant", "ant"],
+      ["tyrannosaurus rex", "tyrannosaurus rex"],
+      ["moth", "moth"],
+      ["life", "container"],
+      ["butterfly", "butterfly"],
+      ["snake", "snake"],
+      ["flying fish", "flying fish"]
+    ]
+  },
+  {
+    "key": "egg timer",
+    "name": "Egg Timer",
+    "internalID": 0,
+    "combinations": [
+      ["egg", "clock"],
+      ["egg", "alarm clock"],
+      ["egg", "watch"]
+    ]
+  },
+  {
+    "key": "electric_car",
+    "name": "Electric Car",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "car"],
+      ["electricity", "wagon"],
+      ["car", "wind_turbine"],
+      ["wagon", "wind_turbine"],
+      ["solar_cell", "car"],
+      ["solar_cell", "wagon"]
+    ]
+  },
+  {
+    "key": "electric_eel",
+    "name": "Electric Eel",
+    "internalID": 0,
+    "combinations": [["fish", "electricity"]]
+  },
+  {
+    "key": "electrician",
+    "name": "Electrician",
+    "internalID": 0,
+    "combinations": [
+      ["human", "electricity"],
+      ["human", "wire"]
+    ]
+  },
+  {
+    "key": "electricity",
+    "name": "Electricity",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "wind_turbine"],
+      ["wind_turbine", "motion"],
+      ["storm", "wind_turbine"],
+      ["sandstorm", "wind_turbine"],
+      ["sun", "solar_cell"],
+      ["light", "solar_cell"],
+      ["solar_cell", "star"],
+      ["metal", "lightning"],
+      ["steel", "lightning"],
+      ["storm", "science"]
+    ]
+  },
+  {
+    "key": "email",
+    "name": "Email",
+    "internalID": 0,
+    "combinations": [
+      ["computer", "letter"],
+      ["letter", "internet"],
+      ["letter", "computer mouse"],
+      ["electricity", "letter"]
+    ]
+  },
+  {
+    "key": "energy",
+    "name": "Energy",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "atmosphere"],
+      ["fire", "science"],
+      ["heat", "science"],
+      ["fire", "fire"]
+    ]
+  },
+  {
+    "key": "engineer",
+    "name": "Engineer",
+    "internalID": 0,
+    "combinations": [
+      ["human", "machine"],
+      ["human", "steam_engine"]
+    ]
+  },
+  {
+    "key": "eruption",
+    "name": "Eruption",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "volcano"],
+      ["lava", "pressure"],
+      ["volcano", "time"]
+    ]
+  },
+  {
+    "key": "excalibur",
+    "name": "Excalibur",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "sword"],
+      ["sword", "legend"],
+      ["sword", "story"],
+      ["sword", "monarch"],
+      ["sword", "lake"],
+      ["sword", "fairy_tale"]
+    ]
+  },
+  {
+    "key": "explosion",
+    "name": "Explosion",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "gunpowder"],
+      ["gunpowder", "electricity"],
+      ["gunpowder", "lightning"],
+      ["pressure", "volcano"],
+      ["fire", "petroleum"],
+      ["explosion", "petroleum"],
+      ["pressure", "petroleum"],
+      ["heat", "petroleum"],
+      ["lava", "petroleum"],
+      ["volcano", "petroleum"]
+    ]
+  },
+  {
+    "key": "fabric",
+    "name": "Fabric",
+    "internalID": 0,
+    "combinations": [
+      ["thread", "machine"],
+      ["tool", "thread"],
+      ["wheel", "thread"]
+    ]
+  },
+  {
+    "key": "factory",
+    "name": "Factory",
+    "internalID": 0,
+    "combinations": [
+      ["house", "chimney"],
+      ["house", "tool"]
+    ]
+  },
+  {
+    "key": "fairy_tale",
+    "name": "Fairy Tale",
+    "internalID": 0,
+    "combinations": [
+      ["story", "monarch"],
+      ["story", "castle"],
+      ["knight", "story"],
+      ["dragon", "story"],
+      ["unicorn", "story"]
+    ]
+  },
+  {
+    "key": "family",
+    "name": "Family",
+    "internalID": 0,
+    "combinations": [
+      ["human", "human"],
+      ["human", "house"],
+      ["love", "container"]
+    ]
+  },
+  {
+    "key": "family_tree",
+    "name": "Family Tree",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "family"],
+      ["tree", "village"],
+      ["time", "family"]
+    ]
+  },
+  {
+    "key": "farm",
+    "name": "Farm",
+    "internalID": 0,
+    "combinations": [
+      ["farmer", "house"],
+      ["farmer", "barn"],
+      ["house", "barn"],
+      ["farmer", "container"],
+      ["house", "tractor"]
+    ]
+  },
+  {
+    "key": "farmer",
+    "name": "Farmer",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "human"],
+      ["human", "grass"],
+      ["human", "pitchfork"],
+      ["human", "field"],
+      ["human", "barn"],
+      ["human", "plow"]
+    ]
+  },
+  {
+    "key": "faun",
+    "name": "Faun",
+    "internalID": 0,
+    "combinations": [
+      ["human", "goat"],
+      ["human", "mountain_goat"],
+      ["goat", "legend"],
+      ["mountain_goat", "legend"],
+      ["goat", "wizard"],
+      ["wizard", "mountain_goat"],
+      ["goat", "magic"],
+      ["mountain_goat", "magic"]
+    ]
+  },
+  {
+    "key": "fence",
+    "name": "Fence",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "wall"],
+      ["wood", "field"],
+      ["field", "wall"],
+      ["grass", "wall"],
+      ["garden", "wall"],
+      ["wood", "garden"]
+    ]
+  },
+  {
+    "key": "field",
+    "name": "Field",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "farmer"],
+      ["farmer", "land"],
+      ["earth", "tool"],
+      ["tool", "land"],
+      ["earth", "plow"],
+      ["land", "plow"],
+      ["farmer", "soil"],
+      ["tool", "soil"],
+      ["soil", "plow"]
+    ]
+  },
+  {
+    "key": "fire",
+    "name": "Fire",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "alcohol"],
+      ["fire", "coal"]
+    ]
+  },
+  {
+    "key": "fire extinguisher",
+    "name": "Fire Extinguisher",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "carbon_dioxide"],
+      ["pressure", "carbon_dioxide"],
+      ["metal", "carbon_dioxide"],
+      ["steel", "carbon_dioxide"],
+      ["boiler", "carbon_dioxide"]
+    ]
+  },
+  {
+    "key": "firefighter",
+    "name": "Firefighter",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "human"],
+      ["human", "firetruck"],
+      ["human", "fire extinguisher"]
+    ]
+  },
+  {
+    "key": "fireplace",
+    "name": "Fireplace",
+    "internalID": 0,
+    "combinations": [
+      ["campfire", "house"],
+      ["campfire", "brick"],
+      ["campfire", "wall"],
+      ["wood", "container"],
+      ["campfire", "container"]
+    ]
+  },
+  {
+    "key": "firestation",
+    "name": "Firestation",
+    "internalID": 0,
+    "combinations": [
+      ["house", "firefighter"],
+      ["house", "firetruck"],
+      ["firefighter", "land"],
+      ["firefighter", "village"],
+      ["firefighter", "city"]
+    ]
+  },
+  {
+    "key": "firetruck",
+    "name": "Firetruck",
+    "internalID": 0,
+    "combinations": [
+      ["firefighter", "car"],
+      ["firefighter", "wagon"],
+      ["fire", "car"],
+      ["fire", "wagon"],
+      ["car", "fire extinguisher"],
+      ["wagon", "fire extinguisher"]
+    ]
+  },
+  {
+    "key": "firewall",
+    "name": "Firewall",
+    "internalID": 0,
+    "combinations": [["fire", "wall"]]
+  },
+  {
+    "key": "fireworks",
+    "name": "Fireworks",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "explosion"],
+      ["explosion", "atmosphere"]
+    ]
+  },
+  {
+    "key": "fish",
+    "name": "Fish",
+    "internalID": 0,
+    "combinations": [
+      ["water", "animal"],
+      ["animal", "lake"],
+      ["sea", "animal"],
+      ["ocean", "animal"],
+      ["water", "egg"],
+      ["egg", "lake"],
+      ["sea", "egg"],
+      ["ocean", "egg"]
+    ]
+  },
+  {
+    "key": "fishing rod",
+    "name": "Fishing Rod",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "fish"],
+      ["wood", "fish"],
+      ["fish", "wire"],
+      ["tool", "swordfish"],
+      ["wood", "swordfish"],
+      ["wire", "swordfish"],
+      ["tool", "piranha"],
+      ["wood", "piranha"],
+      ["wire", "piranha"],
+      ["fish", "thread"],
+      ["swordfish", "thread"],
+      ["piranha", "thread"]
+    ]
+  },
+  {
+    "key": "flamethrower",
+    "name": "Flamethrower",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "gun"],
+      ["volcano", "gun"],
+      ["campfire", "gun"]
+    ]
+  },
+  {
+    "key": "flashlight",
+    "name": "Flashlight",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "light"],
+      ["tool", "light bulb"],
+      ["human", "lamp"],
+      ["tool", "lamp"]
+    ]
+  },
+  {
+    "key": "flood",
+    "name": "Flood",
+    "internalID": 0,
+    "combinations": [
+      ["rain", "rain"],
+      ["rain", "river"],
+      ["rain", "lake"],
+      ["rain", "big"],
+      ["rain", "time"],
+      ["house", "river"],
+      ["river", "city"],
+      ["tsunami", "city"],
+      ["house", "tsunami"]
+    ]
+  },
+  {
+    "key": "flour",
+    "name": "Flour",
+    "internalID": 0,
+    "combinations": [
+      ["wheat", "wheat"],
+      ["stone", "wheat"],
+      ["wheat", "windmill"],
+      ["wheel", "wheat"],
+      ["wheat", "rock"]
+    ]
+  },
+  {
+    "key": "flower",
+    "name": "Flower",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "garden"],
+      ["grass", "garden"],
+      ["grass", "seed"],
+      ["garden", "seed"],
+      ["plant", "rainbow"],
+      ["plant", "double_rainbow"],
+      ["grass", "rainbow"],
+      ["grass", "double_rainbow"]
+    ]
+  },
+  {
+    "key": "flute",
+    "name": "Flute",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "wood"],
+      ["air", "wood"]
+    ]
+  },
+  {
+    "key": "flying fish",
+    "name": "Flying Fish",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "fish"],
+      ["sky", "fish"],
+      ["air", "fish"]
+    ]
+  },
+  {
+    "key": "flying squirrel",
+    "name": "Flying Squirrel",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "squirrel"],
+      ["squirrel", "hummingbird"],
+      ["squirrel", "pigeon"],
+      ["seagull", "squirrel"],
+      ["air", "squirrel"],
+      ["airplane", "squirrel"],
+      ["squirrel", "seaplane"],
+      ["squirrel", "helicopter"]
+    ]
+  },
+  {
+    "key": "fog",
+    "name": "Fog",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "cloud"],
+      ["cloud", "hill"],
+      ["cloud", "mountain"],
+      ["cloud", "city"],
+      ["cloud", "field"],
+      ["cloud", "forest"]
+    ]
+  },
+  {
+    "key": "force knight",
+    "name": "Force Knight",
+    "internalID": 0,
+    "combinations": [
+      ["human", "light sword"],
+      ["warrior", "light sword"],
+      ["knight", "light sword"]
+    ]
+  },
+  {
+    "key": "forest",
+    "name": "Forest",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "tree"],
+      ["plant", "tree"],
+      ["tree", "land"],
+      ["earth", "tree"],
+      ["tree", "container"]
+    ]
+  },
+  {
+    "key": "fork",
+    "name": "Fork",
+    "internalID": 0,
+    "combinations": [["pitchfork", "small"]]
+  },
+  {
+    "key": "fortune cookie",
+    "name": "Fortune Cookie",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "cookie"],
+      ["paper", "cookie dough"],
+      ["paper", "gingerbread man"]
+    ]
+  },
+  {
+    "key": "fossil",
+    "name": "Fossil",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "dinosaur"],
+      ["stone", "dinosaur"],
+      ["dinosaur", "rock"],
+      ["time", "dinosaur"],
+      ["time", "bone"],
+      ["earth", "bone"],
+      ["stone", "bone"],
+      ["stone", "corpse"],
+      ["time", "grave"],
+      ["bone", "rock"],
+      ["corpse", "rock"],
+      ["earth", "skeleton"],
+      ["stone", "skeleton"],
+      ["skeleton", "rock"],
+      ["time", "skeleton"]
+    ]
+  },
+  {
+    "key": "fountain",
+    "name": "Fountain",
+    "internalID": 0,
+    "combinations": [
+      ["water", "statue"],
+      ["statue", "stream"]
+    ]
+  },
+  {
+    "key": "fox",
+    "name": "Fox",
+    "internalID": 0,
+    "combinations": [
+      ["chicken", "animal"],
+      ["chicken", "wolf"],
+      ["chicken", "dog"],
+      ["wolf", "chicken coop"],
+      ["animal", "chicken coop"],
+      ["dog", "chicken coop"]
+    ]
+  },
+  {
+    "key": "frankenstein's monster",
+    "name": "Frankenstein's Monster",
+    "internalID": 0,
+    "combinations": [
+      ["corpse", "legend"],
+      ["corpse", "lightning"],
+      ["corpse", "electricity"],
+      ["corpse", "story"],
+      ["zombie", "electricity"],
+      ["zombie", "lightning"],
+      ["story", "monster"],
+      ["corpse", "monster"],
+      ["story", "monster"],
+      ["corpse", "monster"]
+    ]
+  },
+  {
+    "key": "french fries",
+    "name": "French Fries",
+    "internalID": 0,
+    "combinations": [
+      ["oil", "vegetable"],
+      ["oil", "potato"],
+      ["fire", "potato"]
+    ]
+  },
+  {
+    "key": "fridge",
+    "name": "Fridge",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "cold"],
+      ["steel", "cold"],
+      ["cold", "machine"],
+      ["metal", "ice"],
+      ["steel", "ice"],
+      ["electricity", "cold"],
+      ["cold", "container"],
+      ["ice", "container"],
+      ["ice_cream", "container"]
+    ]
+  },
+  {
+    "key": "frog",
+    "name": "Frog",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "pond"],
+      ["egg", "pond"],
+      ["egg", "puddle"],
+      ["animal", "puddle"]
+    ]
+  },
+  {
+    "key": "frozen yogurt",
+    "name": "Frozen Yogurt",
+    "internalID": 0,
+    "combinations": [
+      ["cold", "yogurt"],
+      ["ice", "yogurt"]
+    ]
+  },
+  {
+    "key": "fruit",
+    "name": "Fruit",
+    "internalID": 0,
+    "combinations": [
+      ["time", "flower"],
+      ["water", "flower"],
+      ["rain", "flower"],
+      ["tree", "flower"],
+      ["tree", "farmer"],
+      ["farmer", "orchard"]
+    ]
+  },
+  {
+    "key": "fruit tree",
+    "name": "Fruit Tree",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "fruit"],
+      ["wood", "fruit"],
+      ["plant", "fruit"]
+    ]
+  },
+  {
+    "key": "galaxy",
+    "name": "Galaxy",
+    "internalID": 0,
+    "combinations": [
+      ["solar_system", "solar_system"],
+      ["star", "star"],
+      ["star", "solar_system"],
+      ["space", "space"],
+      ["space", "solar_system"],
+      ["star", "space"],
+      ["solar_system", "container"],
+      ["supernova", "container"],
+      ["star", "container"]
+    ]
+  },
+  {
+    "key": "galaxy_cluster",
+    "name": "Galaxy Cluster",
+    "internalID": 0,
+    "combinations": [
+      ["galaxy", "galaxy"],
+      ["galaxy", "container"]
+    ]
+  },
+  {
+    "key": "garage",
+    "name": "Garage",
+    "internalID": 0,
+    "combinations": [
+      ["house", "car"],
+      ["house", "ambulance"],
+      ["house", "motorcycle"],
+      ["house", "bus"],
+      ["car", "container"],
+      ["ambulance", "container"],
+      ["motorcycle", "container"],
+      ["bus", "container"],
+      ["car", "wall"],
+      ["wall", "ambulance"],
+      ["wall", "motorcycle"],
+      ["wall", "bus"],
+      ["barn", "car"],
+      ["barn", "ambulance"],
+      ["barn", "motorcycle"],
+      ["barn", "bus"],
+      ["house", "sleigh"],
+      ["sleigh", "container"],
+      ["wall", "sleigh"],
+      ["barn", "sleigh"],
+      ["house", "electric_car"],
+      ["electric_car", "container"],
+      ["wall", "electric_car"],
+      ["barn", "electric_car"],
+      ["house", "snowmobile"],
+      ["snowmobile", "container"],
+      ["wall", "snowmobile"],
+      ["barn", "snowmobile"],
+      ["house", "tractor"],
+      ["tractor", "container"],
+      ["wall", "tractor"],
+      ["barn", "tractor"],
+      ["house", "rv"],
+      ["rv", "container"],
+      ["wall", "rv"],
+      ["barn", "rv"],
+      ["house", "ice_cream truck"],
+      ["ice_cream truck", "container"],
+      ["wall", "ice_cream truck"],
+      ["barn", "ice_cream truck"]
+    ]
+  },
+  {
+    "key": "garden",
+    "name": "Garden",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "grass"],
+      ["plant", "house"],
+      ["flower", "flower"],
+      ["grass", "flower"],
+      ["plant", "flower"],
+      ["house", "flower"],
+      ["flower", "lawn"],
+      ["plant", "lawn"],
+      ["flower", "container"]
+    ]
+  },
+  {
+    "key": "gardener",
+    "name": "Gardener",
+    "internalID": 0,
+    "combinations": [
+      ["human", "garden"],
+      ["farmer", "garden"]
+    ]
+  },
+  {
+    "key": "gas",
+    "name": "Gas",
+    "internalID": 0,
+    "combinations": [
+      ["air", "idea"],
+      ["air", "science"],
+      ["energy", "liquid"]
+    ]
+  },
+  {
+    "key": "geyser",
+    "name": "Geyser",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "steam"],
+      ["steam", "hill"],
+      ["steam", "mountain"],
+      ["steam", "pressure"]
+    ]
+  },
+  {
+    "key": "ghost",
+    "name": "Ghost",
+    "internalID": 0,
+    "combinations": [
+      ["graveyard", "night"],
+      ["grave", "night"],
+      ["night", "gravestone"],
+      ["night", "castle"],
+      ["graveyard", "story"],
+      ["graveyard", "legend"],
+      ["grave", "legend"],
+      ["grave", "story"],
+      ["gravestone", "legend"],
+      ["gravestone", "story"],
+      ["night", "story"],
+      ["night", "legend"]
+    ]
+  },
+  {
+    "key": "gift",
+    "name": "Gift",
+    "internalID": 0,
+    "combinations": [
+      ["christmas_tree", "santa"],
+      ["santa", "christmas_stocking"],
+      ["santa", "chimney"],
+      ["fireplace", "santa"],
+      ["cookie", "santa"],
+      ["milk", "santa"],
+      ["santa", "wrapping paper"],
+      ["christmas_tree", "wrapping paper"],
+      ["christmas_stocking", "wrapping paper"],
+      ["fireplace", "wrapping paper"]
+    ]
+  },
+  {
+    "key": "gingerbread house",
+    "name": "Gingerbread House",
+    "internalID": 0,
+    "combinations": [
+      ["house", "gingerbread man"],
+      ["house", "dough"],
+      ["house", "cookie dough"],
+      ["house", "cookie"],
+      ["house", "donut"],
+      ["house", "cake"]
+    ]
+  },
+  {
+    "key": "gingerbread man",
+    "name": "Gingerbread Man",
+    "internalID": 0,
+    "combinations": [
+      ["life", "dough"],
+      ["dough", "magic"],
+      ["life", "cookie"],
+      ["cookie", "magic"],
+      ["story", "cookie"],
+      ["life", "cookie dough"],
+      ["cookie dough", "magic"],
+      ["story", "cookie dough"],
+      ["dough", "story"]
+    ]
+  },
+  {
+    "key": "glacier",
+    "name": "Glacier",
+    "internalID": 0,
+    "combinations": [
+      ["ice", "mountain"],
+      ["snow", "mountain"],
+      ["ice", "mountain_range"],
+      ["snow", "mountain_range"],
+      ["time", "ice"]
+    ]
+  },
+  {
+    "key": "glass",
+    "name": "Glass",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "sand"],
+      ["sand", "heat"],
+      ["sand", "electricity"],
+      ["sand", "lightning"]
+    ]
+  },
+  {
+    "key": "glasses",
+    "name": "Glasses",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "metal"],
+      ["glass", "steel"],
+      ["glass", "glass"],
+      ["glass", "human"],
+      ["human", "lens"],
+      ["lens", "lens"]
+    ]
+  },
+  {
+    "key": "gnome",
+    "name": "Gnome",
+    "internalID": 0,
+    "combinations": [
+      ["garden", "statue"],
+      ["garden", "story"],
+      ["garden", "fairy_tale"],
+      ["garden", "legend"]
+    ]
+  },
+  {
+    "key": "goat",
+    "name": "Goat",
+    "internalID": 0,
+    "combinations": [
+      ["livestock", "mountain"],
+      ["livestock", "hill"],
+      ["livestock", "mountain_range"],
+      ["cow", "mountain"],
+      ["cow", "hill"],
+      ["cow", "mountain_range"]
+    ]
+  },
+  {
+    "key": "gold",
+    "name": "Gold",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "sun"],
+      ["steel", "sun"],
+      ["metal", "rainbow"],
+      ["steel", "rainbow"],
+      ["metal", "butter"],
+      ["steel", "butter"],
+      ["sand", "metal"],
+      ["sand", "steel"],
+      ["metal", "light"],
+      ["steel", "light"],
+      ["metal", "alchemist"],
+      ["steel", "alchemist"]
+    ]
+  },
+  {
+    "key": "golem",
+    "name": "Golem",
+    "internalID": 0,
+    "combinations": [
+      ["clay", "story"],
+      ["clay", "legend"],
+      ["life", "statue"],
+      ["story", "statue"],
+      ["statue", "legend"]
+    ]
+  },
+  {
+    "key": "granite",
+    "name": "Granite",
+    "internalID": 0,
+    "combinations": [
+      ["lava", "pressure"],
+      ["pressure", "stone"],
+      ["pressure", "rock"]
+    ]
+  },
+  {
+    "key": "grass",
+    "name": "Grass",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "plant"],
+      ["plant", "land"]
+    ]
+  },
+  {
+    "key": "grave",
+    "name": "Grave",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "coffin"],
+      ["field", "coffin"],
+      ["earth", "corpse"],
+      ["field", "corpse"],
+      ["forest", "corpse"],
+      ["forest", "coffin"],
+      ["grave", "gravestone"],
+      ["coffin", "gravestone"],
+      ["coffin", "container"]
+    ]
+  },
+  {
+    "key": "gravestone",
+    "name": "Gravestone",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "grave"],
+      ["grave", "rock"],
+      ["stone", "death"],
+      ["rock", "death"],
+      ["stone", "graveyard"],
+      ["graveyard", "rock"]
+    ]
+  },
+  {
+    "key": "graveyard",
+    "name": "Graveyard",
+    "internalID": 0,
+    "combinations": [
+      ["grave", "grave"],
+      ["field", "grave"],
+      ["grave", "land"],
+      ["gravestone", "gravestone"],
+      ["field", "gravestone"],
+      ["gravestone", "land"],
+      ["gravestone", "container"]
+    ]
+  },
+  {
+    "key": "greenhouse",
+    "name": "Greenhouse",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "glass"],
+      ["glass", "grass"],
+      ["glass", "tree"],
+      ["plant", "aquarium"],
+      ["aquarium", "grass"],
+      ["aquarium", "tree"],
+      ["plant", "container"],
+      ["glass", "garden"]
+    ]
+  },
+  {
+    "key": "grenade",
+    "name": "Grenade",
+    "internalID": 0,
+    "combinations": [
+      ["explosion", "metal"],
+      ["explosion", "steel"],
+      ["explosion", "warrior"]
+    ]
+  },
+  {
+    "key": "grilled cheese",
+    "name": "Grilled Cheese",
+    "internalID": 0,
+    "combinations": [["cheese", "toast"]]
+  },
+  {
+    "key": "grim reaper",
+    "name": "Grim Reaper",
+    "internalID": 0,
+    "combinations": [
+      ["human", "scythe"],
+      ["corpse", "scythe"],
+      ["zombie", "scythe"],
+      ["scythe", "death"],
+      ["boat", "scythe"],
+      ["scythe", "river"],
+      ["death", "deity"],
+      ["death", "deity"]
+    ]
+  },
+  {
+    "key": "gun",
+    "name": "Gun",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "bullet"],
+      ["bullet", "steel"],
+      ["metal", "bow"],
+      ["steel", "bow"],
+      ["bullet", "bow"],
+      ["gunpowder", "bow"],
+      ["bullet", "container"]
+    ]
+  },
+  {
+    "key": "gunpowder",
+    "name": "Gunpowder",
+    "internalID": 0,
+    "combinations": [
+      ["charcoal", "mineral"],
+      ["fire", "dust"],
+      ["energy", "mineral"],
+      ["energy", "charcoal"],
+      ["energy", "dust"]
+    ]
+  },
+  {
+    "key": "gust",
+    "name": "Gust",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "small"],
+      ["air", "small"]
+    ]
+  },
+  {
+    "key": "hacker",
+    "name": "Hacker",
+    "internalID": 0,
+    "combinations": [
+      ["human", "computer"],
+      ["human", "computer mouse"],
+      ["human", "glasses"],
+      ["human", "internet"]
+    ]
+  },
+  {
+    "key": "hail",
+    "name": "Hail",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "ice"],
+      ["rain", "ice"],
+      ["storm", "ice"],
+      ["wind", "ice"],
+      ["steam", "ice"],
+      ["sky", "ice"]
+    ]
+  },
+  {
+    "key": "ham",
+    "name": "Ham",
+    "internalID": 0,
+    "combinations": [
+      ["meat", "smoke"],
+      ["smoke", "pig"]
+    ]
+  },
+  {
+    "key": "hamburger",
+    "name": "Hamburger",
+    "internalID": 0,
+    "combinations": [
+      ["bread", "meat"],
+      ["cheese", "meat"]
+    ]
+  },
+  {
+    "key": "hammer",
+    "name": "Hammer",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "tool"],
+      ["steel", "tool"],
+      ["stone", "tool"],
+      ["tool", "rock"],
+      ["tool", "woodpecker"]
+    ]
+  },
+  {
+    "key": "hamster",
+    "name": "Hamster",
+    "internalID": 0,
+    "combinations": [
+      ["wheel", "mouse"],
+      ["mouse", "domestication"],
+      ["rat", "domestication"],
+      ["wheel", "rat"]
+    ]
+  },
+  {
+    "key": "hangar",
+    "name": "Hangar",
+    "internalID": 0,
+    "combinations": [
+      ["airplane", "container"],
+      ["house", "airplane"],
+      ["airplane", "wall"],
+      ["airplane", "barn"],
+      ["seaplane", "container"],
+      ["house", "seaplane"],
+      ["wall", "seaplane"],
+      ["barn", "seaplane"],
+      ["helicopter", "container"],
+      ["house", "helicopter"],
+      ["wall", "helicopter"],
+      ["barn", "helicopter"],
+      ["rocket", "container"],
+      ["house", "rocket"],
+      ["wall", "rocket"],
+      ["barn", "rocket"],
+      ["spaceship", "container"],
+      ["house", "spaceship"],
+      ["wall", "spaceship"],
+      ["barn", "spaceship"]
+    ]
+  },
+  {
+    "key": "harp",
+    "name": "Harp",
+    "internalID": 0,
+    "combinations": [
+      ["angel", "music"],
+      ["angel", "musician"],
+      ["wire", "angel"],
+      ["wire", "music"]
+    ]
+  },
+  {
+    "key": "hay",
+    "name": "Hay",
+    "internalID": 0,
+    "combinations": [
+      ["grass", "scythe"],
+      ["farmer", "grass"],
+      ["grass", "sun"],
+      ["grass", "grass"],
+      ["grass", "barn"],
+      ["grass", "farm"],
+      ["grass", "pitchfork"],
+      ["barn", "pitchfork"],
+      ["pitchfork", "farm"],
+      ["farmer", "pitchfork"]
+    ]
+  },
+  {
+    "key": "hay bale",
+    "name": "Hay Bale",
+    "internalID": 0,
+    "combinations": [
+      ["hay", "hay"],
+      ["hay", "tractor"],
+      ["barn", "hay"],
+      ["hay", "machine"]
+    ]
+  },
+  {
+    "key": "heat",
+    "name": "Heat",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "idea"],
+      ["fire", "science"],
+      ["lava", "philosophy"],
+      ["air", "energy"]
+    ]
+  },
+  {
+    "key": "hedge",
+    "name": "Hedge",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "fence"],
+      ["leaf", "fence"],
+      ["garden", "fence"],
+      ["plant", "wall"],
+      ["wall", "leaf"],
+      ["garden", "wall"]
+    ]
+  },
+  {
+    "key": "hedgehog",
+    "name": "Hedgehog",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "needle"],
+      ["mouse", "needle"],
+      ["needle", "rat"]
+    ]
+  },
+  {
+    "key": "helicopter",
+    "name": "Helicopter",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "airplane"],
+      ["windmill", "airplane"],
+      ["airplane", "wind_turbine"],
+      ["blade", "seaplane"],
+      ["windmill", "seaplane"],
+      ["seaplane", "wind_turbine"]
+    ]
+  },
+  {
+    "key": "hero",
+    "name": "Hero",
+    "internalID": 0,
+    "combinations": [
+      ["human", "legend"],
+      ["dragon", "knight"],
+      ["human", "story"],
+      ["human", "lightning"]
+    ]
+  },
+  {
+    "key": "hill",
+    "name": "Hill",
+    "internalID": 0,
+    "combinations": [
+      ["big", "boulder"],
+      ["mountain", "small"],
+      ["earth", "boulder"],
+      ["stone", "boulder"],
+      ["boulder", "boulder"]
+    ]
+  },
+  {
+    "key": "hippo",
+    "name": "Hippo",
+    "internalID": 0,
+    "combinations": [
+      ["horse", "river"],
+      ["water", "horse"],
+      ["cow", "river"],
+      ["water", "cow"]
+    ]
+  },
+  {
+    "key": "honey",
+    "name": "Honey",
+    "internalID": 0,
+    "combinations": [
+      ["flower", "bee"],
+      ["bee", "beehive"],
+      ["time", "bee"],
+      ["bee", "bee"],
+      ["beehive", "beekeeper"]
+    ]
+  },
+  {
+    "key": "horizon",
+    "name": "Horizon",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "sky"],
+      ["sky", "continent"],
+      ["sky", "land"],
+      ["ocean", "sky"],
+      ["sea", "sky"],
+      ["sky", "lake"]
+    ]
+  },
+  {
+    "key": "horse",
+    "name": "Horse",
+    "internalID": 0,
+    "combinations": [
+      ["field", "animal"],
+      ["livestock", "hay"],
+      ["animal", "land"],
+      ["livestock", "barn"],
+      ["livestock", "horseshoe"],
+      ["animal", "horseshoe"],
+      ["animal", "saddle"],
+      ["livestock", "saddle"]
+    ]
+  },
+  {
+    "key": "horseshoe",
+    "name": "Horseshoe",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "horse"],
+      ["steel", "horse"]
+    ]
+  },
+  {
+    "key": "hospital",
+    "name": "Hospital",
+    "internalID": 0,
+    "combinations": [
+      ["house", "sickness"],
+      ["house", "ambulance"],
+      ["house", "doctor"],
+      ["sickness", "wall"],
+      ["wall", "ambulance"],
+      ["doctor", "wall"],
+      ["doctor", "container"]
+    ]
+  },
+  {
+    "key": "hot chocolate",
+    "name": "Hot Chocolate",
+    "internalID": 0,
+    "combinations": [
+      ["chocolate milk", "heat"],
+      ["chocolate", "heat"]
+    ]
+  },
+  {
+    "key": "hourglass",
+    "name": "Hourglass",
+    "internalID": 0,
+    "combinations": [
+      ["sand", "glass"],
+      ["sand", "time"],
+      ["glass", "time"],
+      ["sand", "container"],
+      ["time", "container"]
+    ]
+  },
+  {
+    "key": "house",
+    "name": "House",
+    "internalID": 0,
+    "combinations": [
+      ["wall", "wall"],
+      ["human", "wall"],
+      ["tool", "wall"],
+      ["fireplace", "container"],
+      ["family", "container"]
+    ]
+  },
+  {
+    "key": "human",
+    "name": "Human",
+    "internalID": 0,
+    "combinations": [
+      ["time", "animal"],
+      ["life", "clay"],
+      ["time", "monkey"],
+      ["tool", "animal"],
+      ["tool", "monkey"]
+    ]
+  },
+  {
+    "key": "hummingbird",
+    "name": "Hummingbird",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "flower"],
+      ["owl", "flower"],
+      ["pigeon", "flower"],
+      ["seagull", "flower"],
+      ["bird", "garden"],
+      ["owl", "garden"],
+      ["garden", "pigeon"],
+      ["garden", "seagull"],
+      ["bird", "small"],
+      ["bird", "bee"],
+      ["bird", "butterfly"]
+    ]
+  },
+  {
+    "key": "hurricane",
+    "name": "Hurricane",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "tornado"],
+      ["sea", "tornado"],
+      ["ocean", "storm"],
+      ["sea", "storm"]
+    ]
+  },
+  {
+    "key": "husky",
+    "name": "Husky",
+    "internalID": 0,
+    "combinations": [
+      ["snow", "dog"],
+      ["ice", "dog"],
+      ["antarctica", "dog"],
+      ["dog", "arctic"],
+      ["blizzard", "dog"],
+      ["dog", "glacier"]
+    ]
+  },
+  {
+    "key": "ice",
+    "name": "Ice",
+    "internalID": 0,
+    "combinations": [
+      ["water", "cold"],
+      ["water", "solid"],
+      ["cold", "puddle"],
+      ["puddle", "solid"]
+    ]
+  },
+  {
+    "key": "ice_cream",
+    "name": "Ice Cream",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "cold"],
+      ["milk", "ice"],
+      ["milk", "snow"]
+    ]
+  },
+  {
+    "key": "ice_cream truck",
+    "name": "Ice Cream Truck",
+    "internalID": 0,
+    "combinations": [
+      ["car", "ice_cream"],
+      ["ice_cream", "bus"],
+      ["ice_cream", "wagon"]
+    ]
+  },
+  {
+    "key": "ice_sculpture",
+    "name": "Ice Sculpture",
+    "internalID": 0,
+    "combinations": [["ice", "statue"]]
+  },
+  {
+    "key": "iceberg",
+    "name": "Iceberg",
+    "internalID": 0,
+    "combinations": [
+      ["sea", "ice"],
+      ["ocean", "ice"],
+      ["sea", "antarctica"],
+      ["ocean", "antarctica"],
+      ["sea", "arctic"],
+      ["ocean", "arctic"]
+    ]
+  },
+  {
+    "key": "iced tea",
+    "name": "Iced Tea",
+    "internalID": 0,
+    "combinations": [
+      ["ice", "tea"],
+      ["cold", "tea"],
+      ["snow", "tea"]
+    ]
+  },
+  {
+    "key": "idea",
+    "name": "Idea",
+    "internalID": 0,
+    "combinations": [
+      ["human", "light bulb"],
+      ["light bulb", "engineer"],
+      ["light bulb", "science"],
+      ["science", "science"],
+      ["engineer", "engineer"],
+      ["hacker", "hacker"],
+      ["lumberjack", "lumberjack"],
+      ["farmer", "farmer"],
+      ["firefighter", "firefighter"],
+      ["electrician", "electrician"],
+      ["astronaut", "astronaut"],
+      ["warrior", "warrior"],
+      ["butcher", "butcher"],
+      ["doctor", "doctor"],
+      ["pilot", "pilot"],
+      ["baker", "baker"],
+      ["sailor", "sailor"],
+      ["surfer", "surfer"],
+      ["swimmer", "swimmer"],
+      ["cyclist", "cyclist"],
+      ["knight", "knight"],
+      ["monarch", "monarch"],
+      ["angler", "angler"],
+      ["mailman", "mailman"],
+      ["gardener", "gardener"],
+      ["philosophy", "philosophy"],
+      ["science", "philosophy"],
+      ["skier", "skier"],
+      ["diver", "diver"],
+      ["librarian", "librarian"],
+      ["alchemist", "alchemist"]
+    ]
+  },
+  {
+    "key": "igloo",
+    "name": "Igloo",
+    "internalID": 0,
+    "combinations": [
+      ["house", "ice"],
+      ["house", "snow"],
+      ["house", "cold"],
+      ["house", "snowman"]
+    ]
+  },
+  {
+    "key": "internet",
+    "name": "Internet",
+    "internalID": 0,
+    "combinations": [
+      ["computer", "computer"],
+      ["wire", "computer"],
+      ["computer", "web"],
+      ["computer", "net"]
+    ]
+  },
+  {
+    "key": "island",
+    "name": "Island",
+    "internalID": 0,
+    "combinations": [
+      ["volcano", "ocean"],
+      ["volcano", "sea"]
+    ]
+  },
+  {
+    "key": "ivy",
+    "name": "Ivy",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "wall"],
+      ["grass", "wall"]
+    ]
+  },
+  {
+    "key": "jack-o-lantern",
+    "name": "Jack-O-Lantern",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "pumpkin"],
+      ["pumpkin", "candle"],
+      ["light", "pumpkin"],
+      ["night", "pumpkin"],
+      ["ghost", "pumpkin"],
+      ["skeleton", "pumpkin"],
+      ["skeleton", "vegetable"],
+      ["ghost", "vegetable"],
+      ["night", "vegetable"]
+    ]
+  },
+  {
+    "key": "jam",
+    "name": "Jam",
+    "internalID": 0,
+    "combinations": [
+      ["juice", "sugar"],
+      ["fruit", "machine"],
+      ["fruit", "juice"],
+      ["juice", "machine"],
+      ["fruit", "heat"]
+    ]
+  },
+  {
+    "key": "jar",
+    "name": "Jar",
+    "internalID": 0,
+    "combinations": [
+      ["jam", "container"],
+      ["jam", "bottle"],
+      ["glass", "jam"],
+      ["jam", "bucket"]
+    ]
+  },
+  {
+    "key": "jerky",
+    "name": "Jerky",
+    "internalID": 0,
+    "combinations": [
+      ["meat", "sun"],
+      ["sun", "steak"],
+      ["meat", "heat"],
+      ["steak", "heat"]
+    ]
+  },
+  {
+    "key": "juice",
+    "name": "Juice",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "fruit"],
+      ["earth", "fruit"],
+      ["stone", "fruit"],
+      ["fruit", "rock"],
+      ["explosion", "fruit"],
+      ["water", "fruit"],
+      ["pressure", "vegetable"],
+      ["stone", "vegetable"],
+      ["vegetable", "rock"],
+      ["explosion", "vegetable"],
+      ["water", "vegetable"]
+    ]
+  },
+  {
+    "key": "jupiter",
+    "name": "Jupiter",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "planet"],
+      ["storm", "planet"],
+      ["planet", "big"],
+      ["planet", "gas"],
+      ["big", "saturn"]
+    ]
+  },
+  {
+    "key": "kaiju",
+    "name": "Kaiju",
+    "internalID": 0,
+    "combinations": [
+      ["dinosaur", "city"],
+      ["dinosaur", "skyscraper"],
+      ["dinosaur", "legend"],
+      ["dinosaur", "story"]
+    ]
+  },
+  {
+    "key": "katana",
+    "name": "Katana",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "heat"],
+      ["blade", "shuriken"],
+      ["sword", "shuriken"],
+      ["blade", "ninja"],
+      ["sword", "ninja"]
+    ]
+  },
+  {
+    "key": "kite",
+    "name": "Kite",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "paper"],
+      ["sky", "paper"],
+      ["air", "paper"]
+    ]
+  },
+  {
+    "key": "knife",
+    "name": "Knife",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "cook"],
+      ["sword", "cook"]
+    ]
+  },
+  {
+    "key": "knight",
+    "name": "Knight",
+    "internalID": 0,
+    "combinations": [
+      ["human", "armor"],
+      ["warrior", "armor"],
+      ["warrior", "hero"],
+      ["warrior", "horse"]
+    ]
+  },
+  {
+    "key": "lake",
+    "name": "Lake",
+    "internalID": 0,
+    "combinations": [
+      ["water", "pond"],
+      ["pond", "big"],
+      ["sea", "small"],
+      ["pond", "pond"]
+    ]
+  },
+  {
+    "key": "lamp",
+    "name": "Lamp",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "light bulb"],
+      ["steel", "light bulb"]
+    ]
+  },
+  {
+    "key": "land",
+    "name": "Land",
+    "internalID": 0,
+    "combinations": [
+      ["soil", "soil"],
+      ["big", "soil"],
+      ["earth", "earth"],
+      ["earth", "stone"],
+      ["small", "continent"]
+    ]
+  },
+  {
+    "key": "laptop",
+    "name": "Laptop",
+    "internalID": 0,
+    "combinations": [["computer", "small"]]
+  },
+  {
+    "key": "lasso",
+    "name": "Lasso",
+    "internalID": 0,
+    "combinations": [
+      ["cow", "rope"],
+      ["horse", "rope"],
+      ["pig", "rope"],
+      ["wild boar", "rope"],
+      ["sheep", "rope"],
+      ["goat", "rope"]
+    ]
+  },
+  {
+    "key": "lava",
+    "name": "Lava",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "earth"],
+      ["earth", "heat"],
+      ["earth", "liquid"]
+    ]
+  },
+  {
+    "key": "lava lamp",
+    "name": "Lava Lamp",
+    "internalID": 0,
+    "combinations": [
+      ["lava", "lamp"],
+      ["fire", "lamp"],
+      ["volcano", "lamp"]
+    ]
+  },
+  {
+    "key": "lawn",
+    "name": "Lawn",
+    "internalID": 0,
+    "combinations": [
+      ["grass", "container"],
+      ["house", "grass"],
+      ["field", "lawn mower"],
+      ["grass", "lawn mower"]
+    ]
+  },
+  {
+    "key": "lawn mower",
+    "name": "Lawn Mower",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "grass"],
+      ["electricity", "scythe"],
+      ["scythe", "helicopter"],
+      ["scythe", "windmill"],
+      ["field", "helicopter"],
+      ["tool", "scythe"],
+      ["scythe", "machine"],
+      ["grass", "machine"],
+      ["scythe", "motion"]
+    ]
+  },
+  {
+    "key": "leaf",
+    "name": "Leaf",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "tree"],
+      ["wind", "flower"],
+      ["wind", "orchard"],
+      ["wind", "forest"]
+    ]
+  },
+  {
+    "key": "leather",
+    "name": "Leather",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "cow"],
+      ["blade", "pig"],
+      ["blade", "sheep"],
+      ["cow", "sword"],
+      ["sword", "pig"],
+      ["sword", "sheep"],
+      ["tool", "cow"],
+      ["tool", "sheep"],
+      ["tool", "pig"]
+    ]
+  },
+  {
+    "key": "legend",
+    "name": "Legend",
+    "internalID": 0,
+    "combinations": [
+      ["time", "story"],
+      ["story", "big"],
+      ["story", "story"],
+      ["story", "fairy_tale"],
+      ["time", "fairy_tale"],
+      ["big", "fairy_tale"]
+    ]
+  },
+  {
+    "key": "lens",
+    "name": "Lens",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "tool"],
+      ["glass", "engineer"]
+    ]
+  },
+  {
+    "key": "letter",
+    "name": "Letter",
+    "internalID": 0,
+    "combinations": [["paper", "pencil"]]
+  },
+  {
+    "key": "librarian",
+    "name": "Librarian",
+    "internalID": 0,
+    "combinations": [
+      ["human", "library"],
+      ["human", "book"]
+    ]
+  },
+  {
+    "key": "library",
+    "name": "Library",
+    "internalID": 0,
+    "combinations": [
+      ["book", "container"],
+      ["house", "book"]
+    ]
+  },
+  {
+    "key": "life",
+    "name": "Life",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "primordial soup"],
+      ["time", "primordial soup"],
+      ["storm", "primordial soup"],
+      ["volcano", "primordial soup"],
+      ["ocean", "electricity"],
+      ["sea", "electricity"],
+      ["electricity", "lake"],
+      ["ocean", "lightning"],
+      ["sea", "lightning"],
+      ["lake", "lightning"],
+      ["primordial soup", "lightning"]
+    ]
+  },
+  {
+    "key": "light",
+    "name": "Light",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "light bulb"],
+      ["electricity", "flashlight"]
+    ]
+  },
+  {
+    "key": "light bulb",
+    "name": "Light Bulb",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "electricity"],
+      ["glass", "light"],
+      ["light", "container"]
+    ]
+  },
+  {
+    "key": "light sword",
+    "name": "Light Sword",
+    "internalID": 0,
+    "combinations": [
+      ["light", "sword"],
+      ["energy", "sword"],
+      ["electricity", "sword"],
+      ["sword", "space"],
+      ["sword", "force knight"]
+    ]
+  },
+  {
+    "key": "lighthouse",
+    "name": "Lighthouse",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "light"],
+      ["sea", "light"],
+      ["house", "light"],
+      ["beach", "light"],
+      ["ocean", "spotlight"],
+      ["sea", "spotlight"],
+      ["house", "spotlight"],
+      ["beach", "spotlight"]
+    ]
+  },
+  {
+    "key": "lightning",
+    "name": "Lightning",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "electricity"],
+      ["storm", "electricity"],
+      ["rain", "electricity"],
+      ["energy", "storm"],
+      ["energy", "cloud"],
+      ["energy", "rain"],
+      ["storm", "land"]
+    ]
+  },
+  {
+    "key": "lion",
+    "name": "Lion",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "cat"],
+      ["blood", "cat"],
+      ["cat", "big"],
+      ["cat", "monarch"]
+    ]
+  },
+  {
+    "key": "liquid",
+    "name": "Liquid",
+    "internalID": 0,
+    "combinations": [
+      ["water", "idea"],
+      ["water", "science"],
+      ["energy", "solid"]
+    ]
+  },
+  {
+    "key": "little alchemy",
+    "name": "Little Alchemy",
+    "internalID": 0,
+    "combinations": [["small", "alchemist"]]
+  },
+  {
+    "key": "livestock",
+    "name": "Livestock",
+    "internalID": 0,
+    "combinations": [
+      ["field", "animal"],
+      ["farmer", "animal"],
+      ["animal", "domestication"],
+      ["animal", "barn"]
+    ]
+  },
+  {
+    "key": "lizard",
+    "name": "Lizard",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "animal"],
+      ["animal", "rock"],
+      ["stone", "egg"],
+      ["egg", "rock"],
+      ["dinosaur", "small"],
+      ["swamp", "animal"],
+      ["swamp", "egg"],
+      ["blood", "cold"]
+    ]
+  },
+  {
+    "key": "log cabin",
+    "name": "Log Cabin",
+    "internalID": 0,
+    "combinations": [["wood", "house"]]
+  },
+  {
+    "key": "love",
+    "name": "Love",
+    "internalID": 0,
+    "combinations": [["human", "human"]]
+  },
+  {
+    "key": "lumberjack",
+    "name": "Lumberjack",
+    "internalID": 0,
+    "combinations": [
+      ["human", "axe"],
+      ["human", "chainsaw"],
+      ["human", "wood"],
+      ["tree", "human"]
+    ]
+  },
+  {
+    "key": "mac and cheese",
+    "name": "Mac And Cheese",
+    "internalID": 0,
+    "combinations": [["cheese", "pasta"]]
+  },
+  {
+    "key": "machine",
+    "name": "Machine",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "wheel"],
+      ["tool", "tool"],
+      ["boiler", "wheel"],
+      ["boiler", "tool"],
+      ["boiler", "chain"],
+      ["tool", "chain"],
+      ["tool", "engineer"]
+    ]
+  },
+  {
+    "key": "magic",
+    "name": "Magic",
+    "internalID": 0,
+    "combinations": [
+      ["life", "rainbow"],
+      ["life", "double_rainbow"],
+      ["energy", "wizard"],
+      ["energy", "witch"]
+    ]
+  },
+  {
+    "key": "magma",
+    "name": "Magma",
+    "internalID": 0,
+    "combinations": [
+      ["lava", "science"],
+      ["volcano", "science"]
+    ]
+  },
+  {
+    "key": "mailbox",
+    "name": "Mailbox",
+    "internalID": 0,
+    "combinations": [
+      ["letter", "box"],
+      ["mailman", "box"],
+      ["metal", "letter"],
+      ["steel", "letter"],
+      ["wood", "letter"],
+      ["metal", "mailman"],
+      ["steel", "mailman"],
+      ["wood", "mailman"]
+    ]
+  },
+  {
+    "key": "mailman",
+    "name": "Mailman",
+    "internalID": 0,
+    "combinations": [
+      ["human", "letter"],
+      ["human", "newspaper"],
+      ["letter", "mailbox"]
+    ]
+  },
+  {
+    "key": "mail truck",
+    "name": "Mail Truck",
+    "internalID": 0,
+    "combinations": [
+      ["car", "mailman"],
+      ["car", "post office"],
+      ["car", "letter"]
+    ]
+  },
+  {
+    "key": "manatee",
+    "name": "Manatee",
+    "internalID": 0,
+    "combinations": [
+      ["sea", "cow"],
+      ["ocean", "cow"],
+      ["fish", "cow"],
+      ["cow", "lake"],
+      ["cow", "river"]
+    ]
+  },
+  {
+    "key": "map",
+    "name": "Map",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "land"],
+      ["paper", "hill"],
+      ["mountain", "paper"],
+      ["paper", "mountain_range"],
+      ["paper", "continent"],
+      ["ocean", "paper"],
+      ["sea", "paper"],
+      ["paper", "lake"],
+      ["paper", "river"],
+      ["paper", "city"],
+      ["paper", "village"]
+    ]
+  },
+  {
+    "key": "maple syrup",
+    "name": "Maple Syrup",
+    "internalID": 0,
+    "combinations": [
+      ["heat", "sap"],
+      ["sugar", "sap"]
+    ]
+  },
+  {
+    "key": "mars",
+    "name": "Mars",
+    "internalID": 0,
+    "combinations": [
+      ["rust", "planet"],
+      ["desert", "planet"]
+    ]
+  },
+  {
+    "key": "marshmallows",
+    "name": "Marshmallows",
+    "internalID": 0,
+    "combinations": [["campfire", "sugar"]]
+  },
+  {
+    "key": "mayonnaise",
+    "name": "Mayonnaise",
+    "internalID": 0,
+    "combinations": [["egg", "oil"]]
+  },
+  {
+    "key": "meat",
+    "name": "Meat",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "livestock"],
+      ["tool", "chicken"],
+      ["tool", "pig"],
+      ["tool", "cow"],
+      ["tool", "animal"],
+      ["tool", "fish"],
+      ["tool", "swordfish"],
+      ["tool", "flying fish"],
+      ["tool", "shark"],
+      ["tool", "frog"],
+      ["axe", "livestock"],
+      ["axe", "chicken"],
+      ["axe", "pig"],
+      ["axe", "cow"],
+      ["axe", "animal"],
+      ["axe", "fish"],
+      ["axe", "swordfish"],
+      ["axe", "flying fish"],
+      ["axe", "shark"],
+      ["axe", "frog"],
+      ["livestock", "sword"],
+      ["chicken", "sword"],
+      ["sword", "pig"],
+      ["cow", "sword"],
+      ["animal", "sword"],
+      ["sword", "shark"],
+      ["livestock", "butcher"],
+      ["chicken", "butcher"],
+      ["pig", "butcher"],
+      ["cow", "butcher"],
+      ["animal", "butcher"],
+      ["fish", "butcher"],
+      ["butcher", "swordfish"],
+      ["butcher", "flying fish"],
+      ["butcher", "shark"],
+      ["butcher", "frog"],
+      ["fish", "net"],
+      ["swordfish", "net"],
+      ["shark", "net"],
+      ["piranha", "net"],
+      ["flying fish", "net"]
+    ]
+  },
+  {
+    "key": "medusa",
+    "name": "Medusa",
+    "internalID": 0,
+    "combinations": [
+      ["human", "snake"],
+      ["snake", "legend"],
+      ["snake", "story"],
+      ["snake", "hero"]
+    ]
+  },
+  {
+    "key": "mercury",
+    "name": "Mercury",
+    "internalID": 0,
+    "combinations": [
+      ["planet", "small"],
+      ["planet", "heat"]
+    ]
+  },
+  {
+    "key": "mermaid",
+    "name": "Mermaid",
+    "internalID": 0,
+    "combinations": [
+      ["human", "fish"],
+      ["fish", "legend"],
+      ["fish", "magic"],
+      ["swimmer", "magic"],
+      ["fish", "swimmer"]
+    ]
+  },
+  {
+    "key": "metal",
+    "name": "Metal",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "ore"],
+      ["heat", "ore"],
+      ["tool", "ore"]
+    ]
+  },
+  {
+    "key": "meteor",
+    "name": "Meteor",
+    "internalID": 0,
+    "combinations": [
+      ["atmosphere", "meteoroid"],
+      ["sky", "meteoroid"],
+      ["air", "meteoroid"],
+      ["night", "meteoroid"],
+      ["day", "meteoroid"]
+    ]
+  },
+  {
+    "key": "meteoroid",
+    "name": "Meteoroid",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "space"],
+      ["space", "rock"],
+      ["space", "boulder"],
+      ["stone", "solar_system"],
+      ["solar_system", "rock"],
+      ["solar_system", "boulder"],
+      ["sun", "rock"],
+      ["stone", "sun"],
+      ["sun", "boulder"]
+    ]
+  },
+  {
+    "key": "microscope",
+    "name": "Microscope",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "bacteria"],
+      ["bacteria", "glasses"],
+      ["bacteria", "safety glasses"],
+      ["tool", "lens"],
+      ["bacteria", "lens"]
+    ]
+  },
+  {
+    "key": "milk",
+    "name": "Milk",
+    "internalID": 0,
+    "combinations": [
+      ["farmer", "cow"],
+      ["tool", "cow"],
+      ["water", "cow"],
+      ["farmer", "goat"],
+      ["tool", "goat"],
+      ["water", "goat"],
+      ["cow", "liquid"],
+      ["goat", "liquid"]
+    ]
+  },
+  {
+    "key": "milk shake",
+    "name": "Milk Shake",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "ice_cream"],
+      ["ice_cream", "yogurt"],
+      ["water", "ice_cream"]
+    ]
+  },
+  {
+    "key": "mineral",
+    "name": "Mineral",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "organic_matter"],
+      ["rock", "organic_matter"],
+      ["earth", "organic_matter"],
+      ["boulder", "organic_matter"],
+      ["hill", "organic_matter"],
+      ["mountain", "organic_matter"]
+    ]
+  },
+  {
+    "key": "minotaur",
+    "name": "Minotaur",
+    "internalID": 0,
+    "combinations": [
+      ["human", "cow"],
+      ["cow", "werewolf"],
+      ["cow", "story"],
+      ["cow", "legend"]
+    ]
+  },
+  {
+    "key": "mirror",
+    "name": "Mirror",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "metal"],
+      ["glass", "steel"],
+      ["glass", "wood"]
+    ]
+  },
+  {
+    "key": "mist",
+    "name": "Mist",
+    "internalID": 0,
+    "combinations": [
+      ["water", "air"],
+      ["air", "steam"],
+      ["air", "rain"]
+    ]
+  },
+  {
+    "key": "mold",
+    "name": "Mold",
+    "internalID": 0,
+    "combinations": [
+      ["time", "bread"],
+      ["bread", "bacteria"],
+      ["bacteria", "vegetable"],
+      ["fruit", "bacteria"],
+      ["time", "vegetable"],
+      ["time", "fruit"]
+    ]
+  },
+  {
+    "key": "monarch",
+    "name": "Monarch",
+    "internalID": 0,
+    "combinations": [
+      ["human", "castle"],
+      ["human", "excalibur"]
+    ]
+  },
+  {
+    "key": "money",
+    "name": "Money",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "gold"],
+      ["diamond", "paper"],
+      ["paper", "bank"]
+    ]
+  },
+  {
+    "key": "monkey",
+    "name": "Monkey",
+    "internalID": 0,
+    "combinations": [["tree", "animal"]]
+  },
+  {
+    "key": "moon",
+    "name": "Moon",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "cheese"],
+      ["sky", "planet"],
+      ["sky", "stone"],
+      ["night", "planet"],
+      ["stone", "night"],
+      ["earth", "night"],
+      ["cheese", "night"],
+      ["sky", "time"]
+    ]
+  },
+  {
+    "key": "moon_rover",
+    "name": "Moon Rover",
+    "internalID": 0,
+    "combinations": [
+      ["moon", "car"],
+      ["moon", "electric_car"]
+    ]
+  },
+  {
+    "key": "moss",
+    "name": "Moss",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "stone"],
+      ["stone", "grass"],
+      ["stone", "algae"],
+      ["plant", "rock"],
+      ["grass", "rock"],
+      ["algae", "rock"],
+      ["plant", "boulder"],
+      ["grass", "boulder"],
+      ["algae", "boulder"]
+    ]
+  },
+  {
+    "key": "moth",
+    "name": "Moth",
+    "internalID": 0,
+    "combinations": [
+      ["moon", "butterfly"],
+      ["night", "butterfly"],
+      ["butterfly", "candle"],
+      ["light", "butterfly"],
+      ["lamp", "butterfly"],
+      ["flashlight", "butterfly"]
+    ]
+  },
+  {
+    "key": "motion",
+    "name": "Motion",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "science"],
+      ["wind", "idea"],
+      ["wind", "philosophy"],
+      ["tornado", "science"],
+      ["tornado", "philosophy"],
+      ["stream", "science"],
+      ["stream", "philosophy"],
+      ["river", "philosophy"],
+      ["river", "science"]
+    ]
+  },
+  {
+    "key": "motorcycle",
+    "name": "Motorcycle",
+    "internalID": 0,
+    "combinations": [
+      ["bicycle", "machine"],
+      ["steel", "bicycle"],
+      ["metal", "bicycle"],
+      ["steam_engine", "bicycle"],
+      ["bicycle", "combustion engine"]
+    ]
+  },
+  {
+    "key": "mountain",
+    "name": "Mountain",
+    "internalID": 0,
+    "combinations": [
+      ["big", "hill"],
+      ["earth", "earthquake"],
+      ["earth", "hill"],
+      ["hill", "hill"],
+      ["earthquake", "hill"],
+      ["earth", "big"]
+    ]
+  },
+  {
+    "key": "mountain_goat",
+    "name": "Mountain Goat",
+    "internalID": 0,
+    "combinations": [
+      ["mountain", "goat"],
+      ["goat", "mountain_range"]
+    ]
+  },
+  {
+    "key": "mountain_range",
+    "name": "Mountain Range",
+    "internalID": 0,
+    "combinations": [
+      ["mountain", "mountain"],
+      ["mountain", "continent"]
+    ]
+  },
+  {
+    "key": "mouse",
+    "name": "Mouse",
+    "internalID": 0,
+    "combinations": [
+      ["cheese", "animal"],
+      ["cheese", "barn"],
+      ["house", "cheese"],
+      ["cheese", "farm"],
+      ["cheese", "wall"]
+    ]
+  },
+  {
+    "key": "mousetrap",
+    "name": "Mousetrap",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "cheese"],
+      ["metal", "cheese"],
+      ["steel", "cheese"],
+      ["blade", "mouse"]
+    ]
+  },
+  {
+    "key": "mud",
+    "name": "Mud",
+    "internalID": 0,
+    "combinations": [
+      ["water", "earth"],
+      ["water", "soil"]
+    ]
+  },
+  {
+    "key": "mummy",
+    "name": "Mummy",
+    "internalID": 0,
+    "combinations": [
+      ["corpse", "pyramid"],
+      ["pyramid", "fabric"],
+      ["corpse", "fabric"],
+      ["human", "pyramid"]
+    ]
+  },
+  {
+    "key": "music",
+    "name": "Music",
+    "internalID": 0,
+    "combinations": [
+      ["flute", "musician"],
+      ["sheet music", "musician"],
+      ["drum", "musician"],
+      ["musician", "pan flute"]
+    ]
+  },
+  {
+    "key": "musician",
+    "name": "Musician",
+    "internalID": 0,
+    "combinations": [
+      ["human", "flute"],
+      ["human", "music"],
+      ["human", "sheet music"],
+      ["human", "drum"],
+      ["human", "pan flute"]
+    ]
+  },
+  {
+    "key": "narwhal",
+    "name": "Narwhal",
+    "internalID": 0,
+    "combinations": [
+      ["fish", "unicorn"],
+      ["ocean", "unicorn"],
+      ["sea", "unicorn"],
+      ["water", "unicorn"],
+      ["unicorn", "shark"],
+      ["unicorn", "swordfish"],
+      ["unicorn", "flying fish"]
+    ]
+  },
+  {
+    "key": "needle",
+    "name": "Needle",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "thread"],
+      ["steel", "thread"],
+      ["tool", "thread"]
+    ]
+  },
+  {
+    "key": "nessie",
+    "name": "Nessie",
+    "internalID": 0,
+    "combinations": [
+      ["lake", "legend"],
+      ["story", "lake"],
+      ["dinosaur", "legend"],
+      ["dinosaur", "story"]
+    ]
+  },
+  {
+    "key": "nest",
+    "name": "Nest",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "bird"],
+      ["bird", "hay"],
+      ["egg", "hay"],
+      ["tree", "egg"],
+      ["bird", "grass"],
+      ["egg", "grass"],
+      ["bird", "house"],
+      ["egg", "container"]
+    ]
+  },
+  {
+    "key": "net",
+    "name": "Net",
+    "internalID": 0,
+    "combinations": [
+      ["angler", "rope"],
+      ["fish", "rope"],
+      ["swordfish", "rope"],
+      ["fishing rod", "rope"],
+      ["flying fish", "rope"]
+    ]
+  },
+  {
+    "key": "newspaper",
+    "name": "Newspaper",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "paper"],
+      ["paper", "story"],
+      ["letter", "letter"]
+    ]
+  },
+  {
+    "key": "night",
+    "name": "Night",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "moon"],
+      ["time", "day"],
+      ["time", "moon"],
+      ["time", "twilight"]
+    ]
+  },
+  {
+    "key": "ninja",
+    "name": "Ninja",
+    "internalID": 0,
+    "combinations": [
+      ["human", "shuriken"],
+      ["human", "katana"]
+    ]
+  },
+  {
+    "key": "ninja turtle",
+    "name": "Ninja Turtle",
+    "internalID": 0,
+    "combinations": [
+      ["turtle", "ninja"],
+      ["turtle", "shuriken"],
+      ["turtle", "katana"]
+    ]
+  },
+  {
+    "key": "nuts",
+    "name": "Nuts",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "farmer"],
+      ["tree", "domestication"],
+      ["tree", "field"]
+    ]
+  },
+  {
+    "key": "oasis",
+    "name": "Oasis",
+    "internalID": 0,
+    "combinations": [
+      ["water", "desert"],
+      ["desert", "puddle"],
+      ["desert", "pond"],
+      ["desert", "lake"],
+      ["desert", "river"],
+      ["desert", "stream"],
+      ["tree", "desert"],
+      ["desert", "palm"]
+    ]
+  },
+  {
+    "key": "obsidian",
+    "name": "Obsidian",
+    "internalID": 0,
+    "combinations": [
+      ["water", "lava"],
+      ["lava", "cold"],
+      ["lava", "glass"]
+    ]
+  },
+  {
+    "key": "ocean",
+    "name": "Ocean",
+    "internalID": 0,
+    "combinations": [
+      ["water", "sea"],
+      ["sea", "big"],
+      ["tide", "container"],
+      ["sea", "sea"]
+    ]
+  },
+  {
+    "key": "oil",
+    "name": "Oil",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "sunflower"],
+      ["stone", "sunflower"],
+      ["wheel", "sunflower"],
+      ["sunflower", "windmill"]
+    ]
+  },
+  {
+    "key": "omelette",
+    "name": "Omelette",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "egg"],
+      ["egg", "heat"],
+      ["egg", "tool"]
+    ]
+  },
+  {
+    "key": "optical fiber",
+    "name": "Optical Fiber",
+    "internalID": 0,
+    "combinations": [
+      ["wire", "light"],
+      ["light", "rope"],
+      ["light", "internet"]
+    ]
+  },
+  {
+    "key": "orchard",
+    "name": "Orchard",
+    "internalID": 0,
+    "combinations": [
+      ["fruit tree", "fruit tree"],
+      ["field", "fruit tree"],
+      ["tree", "fruit tree"],
+      ["farmer", "fruit tree"],
+      ["fruit tree", "farm"],
+      ["forest", "fruit tree"],
+      ["fruit tree", "container"]
+    ]
+  },
+  {
+    "key": "ore",
+    "name": "Ore",
+    "internalID": 0,
+    "combinations": [
+      ["hammer", "boulder"],
+      ["earth", "hammer"],
+      ["hammer", "rock"],
+      ["stone", "hammer"],
+      ["hammer", "hill"],
+      ["mountain", "hammer"]
+    ]
+  },
+  {
+    "key": "organic_matter",
+    "name": "Organic Matter",
+    "internalID": 0,
+    "combinations": [
+      ["life", "death"],
+      ["life", "science"],
+      ["bacteria", "death"],
+      ["corpse", "science"]
+    ]
+  },
+  {
+    "key": "origami",
+    "name": "Origami",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "paper"],
+      ["animal", "paper"],
+      ["paper", "eagle"],
+      ["paper", "seagull"],
+      ["owl", "paper"],
+      ["paper", "pigeon"],
+      ["cow", "paper"],
+      ["horse", "paper"],
+      ["dog", "paper"],
+      ["paper", "cat"],
+      ["paper", "lion"],
+      ["paper", "hummingbird"],
+      ["chicken", "paper"],
+      ["penguin", "paper"],
+      ["duck", "paper"],
+      ["paper", "vulture"]
+    ]
+  },
+  {
+    "key": "ostrich",
+    "name": "Ostrich",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "bird"],
+      ["sand", "bird"],
+      ["earth", "eagle"],
+      ["sand", "eagle"],
+      ["earth", "chicken"],
+      ["sand", "chicken"],
+      ["bird", "big"]
+    ]
+  },
+  {
+    "key": "owl",
+    "name": "Owl",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "night"],
+      ["bird", "wizard"],
+      ["bird", "twilight"],
+      ["bird", "moon"]
+    ]
+  },
+  {
+    "key": "oxygen",
+    "name": "Oxygen",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "sun"],
+      ["tree", "sun"],
+      ["grass", "sun"],
+      ["sun", "algae"],
+      ["plant", "carbon_dioxide"],
+      ["tree", "carbon_dioxide"],
+      ["grass", "carbon_dioxide"],
+      ["algae", "carbon_dioxide"]
+    ]
+  },
+  {
+    "key": "ozone",
+    "name": "Ozone",
+    "internalID": 0,
+    "combinations": [
+      ["oxygen", "oxygen"],
+      ["electricity", "oxygen"],
+      ["electricity", "atmosphere"],
+      ["air", "electricity"]
+    ]
+  },
+  {
+    "key": "paint",
+    "name": "Paint",
+    "internalID": 0,
+    "combinations": [
+      ["water", "rainbow"],
+      ["water", "double_rainbow"],
+      ["water", "pencil"],
+      ["pottery", "rainbow"],
+      ["tool", "rainbow"],
+      ["pottery", "double_rainbow"],
+      ["tool", "double_rainbow"],
+      ["rainbow", "liquid"],
+      ["double_rainbow", "liquid"],
+      ["pencil", "liquid"]
+    ]
+  },
+  {
+    "key": "painter",
+    "name": "Painter",
+    "internalID": 0,
+    "combinations": [
+      ["human", "paint"],
+      ["human", "canvas"],
+      ["human", "painting"]
+    ]
+  },
+  {
+    "key": "painting",
+    "name": "Painting",
+    "internalID": 0,
+    "combinations": [
+      ["canvas", "painter"],
+      ["paint", "canvas"]
+    ]
+  },
+  {
+    "key": "paleontologist",
+    "name": "Paleontologist",
+    "internalID": 0,
+    "combinations": [
+      ["human", "dinosaur"],
+      ["human", "fossil"],
+      ["dinosaur", "science"],
+      ["fossil", "science"]
+    ]
+  },
+  {
+    "key": "palm",
+    "name": "Palm",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "beach"],
+      ["island", "tree"],
+      ["sand", "tree"]
+    ]
+  },
+  {
+    "key": "pan flute",
+    "name": "Pan Flute",
+    "internalID": 0,
+    "combinations": [["flute", "flute"]]
+  },
+  {
+    "key": "paper",
+    "name": "Paper",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "wood"],
+      ["water", "wood"],
+      ["wood", "machine"],
+      ["wood", "blender"]
+    ]
+  },
+  {
+    "key": "paper airplane",
+    "name": "Paper Airplane",
+    "internalID": 0,
+    "combinations": [["airplane", "paper"]]
+  },
+  {
+    "key": "paper cup",
+    "name": "Paper Cup",
+    "internalID": 0,
+    "combinations": [["paper", "cup"]]
+  },
+  {
+    "key": "parachute",
+    "name": "Parachute",
+    "internalID": 0,
+    "combinations": [
+      ["pilot", "fabric"],
+      ["pilot", "umbrella"],
+      ["airplane", "fabric"],
+      ["airplane", "umbrella"],
+      ["sky", "umbrella"],
+      ["atmosphere", "umbrella"]
+    ]
+  },
+  {
+    "key": "paraglider",
+    "name": "Paraglider",
+    "internalID": 0,
+    "combinations": [["kite", "big"]]
+  },
+  {
+    "key": "park",
+    "name": "Park",
+    "internalID": 0,
+    "combinations": [
+      ["forest", "city"],
+      ["forest", "village"],
+      ["garden", "city"],
+      ["garden", "village"],
+      ["grass", "city"],
+      ["grass", "village"],
+      ["field", "city"],
+      ["field", "village"]
+    ]
+  },
+  {
+    "key": "parrot",
+    "name": "Parrot",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "pirate"],
+      ["bird", "pirate_ship"],
+      ["pirate", "pigeon"],
+      ["pigeon", "pirate_ship"]
+    ]
+  },
+  {
+    "key": "pasta",
+    "name": "Pasta",
+    "internalID": 0,
+    "combinations": [["egg", "flour"]]
+  },
+  {
+    "key": "peacock",
+    "name": "Peacock",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "leaf"],
+      ["bird", "double_rainbow"],
+      ["bird", "rainbow"]
+    ]
+  },
+  {
+    "key": "peanut butter",
+    "name": "Peanut Butter",
+    "internalID": 0,
+    "combinations": [
+      ["butter", "nuts"],
+      ["pressure", "nuts"]
+    ]
+  },
+  {
+    "key": "peat",
+    "name": "Peat",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "swamp"],
+      ["pressure", "swamp"],
+      ["time", "swamp"],
+      ["time", "grass"]
+    ]
+  },
+  {
+    "key": "pebble",
+    "name": "Pebble",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "small"],
+      ["earth", "small"],
+      ["small", "rock"]
+    ]
+  },
+  {
+    "key": "pegasus",
+    "name": "Pegasus",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "horse"],
+      ["sky", "horse"],
+      ["bird", "unicorn"],
+      ["sky", "unicorn"]
+    ]
+  },
+  {
+    "key": "pencil",
+    "name": "Pencil",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "charcoal"],
+      ["coal", "wood"]
+    ]
+  },
+  {
+    "key": "pencil sharpener",
+    "name": "Pencil Sharpener",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "pencil"],
+      ["pencil", "blender"],
+      ["sword", "pencil"]
+    ]
+  },
+  {
+    "key": "penguin",
+    "name": "Penguin",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "antarctica"],
+      ["bird", "cold"],
+      ["bird", "ice"],
+      ["bird", "snow"],
+      ["animal", "antarctica"]
+    ]
+  },
+  {
+    "key": "penicillin",
+    "name": "Penicillin",
+    "internalID": 0,
+    "combinations": [
+      ["doctor", "mold"],
+      ["mold", "science"],
+      ["idea", "mold"],
+      ["hospital", "mold"]
+    ]
+  },
+  {
+    "key": "perfume",
+    "name": "Perfume",
+    "internalID": 0,
+    "combinations": [
+      ["water", "flower"],
+      ["steam", "flower"],
+      ["alcohol", "flower"],
+      ["water", "rose"],
+      ["steam", "rose"],
+      ["alcohol", "rose"],
+      ["water", "sunflower"],
+      ["steam", "sunflower"],
+      ["sunflower", "alcohol"]
+    ]
+  },
+  {
+    "key": "petroleum",
+    "name": "Petroleum",
+    "internalID": 0,
+    "combinations": [
+      ["pressure", "fossil"],
+      ["time", "fossil"],
+      ["fossil", "liquid"],
+      ["water", "fossil"]
+    ]
+  },
+  {
+    "key": "philosophy",
+    "name": "Philosophy",
+    "internalID": 0,
+    "combinations": [
+      ["human", "idea"],
+      ["human", "story"],
+      ["egg", "chicken"]
+    ]
+  },
+  {
+    "key": "phoenix",
+    "name": "Phoenix",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "bird"],
+      ["fire", "death"],
+      ["fire", "life"],
+      ["fire", "egg"]
+    ]
+  },
+  {
+    "key": "picnic",
+    "name": "Picnic",
+    "internalID": 0,
+    "combinations": [
+      ["grass", "sandwich"],
+      ["sandwich", "beach"],
+      ["sandwich", "fabric"],
+      ["sandwich", "lawn"],
+      ["sandwich", "garden"]
+    ]
+  },
+  {
+    "key": "pie",
+    "name": "Pie",
+    "internalID": 0,
+    "combinations": [
+      ["dough", "fruit"],
+      ["fruit", "cookie dough"],
+      ["dough", "meat"],
+      ["fruit", "baker"],
+      ["fruit", "bakery"]
+    ]
+  },
+  {
+    "key": "pig",
+    "name": "Pig",
+    "internalID": 0,
+    "combinations": [
+      ["mud", "livestock"],
+      ["mud", "animal"],
+      ["mud", "cow"]
+    ]
+  },
+  {
+    "key": "pigeon",
+    "name": "Pigeon",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "letter"],
+      ["bird", "city"],
+      ["bird", "statue"],
+      ["bird", "skyscraper"],
+      ["bird", "village"]
+    ]
+  },
+  {
+    "key": "piggy bank",
+    "name": "Piggy Bank",
+    "internalID": 0,
+    "combinations": [
+      ["pig", "money"],
+      ["pottery", "pig"],
+      ["pig", "gold"]
+    ]
+  },
+  {
+    "key": "pilot",
+    "name": "Pilot",
+    "internalID": 0,
+    "combinations": [
+      ["human", "airplane"],
+      ["human", "seaplane"]
+    ]
+  },
+  {
+    "key": "pinocchio",
+    "name": "Pinocchio",
+    "internalID": 0,
+    "combinations": [
+      ["life", "wood"],
+      ["golem", "story"],
+      ["wood", "story"]
+    ]
+  },
+  {
+    "key": "pipe",
+    "name": "Pipe",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "tobacco"],
+      ["tool", "tobacco"],
+      ["tobacco", "container"]
+    ]
+  },
+  {
+    "key": "piranha",
+    "name": "Piranha",
+    "internalID": 0,
+    "combinations": [
+      ["fish", "blood"],
+      ["fish", "wolf"]
+    ]
+  },
+  {
+    "key": "pirate",
+    "name": "Pirate",
+    "internalID": 0,
+    "combinations": [
+      ["sword", "sailor"],
+      ["sailor", "pirate_ship"],
+      ["gun", "sailor"],
+      ["bayonet", "sailor"]
+    ]
+  },
+  {
+    "key": "pirate_ship",
+    "name": "Pirate Ship",
+    "internalID": 0,
+    "combinations": [
+      ["sailboat", "pirate"],
+      ["boat", "pirate"],
+      ["steam_engine", "pirate"],
+      ["pirate", "container"],
+      ["house", "pirate"]
+    ]
+  },
+  {
+    "key": "pitchfork",
+    "name": "Pitchfork",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "hay"],
+      ["metal", "hay"],
+      ["steel", "hay"]
+    ]
+  },
+  {
+    "key": "pizza",
+    "name": "Pizza",
+    "internalID": 0,
+    "combinations": [
+      ["cheese", "dough"],
+      ["cheese", "bread"],
+      ["cheese", "wheel"]
+    ]
+  },
+  {
+    "key": "planet",
+    "name": "Planet",
+    "internalID": 0,
+    "combinations": [
+      ["continent", "continent"],
+      ["ocean", "continent"],
+      ["earth", "space"],
+      ["earth", "solar_system"],
+      ["earth", "sky"]
+    ]
+  },
+  {
+    "key": "plankton",
+    "name": "Plankton",
+    "internalID": 0,
+    "combinations": [
+      ["water", "life"],
+      ["ocean", "life"],
+      ["sea", "life"],
+      ["water", "bacteria"],
+      ["ocean", "bacteria"],
+      ["sea", "bacteria"]
+    ]
+  },
+  {
+    "key": "plant",
+    "name": "Plant",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "small"],
+      ["water", "seed"],
+      ["soil", "seed"],
+      ["land", "seed"],
+      ["earth", "seed"],
+      ["grass", "big"],
+      ["algae", "land"],
+      ["earth", "algae"],
+      ["life", "soil"],
+      ["rain", "soil"]
+    ]
+  },
+  {
+    "key": "plasma",
+    "name": "Plasma",
+    "internalID": 0,
+    "combinations": [
+      ["star", "science"],
+      ["sun", "science"],
+      ["pressure", "heat"],
+      ["heat", "heat"]
+    ]
+  },
+  {
+    "key": "platypus",
+    "name": "Platypus",
+    "internalID": 0,
+    "combinations": [
+      ["beaver", "duck"],
+      ["bird", "beaver"],
+      ["beaver", "seagull"]
+    ]
+  },
+  {
+    "key": "plow",
+    "name": "Plow",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "metal"],
+      ["metal", "field"],
+      ["earth", "steel"],
+      ["steel", "field"],
+      ["earth", "wood"],
+      ["wood", "field"],
+      ["tool", "field"]
+    ]
+  },
+  {
+    "key": "polar bear",
+    "name": "Polar Bear",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "ice"],
+      ["animal", "arctic"]
+    ]
+  },
+  {
+    "key": "pollen",
+    "name": "Pollen",
+    "internalID": 0,
+    "combinations": [
+      ["dust", "plant"],
+      ["wind", "plant"],
+      ["dust", "flower"],
+      ["wind", "flower"]
+    ]
+  },
+  {
+    "key": "pond",
+    "name": "Pond",
+    "internalID": 0,
+    "combinations": [
+      ["water", "puddle"],
+      ["puddle", "big"],
+      ["lake", "small"],
+      ["puddle", "puddle"]
+    ]
+  },
+  {
+    "key": "popsicle",
+    "name": "Popsicle",
+    "internalID": 0,
+    "combinations": [
+      ["ice", "juice"],
+      ["cold", "juice"],
+      ["wood", "juice"],
+      ["snow", "juice"]
+    ]
+  },
+  {
+    "key": "post office",
+    "name": "Post Office",
+    "internalID": 0,
+    "combinations": [
+      ["house", "mailman"],
+      ["wall", "mailman"],
+      ["mailman", "container"],
+      ["house", "letter"],
+      ["wall", "letter"],
+      ["letter", "mailman"],
+      ["letter", "letter"]
+    ]
+  },
+  {
+    "key": "potato",
+    "name": "Potato",
+    "internalID": 0,
+    "combinations": [["earth", "vegetable"]]
+  },
+  {
+    "key": "potter",
+    "name": "Potter",
+    "internalID": 0,
+    "combinations": [
+      ["human", "pottery"],
+      ["human", "clay"]
+    ]
+  },
+  {
+    "key": "pottery",
+    "name": "Pottery",
+    "internalID": 0,
+    "combinations": [
+      ["clay", "wheel"],
+      ["clay", "tool"]
+    ]
+  },
+  {
+    "key": "pressure",
+    "name": "Pressure",
+    "internalID": 0,
+    "combinations": [
+      ["air", "air"],
+      ["atmosphere", "atmosphere"],
+      ["air", "atmosphere"],
+      ["geyser", "science"],
+      ["ocean", "ocean"]
+    ]
+  },
+  {
+    "key": "primordial soup",
+    "name": "Primordial Soup",
+    "internalID": 0,
+    "combinations": [
+      ["lava", "ocean"],
+      ["lava", "sea"],
+      ["ocean", "planet"],
+      ["earth", "ocean"],
+      ["sea", "planet"],
+      ["earth", "sea"]
+    ]
+  },
+  {
+    "key": "printer",
+    "name": "Printer",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "computer"],
+      ["newspaper", "computer"]
+    ]
+  },
+  {
+    "key": "prism",
+    "name": "Prism",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "rainbow"],
+      ["glass", "double_rainbow"],
+      ["rainbow", "crystal_ball"],
+      ["double_rainbow", "crystal_ball"]
+    ]
+  },
+  {
+    "key": "pterodactyl",
+    "name": "Pterodactyl",
+    "internalID": 0,
+    "combinations": [
+      ["air", "dinosaur"],
+      ["sky", "dinosaur"],
+      ["airplane", "dinosaur"],
+      ["bird", "dinosaur"],
+      ["dinosaur", "eagle"],
+      ["dinosaur", "vulture"]
+    ]
+  },
+  {
+    "key": "puddle",
+    "name": "Puddle",
+    "internalID": 0,
+    "combinations": [
+      ["water", "water"],
+      ["pond", "small"]
+    ]
+  },
+  {
+    "key": "pumpkin",
+    "name": "Pumpkin",
+    "internalID": 0,
+    "combinations": [
+      ["field", "vegetable"],
+      ["farmer", "vegetable"],
+      ["vegetable", "jack-o-lantern"],
+      ["plant", "jack-o-lantern"]
+    ]
+  },
+  {
+    "key": "pyramid",
+    "name": "Pyramid",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "desert"],
+      ["grave", "desert"],
+      ["graveyard", "desert"],
+      ["desert", "mountain"],
+      ["desert", "hill"],
+      ["desert", "gravestone"],
+      ["mummy", "container"]
+    ]
+  },
+  {
+    "key": "quicksand",
+    "name": "Quicksand",
+    "internalID": 0,
+    "combinations": [["sand", "swamp"]]
+  },
+  {
+    "key": "quicksilver",
+    "name": "Quicksilver",
+    "internalID": 0,
+    "combinations": [["metal", "liquid"]]
+  },
+  {
+    "key": "rabbit",
+    "name": "Rabbit",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "carrot"],
+      ["rabbit", "rabbit"]
+    ]
+  },
+  {
+    "key": "rain",
+    "name": "Rain",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "heat"],
+      ["cloud", "pressure"],
+      ["cloud", "water"]
+    ]
+  },
+  {
+    "key": "rainbow",
+    "name": "Rainbow",
+    "internalID": 0,
+    "combinations": [
+      ["rain", "sun"],
+      ["rain", "light"],
+      ["water", "light"],
+      ["cloud", "light"],
+      ["water", "sun"],
+      ["sun", "prism"],
+      ["light", "prism"]
+    ]
+  },
+  {
+    "key": "rainforest",
+    "name": "Rainforest",
+    "internalID": 0,
+    "combinations": [["rain", "forest"]]
+  },
+  {
+    "key": "rat",
+    "name": "Rat",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "pirate_ship"],
+      ["sailboat", "animal"],
+      ["mouse", "pirate_ship"],
+      ["sailboat", "mouse"],
+      ["mouse", "city"],
+      ["mouse", "skyscraper"],
+      ["mouse", "village"],
+      ["mouse", "big"]
+    ]
+  },
+  {
+    "key": "recipe",
+    "name": "Recipe",
+    "internalID": 0,
+    "combinations": [
+      ["flour", "paper"],
+      ["meat", "paper"],
+      ["paper", "baker"],
+      ["paper", "bakery"],
+      ["paper", "vegetable"],
+      ["fruit", "paper"],
+      ["flour", "newspaper"],
+      ["meat", "newspaper"],
+      ["newspaper", "baker"],
+      ["newspaper", "vegetable"],
+      ["newspaper", "bakery"],
+      ["fruit", "newspaper"],
+      ["paper", "cook"]
+    ]
+  },
+  {
+    "key": "reed",
+    "name": "Reed",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "pond"],
+      ["plant", "puddle"],
+      ["grass", "pond"],
+      ["grass", "puddle"],
+      ["swamp", "grass"],
+      ["plant", "swamp"],
+      ["plant", "river"],
+      ["grass", "river"]
+    ]
+  },
+  {
+    "key": "reindeer",
+    "name": "Reindeer",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "santa"],
+      ["livestock", "santa"],
+      ["christmas_tree", "animal"],
+      ["livestock", "christmas_tree"],
+      ["animal", "christmas_stocking"]
+    ]
+  },
+  {
+    "key": "ring",
+    "name": "Ring",
+    "internalID": 0,
+    "combinations": [
+      ["diamond", "metal"],
+      ["diamond", "gold"],
+      ["diamond", "steel"],
+      ["love", "gold"],
+      ["diamond", "love"],
+      ["metal", "love"],
+      ["steel", "love"]
+    ]
+  },
+  {
+    "key": "river",
+    "name": "River",
+    "internalID": 0,
+    "combinations": [
+      ["lake", "motion"],
+      ["big", "stream"],
+      ["water", "mountain"],
+      ["rain", "mountain"],
+      ["rain", "hill"]
+    ]
+  },
+  {
+    "key": "rivulet",
+    "name": "Rivulet",
+    "internalID": 0,
+    "combinations": [
+      ["puddle", "motion"],
+      ["stream", "small"]
+    ]
+  },
+  {
+    "key": "robot",
+    "name": "Robot",
+    "internalID": 0,
+    "combinations": [
+      ["life", "armor"],
+      ["metal", "life"],
+      ["steel", "life"],
+      ["metal", "golem"],
+      ["steel", "golem"],
+      ["golem", "armor"]
+    ]
+  },
+  {
+    "key": "robot vacuum",
+    "name": "Robot Vacuum",
+    "internalID": 0,
+    "combinations": [
+      ["robot", "vacuum cleaner"],
+      ["robot", "broom"],
+      ["computer", "vacuum cleaner"],
+      ["computer", "broom"]
+    ]
+  },
+  {
+    "key": "rock",
+    "name": "Rock",
+    "internalID": 0,
+    "combinations": [
+      ["big", "pebble"],
+      ["small", "boulder"],
+      ["pebble", "pebble"]
+    ]
+  },
+  {
+    "key": "rocket",
+    "name": "Rocket",
+    "internalID": 0,
+    "combinations": [
+      ["airplane", "atmosphere"],
+      ["metal", "atmosphere"],
+      ["steel", "atmosphere"],
+      ["train", "atmosphere"],
+      ["atmosphere", "machine"],
+      ["boat", "atmosphere"],
+      ["steamboat", "atmosphere"],
+      ["atmosphere", "car"],
+      ["atmosphere", "pirate_ship"]
+    ]
+  },
+  {
+    "key": "roe",
+    "name": "Roe",
+    "internalID": 0,
+    "combinations": [
+      ["egg", "fish"],
+      ["water", "egg"],
+      ["ocean", "egg"],
+      ["sea", "egg"],
+      ["egg", "lake"],
+      ["egg", "flying fish"]
+    ]
+  },
+  {
+    "key": "roller coaster",
+    "name": "Roller Coaster",
+    "internalID": 0,
+    "combinations": [
+      ["train", "park"],
+      ["car", "park"],
+      ["cart", "park"],
+      ["wagon", "park"]
+    ]
+  },
+  {
+    "key": "rope",
+    "name": "Rope",
+    "internalID": 0,
+    "combinations": [
+      ["thread", "thread"],
+      ["wire", "thread"],
+      ["tool", "wire"],
+      ["tool", "sailboat"],
+      ["tool", "pirate_ship"],
+      ["tool", "boat"]
+    ]
+  },
+  {
+    "key": "rose",
+    "name": "Rose",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "love"],
+      ["love", "flower"],
+      ["blade", "flower"],
+      ["plant", "blade"]
+    ]
+  },
+  {
+    "key": "ruins",
+    "name": "Ruins",
+    "internalID": 0,
+    "combinations": [
+      ["time", "castle"],
+      ["time", "house"],
+      ["time", "village"],
+      ["time", "city"],
+      ["time", "skyscraper"],
+      ["time", "farm"],
+      ["time", "hospital"]
+    ]
+  },
+  {
+    "key": "ruler",
+    "name": "Ruler",
+    "internalID": 0,
+    "combinations": [["wood", "pencil"]]
+  },
+  {
+    "key": "rust",
+    "name": "Rust",
+    "internalID": 0,
+    "combinations": [
+      ["air", "metal"],
+      ["air", "steel"],
+      ["wind", "metal"],
+      ["wind", "steel"],
+      ["metal", "oxygen"],
+      ["steel", "oxygen"]
+    ]
+  },
+  {
+    "key": "rv",
+    "name": "Rv",
+    "internalID": 0,
+    "combinations": [
+      ["house", "car"],
+      ["house", "bus"]
+    ]
+  },
+  {
+    "key": "sack",
+    "name": "Sack",
+    "internalID": 0,
+    "combinations": [
+      ["flour", "container"],
+      ["salt", "container"],
+      ["letter", "container"]
+    ]
+  },
+  {
+    "key": "saddle",
+    "name": "Saddle",
+    "internalID": 0,
+    "combinations": [
+      ["horse", "leather"],
+      ["tool", "horse"],
+      ["horse", "fabric"]
+    ]
+  },
+  {
+    "key": "safe",
+    "name": "Safe",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "money"],
+      ["steel", "money"],
+      ["metal", "gold"],
+      ["steel", "gold"],
+      ["gun", "container"],
+      ["gold", "container"]
+    ]
+  },
+  {
+    "key": "safety glasses",
+    "name": "Safety Glasses",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "glasses"],
+      ["explosion", "glasses"],
+      ["engineer", "glasses"],
+      ["glasses", "bulletproof vest"],
+      ["armor", "glasses"]
+    ]
+  },
+  {
+    "key": "sailboat",
+    "name": "Sailboat",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "boat"],
+      ["boat", "fabric"],
+      ["wind", "steamboat"],
+      ["steamboat", "fabric"]
+    ]
+  },
+  {
+    "key": "sailor",
+    "name": "Sailor",
+    "internalID": 0,
+    "combinations": [
+      ["human", "boat"],
+      ["human", "sailboat"],
+      ["human", "steamboat"],
+      ["ocean", "human"],
+      ["sea", "human"],
+      ["human", "lake"]
+    ]
+  },
+  {
+    "key": "salt",
+    "name": "Salt",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "sun"],
+      ["sea", "sun"],
+      ["fire", "ocean"],
+      ["fire", "sea"],
+      ["ocean", "mineral"],
+      ["sea", "mineral"]
+    ]
+  },
+  {
+    "key": "sand",
+    "name": "Sand",
+    "internalID": 0,
+    "combinations": [
+      ["air", "stone"],
+      ["wind", "stone"],
+      ["air", "rock"],
+      ["wind", "rock"],
+      ["air", "pebble"],
+      ["wind", "pebble"],
+      ["small", "pebble"]
+    ]
+  },
+  {
+    "key": "sand castle",
+    "name": "Sand Castle",
+    "internalID": 0,
+    "combinations": [
+      ["sand", "castle"],
+      ["beach", "castle"],
+      ["desert", "castle"],
+      ["dune", "castle"]
+    ]
+  },
+  {
+    "key": "sandpaper",
+    "name": "Sandpaper",
+    "internalID": 0,
+    "combinations": [
+      ["sand", "paper"],
+      ["sand", "fabric"]
+    ]
+  },
+  {
+    "key": "sandstone",
+    "name": "Sandstone",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "sand"],
+      ["sand", "rock"],
+      ["earth", "sand"]
+    ]
+  },
+  {
+    "key": "sandstorm",
+    "name": "Sandstorm",
+    "internalID": 0,
+    "combinations": [
+      ["storm", "sand"],
+      ["tornado", "sand"],
+      ["sand", "motion"],
+      ["storm", "desert"],
+      ["tornado", "desert"],
+      ["wind", "desert"],
+      ["desert", "motion"]
+    ]
+  },
+  {
+    "key": "sandwich",
+    "name": "Sandwich",
+    "internalID": 0,
+    "combinations": [
+      ["bread", "meat"],
+      ["bread", "bacon"],
+      ["cheese", "bread"],
+      ["bread", "vegetable"],
+      ["bread", "ham"]
+    ]
+  },
+  {
+    "key": "santa",
+    "name": "Santa",
+    "internalID": 0,
+    "combinations": [
+      ["human", "christmas_tree"],
+      ["human", "christmas_stocking"],
+      ["christmas_tree", "legend"],
+      ["christmas_stocking", "legend"],
+      ["christmas_tree", "story"],
+      ["story", "christmas_stocking"]
+    ]
+  },
+  {
+    "key": "sap",
+    "name": "Sap",
+    "internalID": 0,
+    "combinations": [["tree", "blade"]]
+  },
+  {
+    "key": "saturn",
+    "name": "Saturn",
+    "internalID": 0,
+    "combinations": [
+      ["ring", "planet"],
+      ["small", "jupiter"]
+    ]
+  },
+  {
+    "key": "scalpel",
+    "name": "Scalpel",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "doctor"],
+      ["blade", "hospital"],
+      ["blade", "ambulance"],
+      ["sword", "doctor"],
+      ["sword", "hospital"],
+      ["sword", "ambulance"]
+    ]
+  },
+  {
+    "key": "scarecrow",
+    "name": "Scarecrow",
+    "internalID": 0,
+    "combinations": [
+      ["human", "hay"],
+      ["hay", "statue"],
+      ["golem", "hay"],
+      ["statue", "farm"],
+      ["barn", "statue"],
+      ["pumpkin", "sack"],
+      ["jack-o-lantern", "sack"],
+      ["hay", "sack"]
+    ]
+  },
+  {
+    "key": "science",
+    "name": "Science",
+    "internalID": 0,
+    "combinations": [
+      ["human", "telescope"],
+      ["human", "microscope"],
+      ["human", "universe"]
+    ]
+  },
+  {
+    "key": "scissors",
+    "name": "Scissors",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "blade"],
+      ["sword", "sword"],
+      ["blade", "sword"],
+      ["blade", "paper"],
+      ["sword", "paper"]
+    ]
+  },
+  {
+    "key": "scorpion",
+    "name": "Scorpion",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "dune"],
+      ["sand", "animal"],
+      ["dune", "spider"],
+      ["sand", "spider"],
+      ["desert", "spider"]
+    ]
+  },
+  {
+    "key": "scuba tank",
+    "name": "Scuba Tank",
+    "internalID": 0,
+    "combinations": [
+      ["air", "container"],
+      ["atmosphere", "container"],
+      ["oxygen", "container"]
+    ]
+  },
+  {
+    "key": "scythe",
+    "name": "Scythe",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "grass"],
+      ["blade", "wheat"],
+      ["grass", "sword"],
+      ["wheat", "sword"],
+      ["axe", "grass"],
+      ["axe", "wheat"]
+    ]
+  },
+  {
+    "key": "sea",
+    "name": "Sea",
+    "internalID": 0,
+    "combinations": [
+      ["water", "lake"],
+      ["lake", "big"],
+      ["ocean", "small"],
+      ["lake", "lake"]
+    ]
+  },
+  {
+    "key": "seagull",
+    "name": "Seagull",
+    "internalID": 0,
+    "combinations": [
+      ["sea", "bird"],
+      ["ocean", "bird"],
+      ["bird", "beach"],
+      ["sea", "pigeon"],
+      ["ocean", "pigeon"],
+      ["beach", "pigeon"],
+      ["sea", "rat"],
+      ["ocean", "rat"],
+      ["beach", "rat"]
+    ]
+  },
+  {
+    "key": "seahorse",
+    "name": "Seahorse",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "horse"],
+      ["sea", "horse"],
+      ["water", "horse"],
+      ["fish", "horse"],
+      ["horse", "lake"]
+    ]
+  },
+  {
+    "key": "seal",
+    "name": "Seal",
+    "internalID": 0,
+    "combinations": [
+      ["sea", "dog"],
+      ["ocean", "dog"],
+      ["dog", "arctic"],
+      ["dog", "lake"],
+      ["water", "dog"]
+    ]
+  },
+  {
+    "key": "seaplane",
+    "name": "Seaplane",
+    "internalID": 0,
+    "combinations": [
+      ["sea", "airplane"],
+      ["ocean", "airplane"],
+      ["airplane", "lake"],
+      ["water", "airplane"]
+    ]
+  },
+  {
+    "key": "seasickness",
+    "name": "Seasickness",
+    "internalID": 0,
+    "combinations": [
+      ["boat", "sickness"],
+      ["steamboat", "sickness"],
+      ["sailboat", "sickness"],
+      ["ocean", "sickness"],
+      ["sea", "sickness"],
+      ["sickness", "lake"]
+    ]
+  },
+  {
+    "key": "seaweed",
+    "name": "Seaweed",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "plant"],
+      ["sea", "plant"],
+      ["plant", "lake"],
+      ["ocean", "grass"],
+      ["sea", "grass"]
+    ]
+  },
+  {
+    "key": "seed",
+    "name": "Seed",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "pollen"],
+      ["bee", "pollen"],
+      ["time", "flower"]
+    ]
+  },
+  {
+    "key": "sewing machine",
+    "name": "Sewing Machine",
+    "internalID": 0,
+    "combinations": [
+      ["needle", "machine"],
+      ["electricity", "needle"],
+      ["robot", "needle"],
+      ["thread", "machine"],
+      ["electricity", "thread"],
+      ["robot", "thread"]
+    ]
+  },
+  {
+    "key": "shark",
+    "name": "Shark",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "blood"],
+      ["sea", "blood"],
+      ["ocean", "wolf"],
+      ["sea", "wolf"],
+      ["fish", "blood"],
+      ["fish", "wolf"]
+    ]
+  },
+  {
+    "key": "sheep",
+    "name": "Sheep",
+    "internalID": 0,
+    "combinations": [
+      ["livestock", "wool"],
+      ["livestock", "hill"],
+      ["livestock", "land"],
+      ["cloud", "livestock"],
+      ["goat", "domestication"],
+      ["mountain_goat", "domestication"]
+    ]
+  },
+  {
+    "key": "sheet music",
+    "name": "Sheet Music",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "music"],
+      ["music", "book"]
+    ]
+  },
+  {
+    "key": "shovel",
+    "name": "Shovel",
+    "internalID": 0,
+    "combinations": [["tool", "gardener"]]
+  },
+  {
+    "key": "shuriken",
+    "name": "Shuriken",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "star"],
+      ["sword", "star"],
+      ["metal", "star"],
+      ["steel", "star"],
+      ["blade", "ninja"]
+    ]
+  },
+  {
+    "key": "sickness",
+    "name": "Sickness",
+    "internalID": 0,
+    "combinations": [
+      ["human", "bacteria"],
+      ["swamp", "human"],
+      ["human", "sickness"]
+    ]
+  },
+  {
+    "key": "silo",
+    "name": "Silo",
+    "internalID": 0,
+    "combinations": [
+      ["wheat", "container"],
+      ["house", "wheat"],
+      ["wheat", "barn"],
+      ["wheat", "wall"],
+      ["wheat", "farm"],
+      ["wheat", "safe"],
+      ["wheat", "bank"]
+    ]
+  },
+  {
+    "key": "skateboard",
+    "name": "Skateboard",
+    "internalID": 0,
+    "combinations": [
+      ["wheel", "snowboard"],
+      ["wheel", "skier"],
+      ["wheel", "ski goggles"]
+    ]
+  },
+  {
+    "key": "skeleton",
+    "name": "Skeleton",
+    "internalID": 0,
+    "combinations": [
+      ["time", "corpse"],
+      ["bone", "bone"],
+      ["corpse", "bone"]
+    ]
+  },
+  {
+    "key": "ski goggles",
+    "name": "Ski Goggles",
+    "internalID": 0,
+    "combinations": [
+      ["snow", "glasses"],
+      ["snow", "sunglasses"],
+      ["cold", "glasses"],
+      ["cold", "sunglasses"],
+      ["glasses", "glacier"],
+      ["glacier", "sunglasses"],
+      ["glasses", "skier"],
+      ["sunglasses", "skier"]
+    ]
+  },
+  {
+    "key": "skier",
+    "name": "Skier",
+    "internalID": 0,
+    "combinations": [
+      ["human", "ski goggles"],
+      ["human", "mountain"],
+      ["human", "mountain_range"]
+    ]
+  },
+  {
+    "key": "sky",
+    "name": "Sky",
+    "internalID": 0,
+    "combinations": [
+      ["air", "cloud"],
+      ["sun", "atmosphere"],
+      ["light", "atmosphere"],
+      ["moon", "sun"]
+    ]
+  },
+  {
+    "key": "skyscraper",
+    "name": "Skyscraper",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "house"],
+      ["sky", "village"],
+      ["house", "big"],
+      ["cloud", "house"]
+    ]
+  },
+  {
+    "key": "sleigh",
+    "name": "Sleigh",
+    "internalID": 0,
+    "combinations": [
+      ["snow", "cart"],
+      ["snow", "wagon"],
+      ["ice", "cart"],
+      ["ice", "wagon"],
+      ["cart", "arctic"],
+      ["wagon", "arctic"],
+      ["antarctica", "cart"],
+      ["antarctica", "wagon"]
+    ]
+  },
+  {
+    "key": "sloth",
+    "name": "Sloth",
+    "internalID": 0,
+    "combinations": [
+      ["time", "animal"],
+      ["tree", "manatee"]
+    ]
+  },
+  {
+    "key": "small",
+    "name": "Small",
+    "internalID": 0,
+    "combinations": [
+      ["bacteria", "philosophy"],
+      ["oxygen", "philosophy"],
+      ["carbon_dioxide", "philosophy"],
+      ["ozone", "philosophy"],
+      ["pebble", "philosophy"],
+      ["rivulet", "philosophy"],
+      ["ant", "philosophy"],
+      ["spider", "philosophy"],
+      ["bee", "philosophy"],
+      ["confetti", "philosophy"],
+      ["scorpion", "philosophy"],
+      ["seahorse", "philosophy"]
+    ]
+  },
+  {
+    "key": "smog",
+    "name": "Smog",
+    "internalID": 0,
+    "combinations": [
+      ["smoke", "fog"],
+      ["fog", "city"],
+      ["smoke", "city"],
+      ["atmosphere", "city"],
+      ["air", "city"]
+    ]
+  },
+  {
+    "key": "smoke",
+    "name": "Smoke",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "gas"],
+      ["water", "campfire"],
+      ["time", "campfire"],
+      ["storm", "campfire"],
+      ["fire", "plant"],
+      ["fire", "grass"],
+      ["fire", "tree"],
+      ["fire", "wood"],
+      ["fire", "air"]
+    ]
+  },
+  {
+    "key": "smoke signal",
+    "name": "Smoke Signal",
+    "internalID": 0,
+    "combinations": [
+      ["campfire", "fabric"],
+      ["smoke", "fabric"],
+      ["smoke", "letter"]
+    ]
+  },
+  {
+    "key": "smoothie",
+    "name": "Smoothie",
+    "internalID": 0,
+    "combinations": [
+      ["fruit", "blender"],
+      ["fruit", "ice"],
+      ["fruit", "cold"]
+    ]
+  },
+  {
+    "key": "snake",
+    "name": "Snake",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "rope"],
+      ["wire", "animal"],
+      ["electric_eel", "land"]
+    ]
+  },
+  {
+    "key": "snow",
+    "name": "Snow",
+    "internalID": 0,
+    "combinations": [
+      ["rain", "cold"],
+      ["steam", "cold"],
+      ["rain", "mountain"],
+      ["rain", "mountain_range"]
+    ]
+  },
+  {
+    "key": "snow globe",
+    "name": "Snow Globe",
+    "internalID": 0,
+    "combinations": [
+      ["snow", "crystal_ball"],
+      ["snowman", "crystal_ball"],
+      ["snowball", "crystal_ball"],
+      ["crystal_ball", "snowmobile"],
+      ["santa", "crystal_ball"],
+      ["christmas_tree", "crystal_ball"],
+      ["christmas_stocking", "crystal_ball"],
+      ["blizzard", "crystal_ball"],
+      ["ice", "crystal_ball"],
+      ["cold", "crystal_ball"],
+      ["glass", "snow"],
+      ["glass", "snowman"],
+      ["glass", "snowball"],
+      ["glass", "snowmobile"],
+      ["glass", "santa"],
+      ["glass", "christmas_tree"],
+      ["glass", "christmas_stocking"],
+      ["glass", "blizzard"]
+    ]
+  },
+  {
+    "key": "snowball",
+    "name": "Snowball",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "snow"],
+      ["snow", "rock"],
+      ["earth", "snow"],
+      ["human", "snow"]
+    ]
+  },
+  {
+    "key": "snowboard",
+    "name": "Snowboard",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "snow"],
+      ["snow", "surfer"],
+      ["wood", "ice"],
+      ["ice", "surfer"],
+      ["mountain", "surfer"],
+      ["surfer", "mountain_range"]
+    ]
+  },
+  {
+    "key": "snowboarder",
+    "name": "Snowboarder",
+    "internalID": 0,
+    "combinations": [["human", "snowboard"]]
+  },
+  {
+    "key": "snowman",
+    "name": "Snowman",
+    "internalID": 0,
+    "combinations": [
+      ["human", "snow"],
+      ["snow", "carrot"],
+      ["snowball", "carrot"],
+      ["coal", "snow"],
+      ["coal", "snowball"],
+      ["snowball", "snowball"]
+    ]
+  },
+  {
+    "key": "snowmobile",
+    "name": "Snowmobile",
+    "internalID": 0,
+    "combinations": [
+      ["snow", "motorcycle"],
+      ["snow", "car"],
+      ["glacier", "motorcycle"],
+      ["car", "glacier"],
+      ["ice", "motorcycle"],
+      ["ice", "car"]
+    ]
+  },
+  {
+    "key": "soap",
+    "name": "Soap",
+    "internalID": 0,
+    "combinations": [
+      ["ash", "oil"],
+      ["ash", "wax"],
+      ["oil", "wax"],
+      ["clay", "wax"],
+      ["clay", "oil"]
+    ]
+  },
+  {
+    "key": "soda",
+    "name": "Soda",
+    "internalID": 0,
+    "combinations": [
+      ["water", "carbon_dioxide"],
+      ["juice", "carbon_dioxide"],
+      ["carbon_dioxide", "tea"]
+    ]
+  },
+  {
+    "key": "soil",
+    "name": "Soil",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "life"],
+      ["earth", "organic_matter"],
+      ["life", "land"],
+      ["land", "organic_matter"]
+    ]
+  },
+  {
+    "key": "solar_cell",
+    "name": "Solar Cell",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "sun"],
+      ["tool", "light"],
+      ["sun", "machine"],
+      ["sun", "electricity"],
+      ["energy", "sun"]
+    ]
+  },
+  {
+    "key": "solar_system",
+    "name": "Solar System",
+    "internalID": 0,
+    "combinations": [
+      ["planet", "planet"],
+      ["sun", "planet"],
+      ["sun", "container"],
+      ["planet", "container"],
+      ["mars", "container"],
+      ["mercury", "container"],
+      ["venus", "container"],
+      ["jupiter", "container"],
+      ["saturn", "container"]
+    ]
+  },
+  {
+    "key": "solid",
+    "name": "Solid",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "idea"],
+      ["earth", "science"]
+    ]
+  },
+  {
+    "key": "sound",
+    "name": "Sound",
+    "internalID": 0,
+    "combinations": [
+      ["air", "wave"],
+      ["human", "wave"],
+      ["wave", "wolf"],
+      ["wave", "animal"]
+    ]
+  },
+  {
+    "key": "space",
+    "name": "Space",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "star"],
+      ["sun", "star"],
+      ["moon", "star"],
+      ["night", "solar_system"],
+      ["sky", "solar_system"]
+    ]
+  },
+  {
+    "key": "space station",
+    "name": "Space Station",
+    "internalID": 0,
+    "combinations": [
+      ["house", "space"],
+      ["space", "wall"],
+      ["space", "village"],
+      ["house", "atmosphere"],
+      ["atmosphere", "wall"],
+      ["atmosphere", "village"]
+    ]
+  },
+  {
+    "key": "spaceship",
+    "name": "Spaceship",
+    "internalID": 0,
+    "combinations": [
+      ["airplane", "space"],
+      ["metal", "space"],
+      ["steel", "space"],
+      ["space", "pirate_ship"],
+      ["boat", "space"],
+      ["steamboat", "space"],
+      ["car", "space"],
+      ["astronaut", "container"]
+    ]
+  },
+  {
+    "key": "spaghetti",
+    "name": "Spaghetti",
+    "internalID": 0,
+    "combinations": [
+      ["thread", "pasta"],
+      ["wire", "pasta"],
+      ["pasta", "rope"]
+    ]
+  },
+  {
+    "key": "sphinx",
+    "name": "Sphinx",
+    "internalID": 0,
+    "combinations": [
+      ["lion", "statue"],
+      ["desert", "statue"],
+      ["statue", "pyramid"],
+      ["stone", "lion"]
+    ]
+  },
+  {
+    "key": "spider",
+    "name": "Spider",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "thread"],
+      ["animal", "web"],
+      ["animal", "net"]
+    ]
+  },
+  {
+    "key": "spotlight",
+    "name": "Spotlight",
+    "internalID": 0,
+    "combinations": [
+      ["light", "machine"],
+      ["metal", "light"],
+      ["steel", "light"]
+    ]
+  },
+  {
+    "key": "sprinkles",
+    "name": "Sprinkles",
+    "internalID": 0,
+    "combinations": [
+      ["sugar", "confetti"],
+      ["rainbow", "sugar"],
+      ["double_rainbow", "sugar"],
+      ["sugar", "paint"]
+    ]
+  },
+  {
+    "key": "squirrel",
+    "name": "Squirrel",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "mouse"],
+      ["plant", "mouse"],
+      ["mouse", "nuts"],
+      ["animal", "nuts"]
+    ]
+  },
+  {
+    "key": "star",
+    "name": "Star",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "night"],
+      ["night", "telescope"],
+      ["space", "telescope"],
+      ["sky", "space"],
+      ["night", "space"],
+      ["sun", "space"]
+    ]
+  },
+  {
+    "key": "starfish",
+    "name": "Starfish",
+    "internalID": 0,
+    "combinations": [
+      ["fish", "star"],
+      ["sea", "star"],
+      ["ocean", "star"]
+    ]
+  },
+  {
+    "key": "statue",
+    "name": "Statue",
+    "internalID": 0,
+    "combinations": [
+      ["stone", "hammer"],
+      ["hammer", "boulder"],
+      ["human", "medusa"],
+      ["hacker", "medusa"],
+      ["engineer", "medusa"],
+      ["lumberjack", "medusa"],
+      ["pilot", "medusa"],
+      ["sailor", "medusa"],
+      ["firefighter", "medusa"],
+      ["farmer", "medusa"],
+      ["surfer", "medusa"],
+      ["astronaut", "medusa"],
+      ["butcher", "medusa"],
+      ["doctor", "medusa"],
+      ["baker", "medusa"],
+      ["drunk", "medusa"],
+      ["mirror", "medusa"]
+    ]
+  },
+  {
+    "key": "steak",
+    "name": "Steak",
+    "internalID": 0,
+    "combinations": [
+      ["meat", "bbq"],
+      ["fire", "cow"],
+      ["cow", "bbq"],
+      ["fire", "meat"]
+    ]
+  },
+  {
+    "key": "steam",
+    "name": "Steam",
+    "internalID": 0,
+    "combinations": [
+      ["water", "heat"],
+      ["water", "fire"],
+      ["water", "lava"],
+      ["water", "gas"]
+    ]
+  },
+  {
+    "key": "steam_engine",
+    "name": "Steam Engine",
+    "internalID": 0,
+    "combinations": [
+      ["steam", "machine"],
+      ["steam", "wheel"],
+      ["boiler", "wheel"]
+    ]
+  },
+  {
+    "key": "steamboat",
+    "name": "Steamboat",
+    "internalID": 0,
+    "combinations": [
+      ["steam_engine", "boat"],
+      ["steam_engine", "sailboat"],
+      ["steam_engine", "pirate_ship"],
+      ["ocean", "steam_engine"],
+      ["sea", "steam_engine"]
+    ]
+  },
+  {
+    "key": "steel",
+    "name": "Steel",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "charcoal"],
+      ["coal", "metal"],
+      ["metal", "mineral"],
+      ["ash", "metal"]
+    ]
+  },
+  {
+    "key": "steel wool",
+    "name": "Steel Wool",
+    "internalID": 0,
+    "combinations": [
+      ["steel", "wool"],
+      ["metal", "wool"],
+      ["wire", "wool"]
+    ]
+  },
+  {
+    "key": "stethoscope",
+    "name": "Stethoscope",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "doctor"],
+      ["doctor", "drum"],
+      ["doctor", "sound"],
+      ["tool", "sound"],
+      ["tool", "hospital"]
+    ]
+  },
+  {
+    "key": "stone",
+    "name": "Stone",
+    "internalID": 0,
+    "combinations": [
+      ["earth", "solid"],
+      ["earth", "pressure"],
+      ["air", "lava"]
+    ]
+  },
+  {
+    "key": "storm",
+    "name": "Storm",
+    "internalID": 0,
+    "combinations": [
+      ["cloud", "electricity"],
+      ["electricity", "atmosphere"],
+      ["cloud", "cloud"],
+      ["rain", "wind"]
+    ]
+  },
+  {
+    "key": "story",
+    "name": "Story",
+    "internalID": 0,
+    "combinations": [
+      ["human", "campfire"],
+      ["human", "hero"]
+    ]
+  },
+  {
+    "key": "stream",
+    "name": "Stream",
+    "internalID": 0,
+    "combinations": [
+      ["pond", "motion"],
+      ["big", "rivulet"],
+      ["river", "small"]
+    ]
+  },
+  {
+    "key": "string phone",
+    "name": "String Phone",
+    "internalID": 0,
+    "combinations": [
+      ["wire", "paper cup"],
+      ["thread", "paper cup"],
+      ["wire", "cup"],
+      ["thread", "cup"]
+    ]
+  },
+  {
+    "key": "stun gun",
+    "name": "Stun Gun",
+    "internalID": 0,
+    "combinations": [
+      ["gun", "electricity"],
+      ["electricity", "bow"],
+      ["energy", "gun"],
+      ["energy", "bow"],
+      ["gun", "wire"]
+    ]
+  },
+  {
+    "key": "sugar",
+    "name": "Sugar",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "juice"],
+      ["energy", "juice"],
+      ["energy", "fruit"],
+      ["fire", "fruit"],
+      ["fire", "alcohol"],
+      ["energy", "alcohol"],
+      ["fire", "beer"],
+      ["energy", "beer"],
+      ["fire", "wine"],
+      ["energy", "wine"]
+    ]
+  },
+  {
+    "key": "sun",
+    "name": "Sun",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "light"],
+      ["fire", "sky"],
+      ["day", "space"],
+      ["sky", "day"],
+      ["fire", "planet"],
+      ["light", "planet"],
+      ["light", "day"]
+    ]
+  },
+  {
+    "key": "sundial",
+    "name": "Sundial",
+    "internalID": 0,
+    "combinations": [
+      ["wheel", "sun"],
+      ["wheel", "day"],
+      ["wheel", "light"],
+      ["tool", "sun"],
+      ["tool", "day"],
+      ["tool", "light"],
+      ["sun", "watch"],
+      ["sun", "clock"],
+      ["light", "watch"],
+      ["clock", "light"]
+    ]
+  },
+  {
+    "key": "sunflower",
+    "name": "Sunflower",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "sun"],
+      ["sun", "flower"]
+    ]
+  },
+  {
+    "key": "sunglasses",
+    "name": "Sunglasses",
+    "internalID": 0,
+    "combinations": [
+      ["sun", "glasses"],
+      ["beach", "glasses"],
+      ["day", "glasses"],
+      ["sky", "glasses"],
+      ["light", "glasses"]
+    ]
+  },
+  {
+    "key": "supernova",
+    "name": "Supernova",
+    "internalID": 0,
+    "combinations": [
+      ["explosion", "star"],
+      ["explosion", "sun"],
+      ["explosion", "galaxy"],
+      ["explosion", "space"]
+    ]
+  },
+  {
+    "key": "surfer",
+    "name": "Surfer",
+    "internalID": 0,
+    "combinations": [
+      ["human", "wave"],
+      ["human", "beach"]
+    ]
+  },
+  {
+    "key": "sushi",
+    "name": "Sushi",
+    "internalID": 0,
+    "combinations": [
+      ["fish", "seaweed"],
+      ["caviar", "seaweed"]
+    ]
+  },
+  {
+    "key": "swamp",
+    "name": "Swamp",
+    "internalID": 0,
+    "combinations": [
+      ["mud", "grass"],
+      ["mud", "reed"],
+      ["mud", "tree"],
+      ["algae", "lake"],
+      ["algae", "pond"],
+      ["lake", "reed"],
+      ["pond", "reed"],
+      ["tree", "lake"]
+    ]
+  },
+  {
+    "key": "sweater",
+    "name": "Sweater",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "wool"],
+      ["human", "wool"]
+    ]
+  },
+  {
+    "key": "swim goggles",
+    "name": "Swim Goggles",
+    "internalID": 0,
+    "combinations": [
+      ["water", "glasses"],
+      ["water", "sunglasses"],
+      ["glasses", "lake"],
+      ["sunglasses", "lake"],
+      ["sea", "glasses"],
+      ["sea", "sunglasses"],
+      ["ocean", "glasses"],
+      ["ocean", "sunglasses"],
+      ["glasses", "river"],
+      ["sunglasses", "river"]
+    ]
+  },
+  {
+    "key": "swimmer",
+    "name": "Swimmer",
+    "internalID": 0,
+    "combinations": [
+      ["water", "human"],
+      ["human", "swim goggles"],
+      ["human", "pond"],
+      ["human", "swimming pool"]
+    ]
+  },
+  {
+    "key": "swimming pool",
+    "name": "Swimming Pool",
+    "internalID": 0,
+    "combinations": [
+      ["house", "lake"],
+      ["house", "swimmer"],
+      ["aquarium", "big"]
+    ]
+  },
+  {
+    "key": "sword",
+    "name": "Sword",
+    "internalID": 0,
+    "combinations": [
+      ["blade", "wood"],
+      ["metal", "blade"],
+      ["steel", "blade"]
+    ]
+  },
+  {
+    "key": "swordfish",
+    "name": "Swordfish",
+    "internalID": 0,
+    "combinations": [
+      ["fish", "sword"],
+      ["blade", "fish"],
+      ["sword", "shark"],
+      ["blade", "shark"]
+    ]
+  },
+  {
+    "key": "syringe",
+    "name": "Syringe",
+    "internalID": 0,
+    "combinations": [
+      ["doctor", "needle"],
+      ["tool", "needle"]
+    ]
+  },
+  {
+    "key": "tablet",
+    "name": "Tablet",
+    "internalID": 0,
+    "combinations": [["laptop", "small"]]
+  },
+  {
+    "key": "tailor",
+    "name": "Tailor",
+    "internalID": 0,
+    "combinations": [
+      ["human", "sewing machine"],
+      ["human", "needle"],
+      ["human", "thread"]
+    ]
+  },
+  {
+    "key": "tank",
+    "name": "Tank",
+    "internalID": 0,
+    "combinations": [
+      ["armor", "car"],
+      ["gun", "car"],
+      ["metal", "car"],
+      ["steel", "car"]
+    ]
+  },
+  {
+    "key": "tea",
+    "name": "Tea",
+    "internalID": 0,
+    "combinations": [
+      ["water", "leaf"],
+      ["human", "leaf"],
+      ["leaf", "heat"]
+    ]
+  },
+  {
+    "key": "telescope",
+    "name": "Telescope",
+    "internalID": 0,
+    "combinations": [
+      ["sky", "glass"],
+      ["glass", "star"],
+      ["glass", "space"],
+      ["glass", "moon"],
+      ["glass", "planet"],
+      ["glass", "mercury"],
+      ["glass", "mars"],
+      ["glass", "jupiter"],
+      ["glass", "saturn"],
+      ["glass", "galaxy"],
+      ["glass", "galaxy_cluster"],
+      ["glass", "universe"],
+      ["glass", "supernova"]
+    ]
+  },
+  {
+    "key": "tent",
+    "name": "Tent",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "fabric"],
+      ["house", "fabric"],
+      ["village", "fabric"],
+      ["wall", "fabric"]
+    ]
+  },
+  {
+    "key": "the one ring",
+    "name": "The One Ring",
+    "internalID": 0,
+    "combinations": [
+      ["volcano", "ring"],
+      ["ring", "magic"]
+    ]
+  },
+  {
+    "key": "thermometer",
+    "name": "Thermometer",
+    "internalID": 0,
+    "combinations": [
+      ["glass", "quicksilver"],
+      ["tool", "quicksilver"],
+      ["engineer", "quicksilver"]
+    ]
+  },
+  {
+    "key": "thread",
+    "name": "Thread",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "cotton"],
+      ["cotton", "cotton"],
+      ["wheel", "cotton"],
+      ["cotton", "machine"]
+    ]
+  },
+  {
+    "key": "tide",
+    "name": "Tide",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "moon"],
+      ["sea", "moon"],
+      ["ocean", "time"],
+      ["sea", "time"]
+    ]
+  },
+  {
+    "key": "time",
+    "name": "Time",
+    "internalID": 0,
+    "combinations": []
+  },
+  {
+    "key": "titanic",
+    "name": "Titanic",
+    "internalID": 0,
+    "combinations": [
+      ["steamboat", "iceberg"],
+      ["boat", "iceberg"],
+      ["iceberg", "legend"],
+      ["steamboat", "legend"]
+    ]
+  },
+  {
+    "key": "toast",
+    "name": "Toast",
+    "internalID": 0,
+    "combinations": [
+      ["fire", "bread"],
+      ["fire", "sandwich"],
+      ["bread", "warmth"],
+      ["sandwich", "warmth"]
+    ]
+  },
+  {
+    "key": "tobacco",
+    "name": "Tobacco",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "smoke"],
+      ["grass", "smoke"],
+      ["fire", "plant"]
+    ]
+  },
+  {
+    "key": "tool",
+    "name": "Tool",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "human"],
+      ["steel", "human"],
+      ["human", "wood"],
+      ["stone", "human"],
+      ["human", "rock"],
+      ["metal", "wood"],
+      ["steel", "wood"],
+      ["stone", "wood"],
+      ["wood", "rock"]
+    ]
+  },
+  {
+    "key": "toolbox",
+    "name": "Toolbox",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "container"],
+      ["tool", "safe"],
+      ["hammer", "container"],
+      ["hammer", "box"],
+      ["tool", "box"],
+      ["ruler", "container"],
+      ["ruler", "box"],
+      ["steel wool", "container"],
+      ["steel wool", "box"],
+      ["chain", "box"],
+      ["chain", "container"]
+    ]
+  },
+  {
+    "key": "tornado",
+    "name": "Tornado",
+    "internalID": 0,
+    "combinations": [
+      ["storm", "storm"],
+      ["storm", "wind"],
+      ["storm", "motion"],
+      ["wind", "big"],
+      ["wind", "wind"],
+      ["wind", "motion"]
+    ]
+  },
+  {
+    "key": "toucan",
+    "name": "Toucan",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "rainbow"],
+      ["bird", "palm"],
+      ["palm", "seagull"],
+      ["palm", "pigeon"],
+      ["palm", "owl"],
+      ["bird", "double_rainbow"]
+    ]
+  },
+  {
+    "key": "tractor",
+    "name": "Tractor",
+    "internalID": 0,
+    "combinations": [
+      ["farmer", "car"],
+      ["field", "car"],
+      ["farmer", "wagon"],
+      ["field", "wagon"],
+      ["cow", "car"],
+      ["cow", "wagon"]
+    ]
+  },
+  {
+    "key": "train",
+    "name": "Train",
+    "internalID": 0,
+    "combinations": [
+      ["steel", "steam_engine"],
+      ["metal", "steam_engine"],
+      ["steam_engine", "wheel"],
+      ["steam_engine", "wagon"]
+    ]
+  },
+  {
+    "key": "trainyard",
+    "name": "Trainyard",
+    "internalID": 0,
+    "combinations": [
+      ["train", "container"],
+      ["train", "house"],
+      ["train", "wall"],
+      ["train", "garage"]
+    ]
+  },
+  {
+    "key": "treasure",
+    "name": "Treasure",
+    "internalID": 0,
+    "combinations": [
+      ["pirate", "treasure map"],
+      ["pirate_ship", "treasure map"],
+      ["island", "treasure map"],
+      ["sailor", "treasure map"]
+    ]
+  },
+  {
+    "key": "treasure map",
+    "name": "Treasure Map",
+    "internalID": 0,
+    "combinations": [
+      ["pirate", "map"],
+      ["map", "pirate_ship"],
+      ["map", "treasure"],
+      ["island", "map"]
+    ]
+  },
+  {
+    "key": "tree",
+    "name": "Tree",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "big"],
+      ["plant", "wood"],
+      ["nest", "container"]
+    ]
+  },
+  {
+    "key": "treehouse",
+    "name": "Treehouse",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "house"],
+      ["tree", "wood"]
+    ]
+  },
+  {
+    "key": "trojan horse",
+    "name": "Trojan Horse",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "horse"],
+      ["horse", "machine"],
+      ["horse", "statue"]
+    ]
+  },
+  {
+    "key": "tsunami",
+    "name": "Tsunami",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "earthquake"],
+      ["sea", "earthquake"],
+      ["ocean", "explosion"],
+      ["sea", "explosion"],
+      ["ocean", "meteor"],
+      ["sea", "meteor"]
+    ]
+  },
+  {
+    "key": "tunnel",
+    "name": "Tunnel",
+    "internalID": 0,
+    "combinations": [
+      ["engineer", "mountain"],
+      ["engineer", "mountain_range"],
+      ["engineer", "hill"],
+      ["train", "mountain"],
+      ["train", "mountain_range"],
+      ["train", "hill"],
+      ["mountain", "cave"],
+      ["hill", "cave"],
+      ["mountain_range", "cave"]
+    ]
+  },
+  {
+    "key": "turtle",
+    "name": "Turtle",
+    "internalID": 0,
+    "combinations": [
+      ["sand", "egg"],
+      ["beach", "animal"],
+      ["lizard", "beach"],
+      ["egg", "beach"]
+    ]
+  },
+  {
+    "key": "twilight",
+    "name": "Twilight",
+    "internalID": 0,
+    "combinations": [
+      ["day", "night"],
+      ["time", "day"]
+    ]
+  },
+  {
+    "key": "tyrannosaurus rex",
+    "name": "Tyrannosaurus Rex",
+    "internalID": 0,
+    "combinations": [
+      ["meat", "dinosaur"],
+      ["blood", "dinosaur"],
+      ["dinosaur", "monarch"]
+    ]
+  },
+  {
+    "key": "ufo",
+    "name": "Ufo",
+    "internalID": 0,
+    "combinations": [
+      ["rocket", "alien"],
+      ["airplane", "alien"],
+      ["alien", "spaceship"],
+      ["alien", "space station"],
+      ["sky", "alien"],
+      ["alien", "container"]
+    ]
+  },
+  {
+    "key": "umbrella",
+    "name": "Umbrella",
+    "internalID": 0,
+    "combinations": [
+      ["rain", "tool"],
+      ["rain", "fabric"],
+      ["storm", "fabric"],
+      ["storm", "tool"]
+    ]
+  },
+  {
+    "key": "unicorn",
+    "name": "Unicorn",
+    "internalID": 0,
+    "combinations": [
+      ["horse", "legend"],
+      ["rainbow", "horse"],
+      ["double_rainbow", "horse"],
+      ["horse", "story"],
+      ["horse", "magic"]
+    ]
+  },
+  {
+    "key": "universe",
+    "name": "Universe",
+    "internalID": 0,
+    "combinations": [
+      ["galaxy_cluster", "galaxy_cluster"],
+      ["space", "container"],
+      ["galaxy_cluster", "container"]
+    ]
+  },
+  {
+    "key": "vacuum cleaner",
+    "name": "Vacuum Cleaner",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "broom"],
+      ["broom", "machine"]
+    ]
+  },
+  {
+    "key": "vampire",
+    "name": "Vampire",
+    "internalID": 0,
+    "combinations": [
+      ["human", "blood"],
+      ["human", "vampire"],
+      ["human", "bat"]
+    ]
+  },
+  {
+    "key": "vase",
+    "name": "Vase",
+    "internalID": 0,
+    "combinations": [
+      ["plant", "pottery"],
+      ["pottery", "flower"],
+      ["rose", "container"],
+      ["flower", "container"],
+      ["pottery", "rose"],
+      ["rose", "bottle"],
+      ["flower", "bottle"],
+      ["plant", "bottle"]
+    ]
+  },
+  {
+    "key": "vault",
+    "name": "Vault",
+    "internalID": 0,
+    "combinations": [["safe", "big"]]
+  },
+  {
+    "key": "vegetable",
+    "name": "Vegetable",
+    "internalID": 0,
+    "combinations": [
+      ["field", "farmer"],
+      ["forest", "farmer"],
+      ["plant", "farmer"],
+      ["plant", "field"],
+      ["plant", "domestication"]
+    ]
+  },
+  {
+    "key": "venus",
+    "name": "Venus",
+    "internalID": 0,
+    "combinations": [
+      ["acid_rain", "planet"],
+      ["planet", "smog"],
+      ["volcano", "planet"]
+    ]
+  },
+  {
+    "key": "village",
+    "name": "Village",
+    "internalID": 0,
+    "combinations": [
+      ["house", "house"],
+      ["family", "family"],
+      ["house", "container"],
+      ["bakery", "container"],
+      ["house", "bakery"]
+    ]
+  },
+  {
+    "key": "vine",
+    "name": "Vine",
+    "internalID": 0,
+    "combinations": [
+      ["rope", "rainforest"],
+      ["thread", "rainforest"],
+      ["wire", "rainforest"]
+    ]
+  },
+  {
+    "key": "vinegar",
+    "name": "Vinegar",
+    "internalID": 0,
+    "combinations": [
+      ["wine", "oxygen"],
+      ["air", "wine"],
+      ["time", "wine"]
+    ]
+  },
+  {
+    "key": "volcano",
+    "name": "Volcano",
+    "internalID": 0,
+    "combinations": [
+      ["lava", "mountain"],
+      ["fire", "mountain"],
+      ["pressure", "mountain"],
+      ["earth", "lava"],
+      ["lava", "hill"],
+      ["fire", "hill"],
+      ["pressure", "hill"],
+      ["lava", "container"]
+    ]
+  },
+  {
+    "key": "vulture",
+    "name": "Vulture",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "corpse"],
+      ["corpse", "eagle"],
+      ["corpse", "hummingbird"],
+      ["corpse", "owl"],
+      ["corpse", "pigeon"],
+      ["corpse", "penguin"],
+      ["chicken", "corpse"],
+      ["corpse", "duck"],
+      ["bird", "desert"],
+      ["desert", "eagle"],
+      ["desert", "hummingbird"],
+      ["desert", "owl"],
+      ["desert", "pigeon"],
+      ["desert", "penguin"],
+      ["desert", "duck"]
+    ]
+  },
+  {
+    "key": "wagon",
+    "name": "Wagon",
+    "internalID": 0,
+    "combinations": [
+      ["horse", "cart"],
+      ["cart", "fabric"],
+      ["house", "cart"],
+      ["cart", "wall"],
+      ["cow", "cart"]
+    ]
+  },
+  {
+    "key": "wall",
+    "name": "Wall",
+    "internalID": 0,
+    "combinations": [
+      ["brick", "brick"],
+      ["wood", "wood"],
+      ["stone", "stone"]
+    ]
+  },
+  {
+    "key": "wand",
+    "name": "Wand",
+    "internalID": 0,
+    "combinations": [
+      ["wood", "wizard"],
+      ["sword", "wizard"],
+      ["tool", "wizard"],
+      ["pencil", "wizard"]
+    ]
+  },
+  {
+    "key": "warmth",
+    "name": "Warmth",
+    "internalID": 0,
+    "combinations": [
+      ["air", "heat"],
+      ["human", "heat"]
+    ]
+  },
+  {
+    "key": "warrior",
+    "name": "Warrior",
+    "internalID": 0,
+    "combinations": [
+      ["human", "sword"],
+      ["human", "bow"]
+    ]
+  },
+  {
+    "key": "watch",
+    "name": "Watch",
+    "internalID": 0,
+    "combinations": [
+      ["human", "clock"],
+      ["clock", "small"]
+    ]
+  },
+  {
+    "key": "water",
+    "name": "Water",
+    "internalID": 0,
+    "combinations": [
+      ["ice", "heat"],
+      ["snow", "heat"]
+    ]
+  },
+  {
+    "key": "water gun",
+    "name": "Water Gun",
+    "internalID": 0,
+    "combinations": [
+      ["water", "gun"],
+      ["gun", "stream"],
+      ["gun", "puddle"]
+    ]
+  },
+  {
+    "key": "water lily",
+    "name": "Water Lily",
+    "internalID": 0,
+    "combinations": [
+      ["pond", "flower"],
+      ["flower", "puddle"],
+      ["flower", "lake"],
+      ["flower", "stream"]
+    ]
+  },
+  {
+    "key": "water pipe",
+    "name": "Water Pipe",
+    "internalID": 0,
+    "combinations": [["water", "pipe"]]
+  },
+  {
+    "key": "waterfall",
+    "name": "Waterfall",
+    "internalID": 0,
+    "combinations": [
+      ["mountain", "river"],
+      ["river", "mountain_range"],
+      ["river", "hill"],
+      ["mountain", "lake"],
+      ["mountain_range", "lake"],
+      ["lake", "hill"]
+    ]
+  },
+  {
+    "key": "wave",
+    "name": "Wave",
+    "internalID": 0,
+    "combinations": [
+      ["ocean", "wind"],
+      ["ocean", "storm"],
+      ["sea", "wind"],
+      ["sea", "storm"],
+      ["wind", "lake"],
+      ["storm", "lake"],
+      ["ocean", "hurricane"],
+      ["sea", "hurricane"],
+      ["lake", "hurricane"]
+    ]
+  },
+  {
+    "key": "wax",
+    "name": "Wax",
+    "internalID": 0,
+    "combinations": [
+      ["bee", "beehive"],
+      ["wall", "beehive"],
+      ["blade", "beehive"],
+      ["sword", "beehive"],
+      ["tool", "beehive"],
+      ["beehive", "beekeeper"]
+    ]
+  },
+  {
+    "key": "web",
+    "name": "Web",
+    "internalID": 0,
+    "combinations": [
+      ["thread", "spider"],
+      ["cotton", "spider"],
+      ["fabric", "spider"],
+      ["spider", "net"]
+    ]
+  },
+  {
+    "key": "werewolf",
+    "name": "Werewolf",
+    "internalID": 0,
+    "combinations": [
+      ["human", "wolf"],
+      ["human", "werewolf"]
+    ]
+  },
+  {
+    "key": "wheat",
+    "name": "Wheat",
+    "internalID": 0,
+    "combinations": [
+      ["grass", "domestication"],
+      ["farmer", "grass"],
+      ["field", "grass"]
+    ]
+  },
+  {
+    "key": "wheel",
+    "name": "Wheel",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "motion"],
+      ["stone", "motion"],
+      ["metal", "motion"],
+      ["steel", "motion"],
+      ["water", "tool"],
+      ["tool", "stream"],
+      ["tool", "river"]
+    ]
+  },
+  {
+    "key": "wild boar",
+    "name": "Wild Boar",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "pig"],
+      ["forest", "pig"],
+      ["pig", "hill"]
+    ]
+  },
+  {
+    "key": "wind",
+    "name": "Wind",
+    "internalID": 0,
+    "combinations": [
+      ["air", "motion"],
+      ["atmosphere", "motion"],
+      ["air", "pressure"]
+    ]
+  },
+  {
+    "key": "wind_turbine",
+    "name": "Wind Turbine",
+    "internalID": 0,
+    "combinations": [
+      ["electricity", "windmill"],
+      ["windmill", "machine"],
+      ["electrician", "windmill"],
+      ["electricity", "wind"]
+    ]
+  },
+  {
+    "key": "windmill",
+    "name": "Windmill",
+    "internalID": 0,
+    "combinations": [
+      ["wind", "house"],
+      ["wind", "wheel"],
+      ["wind", "wheat"],
+      ["wind", "flour"],
+      ["wheel", "wall"]
+    ]
+  },
+  {
+    "key": "windsurfer",
+    "name": "Windsurfer",
+    "internalID": 0,
+    "combinations": [["wind", "surfer"]]
+  },
+  {
+    "key": "wine",
+    "name": "Wine",
+    "internalID": 0,
+    "combinations": [["fruit", "alcohol"]]
+  },
+  {
+    "key": "wire",
+    "name": "Wire",
+    "internalID": 0,
+    "combinations": [
+      ["metal", "electricity"],
+      ["steel", "electricity"],
+      ["electricity", "rope"],
+      ["metal", "rope"],
+      ["steel", "rope"]
+    ]
+  },
+  {
+    "key": "witch",
+    "name": "Witch",
+    "internalID": 0,
+    "combinations": [
+      ["wizard", "broom"],
+      ["human", "broom"],
+      ["broom", "legend"],
+      ["story", "broom"],
+      ["broom", "magic"],
+      ["broom", "cauldron"],
+      ["cauldron", "legend"],
+      ["story", "cauldron"]
+    ]
+  },
+  {
+    "key": "wizard",
+    "name": "Wizard",
+    "internalID": 0,
+    "combinations": [
+      ["human", "magic"],
+      ["human", "rainbow"],
+      ["human", "double_rainbow"],
+      ["human", "unicorn"]
+    ]
+  },
+  {
+    "key": "wolf",
+    "name": "Wolf",
+    "internalID": 0,
+    "combinations": [
+      ["moon", "animal"],
+      ["animal", "dog"],
+      ["forest", "dog"],
+      ["blood", "dog"]
+    ]
+  },
+  {
+    "key": "wood",
+    "name": "Wood",
+    "internalID": 0,
+    "combinations": [
+      ["tree", "tool"],
+      ["tree", "axe"],
+      ["tree", "chainsaw"],
+      ["tree", "sword"],
+      ["tree", "lumberjack"],
+      ["tool", "forest"],
+      ["axe", "forest"],
+      ["forest", "chainsaw"],
+      ["forest", "lumberjack"]
+    ]
+  },
+  {
+    "key": "woodpecker",
+    "name": "Woodpecker",
+    "internalID": 0,
+    "combinations": [
+      ["bird", "wood"],
+      ["tree", "bird"],
+      ["bird", "forest"]
+    ]
+  },
+  {
+    "key": "wool",
+    "name": "Wool",
+    "internalID": 0,
+    "combinations": [
+      ["tool", "sheep"],
+      ["scissors", "sheep"],
+      ["blade", "sheep"]
+    ]
+  },
+  {
+    "key": "wrapping paper",
+    "name": "Wrapping Paper",
+    "internalID": 0,
+    "combinations": [
+      ["paper", "gift"],
+      ["christmas_tree", "paper"],
+      ["paper", "christmas_stocking"],
+      ["paper", "santa"]
+    ]
+  },
+  {
+    "key": "writer",
+    "name": "Writer",
+    "internalID": 0,
+    "combinations": [
+      ["human", "book"],
+      ["human", "pencil"]
+    ]
+  },
+  {
+    "key": "yeti",
+    "name": "Yeti",
+    "internalID": 0,
+    "combinations": [
+      ["mountain", "story"],
+      ["story", "mountain_range"],
+      ["glacier", "story"],
+      ["antarctica", "story"],
+      ["mountain", "legend"],
+      ["mountain_range", "legend"],
+      ["glacier", "legend"],
+      ["antarctica", "legend"]
+    ]
+  },
+  {
+    "key": "yogurt",
+    "name": "Yogurt",
+    "internalID": 0,
+    "combinations": [
+      ["milk", "bacteria"],
+      ["bacteria", "ice_cream"]
+    ]
+  },
+  {
+    "key": "zombie",
+    "name": "Zombie",
+    "internalID": 0,
+    "combinations": [
+      ["life", "corpse"],
+      ["corpse", "story"],
+      ["corpse", "bacteria"],
+      ["human", "zombie"]
+    ]
+  },
+  {
+    "key": "zoo",
+    "name": "Zoo",
+    "internalID": 0,
+    "combinations": [
+      ["animal", "container"],
+      ["animal", "cage"]
+    ]
+  }
+]
