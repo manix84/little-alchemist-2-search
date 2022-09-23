@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/little-alchemist-2-search/static/css/main.073c9b0a.css",
+    "main.js": "/little-alchemist-2-search/static/js/main.65b1bd5a.js",
+    "static/js/787.e0975aee.chunk.js": "/little-alchemist-2-search/static/js/787.e0975aee.chunk.js",
+    "static/media/logo.svg": "/little-alchemist-2-search/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/little-alchemist-2-search/index.html",
+    "main.073c9b0a.css.map": "/little-alchemist-2-search/static/css/main.073c9b0a.css.map",
+    "main.65b1bd5a.js.map": "/little-alchemist-2-search/static/js/main.65b1bd5a.js.map",
+    "787.e0975aee.chunk.js.map": "/little-alchemist-2-search/static/js/787.e0975aee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.65b1bd5a.js"
+  ]
+}
