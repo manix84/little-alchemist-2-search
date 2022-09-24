@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/little-alchemist-2-cheats/static/css/main.cafa3320.css",
-    "main.js": "/little-alchemist-2-cheats/static/js/main.7232846f.js",
+    "main.js": "/little-alchemist-2-cheats/static/js/main.ddaf76cb.js",
     "static/js/787.e7926a9e.chunk.js": "/little-alchemist-2-cheats/static/js/787.e7926a9e.chunk.js",
     "index.html": "/little-alchemist-2-cheats/index.html",
     "main.cafa3320.css.map": "/little-alchemist-2-cheats/static/css/main.cafa3320.css.map",
-    "main.7232846f.js.map": "/little-alchemist-2-cheats/static/js/main.7232846f.js.map",
+    "main.ddaf76cb.js.map": "/little-alchemist-2-cheats/static/js/main.ddaf76cb.js.map",
     "787.e7926a9e.chunk.js.map": "/little-alchemist-2-cheats/static/js/787.e7926a9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cafa3320.css",
-    "static/js/main.7232846f.js"
+    "static/js/main.ddaf76cb.js"
   ]
 }
