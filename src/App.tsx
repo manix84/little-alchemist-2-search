@@ -68,20 +68,37 @@ export const App = () => {
                 <ElementImg src={getImage(selectedID)} alt={getName(selectedID)} />
               </div>
               <div>{getName(selectedID)}</div>
-              {selectedCombinations &&
-                selectedCombinations.map((combination: string[]) => (
-                  <CombinationContainer>
-                    {combination.map((elementID: string, index: number) => (
-                      <>
-                        {index > 0 && <ElementContainer>+</ElementContainer>}
-                        <ElementContainer>
-                          <ElementImg src={getImage(elementID)} />
-                          <ElementName>{getName(elementID)}</ElementName>
-                        </ElementContainer>
-                      </>
-                    ))}
-                  </CombinationContainer>
-                ))}
+              {selectedCombinations && (
+                <>
+                  <h2>Combinations</h2>
+                  {selectedCombinations.map((combination: string[]) => (
+                    <CombinationContainer>
+                      {combination.map((elementID: string, index: number) => (
+                        <>
+                          {index > 0 && <ElementContainer>+</ElementContainer>}
+                          <ElementContainer>
+                            <ElementImg src={getImage(elementID)} />
+                            <ElementName>{getName(elementID)}</ElementName>
+                          </ElementContainer>
+                        </>
+                      ))}
+                    </CombinationContainer>
+                  ))}
+                </>
+              )}
+              {selectedMakes && (
+                <>
+                  <h2>Makes</h2>
+                  {selectedMakes.map((elementID: string) => (
+                    <CombinationContainer>
+                      <ElementContainer>
+                        <ElementImg src={getImage(elementID)} />
+                        <ElementName>{getName(elementID)}</ElementName>
+                      </ElementContainer>
+                    </CombinationContainer>
+                  ))}
+                </>
+              )}
             </>
           )}
         </Main>
