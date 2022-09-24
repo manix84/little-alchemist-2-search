@@ -1,15 +1,15 @@
 {
-  "main.css": "/little-alchemist-2-search/static/css/main.f85dce97.chunk.css",
-  "main.js": "/little-alchemist-2-search/static/js/main.60a27855.chunk.js",
-  "main.js.map": "/little-alchemist-2-search/static/js/main.60a27855.chunk.js.map",
-  "static/js/1.14f65bc6.chunk.js": "/little-alchemist-2-search/static/js/1.14f65bc6.chunk.js",
-  "static/js/1.14f65bc6.chunk.js.map": "/little-alchemist-2-search/static/js/1.14f65bc6.chunk.js.map",
-  "static/js/2.4c08fe0a.chunk.js": "/little-alchemist-2-search/static/js/2.4c08fe0a.chunk.js",
-  "static/js/2.4c08fe0a.chunk.js.map": "/little-alchemist-2-search/static/js/2.4c08fe0a.chunk.js.map",
-  "runtime~main.js": "/little-alchemist-2-search/static/js/runtime~main.a8991b9a.js",
-  "runtime~main.js.map": "/little-alchemist-2-search/static/js/runtime~main.a8991b9a.js.map",
-  "static/css/main.f85dce97.chunk.css.map": "/little-alchemist-2-search/static/css/main.f85dce97.chunk.css.map",
-  "index.html": "/little-alchemist-2-search/index.html",
-  "precache-manifest.9b218ae37c104ac29b7f751575c3f094.js": "/little-alchemist-2-search/precache-manifest.9b218ae37c104ac29b7f751575c3f094.js",
-  "service-worker.js": "/little-alchemist-2-search/service-worker.js"
+  "files": {
+    "main.css": "/little-alchemist-2-cheats/static/css/main.cafa3320.css",
+    "main.js": "/little-alchemist-2-cheats/static/js/main.7232846f.js",
+    "static/js/787.e7926a9e.chunk.js": "/little-alchemist-2-cheats/static/js/787.e7926a9e.chunk.js",
+    "index.html": "/little-alchemist-2-cheats/index.html",
+    "main.cafa3320.css.map": "/little-alchemist-2-cheats/static/css/main.cafa3320.css.map",
+    "main.7232846f.js.map": "/little-alchemist-2-cheats/static/js/main.7232846f.js.map",
+    "787.e7926a9e.chunk.js.map": "/little-alchemist-2-cheats/static/js/787.e7926a9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cafa3320.css",
+    "static/js/main.7232846f.js"
+  ]
 }
