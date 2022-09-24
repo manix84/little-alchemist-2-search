@@ -1,4 +1,5 @@
 import Autocomplete from "@mui/material/Autocomplete";
+import styled from "styled-components/macro";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -9,8 +10,11 @@ import "./App.css";
 import useData from "./lib/Data";
 
 export const App = () => {
+  const { isLoading, getName, getImage, getOptions, getCombinations, getMakes } = useData();
+
   const [selectedID, setSelectedID] = useState<string>();
-  const { isLoading, getName, getImage, getOptions } = useData();
+  const [selectedCombinations, setSelectedCombinations] = useState<string[][]>();
+  const [selectedMakes, setSelectedMakes] = useState<string[]>();
 
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const theme = React.useMemo(
@@ -22,20 +26,25 @@ export const App = () => {
       }),
     [prefersDarkMode]
   );
-  useEffect(() => console.log({ selectedID }), [selectedID]);
+  useEffect(() => {
+    console.log({ selectedID });
+    setSelectedCombinations(selectedID ? getCombinations(selectedID) : undefined);
+    setSelectedMakes(selectedID ? getMakes(selectedID) : undefined);
+  }, [selectedID]);
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div className='App'>
-        <header className='header'>
+      <PageContainer>
+        <Header>
           <img
             src={"https://littlealchemy2.com/img/logo.2b0c661a.svg"}
             style={{ filter: "drop-shadow(rgba(0, 0, 0, 0.5) 5px 5px 3px)" }}
             className='logo'
             alt='Little Alchemy 2'
           />
-          <p>Search for Elements</p>
+        </Header>
+        <Main>
           <Autocomplete
             disablePortal
             loading={isLoading}
@@ -44,13 +53,7 @@ export const App = () => {
             sx={{ width: 300 }}
             renderOption={(props, option) => (
               <Box component='li' sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
-                <img
-                  loading='lazy'
-                  width='20'
-                  src={option.image}
-                  alt=''
-                  style={{ filter: "drop-shadow(0 0 0 rgba(0,0,0,0.5))" }}
-                />
+                <AutoCompleteIcons loading='lazy' src={option.image} alt={""} />
                 {option.label}
               </Box>
             )}
@@ -59,18 +62,72 @@ export const App = () => {
               setSelectedID(option?.id);
             }}
           />
-        </header>
-        {selectedID && !isLoading && (
-          <main>
-            <div>
-              <img src={getImage(selectedID)} alt={getName(selectedID)} />
-            </div>
-            <div>{getName(selectedID)}</div>
-          </main>
-        )}
-      </div>
+          {selectedID && (
+            <>
+              <div>
+                <ElementImg src={getImage(selectedID)} alt={getName(selectedID)} />
+              </div>
+              <div>{getName(selectedID)}</div>
+              {selectedCombinations &&
+                selectedCombinations.map((combination: string[]) => (
+                  <CombinationContainer>
+                    {combination.map((elementID: string, index: number) => (
+                      <>
+                        {index > 0 && <ElementContainer>+</ElementContainer>}
+                        <ElementContainer>
+                          <ElementImg src={getImage(elementID)} />
+                          <ElementName>{getName(elementID)}</ElementName>
+                        </ElementContainer>
+                      </>
+                    ))}
+                  </CombinationContainer>
+                ))}
+            </>
+          )}
+        </Main>
+      </PageContainer>
     </ThemeProvider>
   );
 };
-
 export default App;
+
+const PageContainer = styled.div`
+  padding-top: 10vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  font-size: calc(10px + 2vmin);
+`;
+
+const Header = styled.header`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const AutoCompleteIcons = styled.img`
+  width: 20px;
+  filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.5));
+`;
+
+const ElementContainer = styled.div``;
+
+const ElementImg = styled.img`
+  width: 50px;
+  filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.5));
+`;
+
+const ElementName = styled.div``;
+
+const CombinationContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
