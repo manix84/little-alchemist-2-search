@@ -41,14 +41,17 @@ const useData = () => {
     getImage: (id: string) => `https://hints.littlealchemy2.com/icons/${id}.svg`,
     getCombinations: (id: string) => data?.[id].p,
     getMakesCombinations: (id: string) => {
-      const output: { [key: string]: string } = {};
-      data?.[id].c?.map((cid) =>
+      const output: { [key: string]: string[] } = {};
+      data?.[id].c?.map((cid) => {
+        output[cid] = [];
         data?.[cid].p
-          ?.filter((combs) => combs[0] === id || combs[1] === id)
-          .forEach((combs) => {
-            output[cid] = combs[0] === id ? combs[1] : combs[0];
-          })
-      );
+          ?.filter((combs) => combs.some((comb) => comb === id))
+          .forEach((combs) =>
+            combs.forEach((comb) => {
+              if (comb !== id) output[cid].push(comb);
+            })
+          );
+      });
       return output;
     },
     getOptions: (): AutocompleteOption[] =>

@@ -14,7 +14,7 @@ export const App = () => {
 
   const [selectedID, setSelectedID] = useState<string>();
   const [selectedCombinations, setSelectedCombinations] = useState<string[][]>();
-  const [selectedMakes, setSelectedMakes] = useState<{ [key: string]: string }>();
+  const [selectedMakes, setSelectedMakes] = useState<{ [key: string]: string[] }>();
 
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const theme = React.useMemo(
@@ -90,24 +90,26 @@ export const App = () => {
               {selectedMakes && (
                 <>
                   <h2>Makes</h2>
-                  {Object.entries(selectedMakes).map(([producesID, elementID], index) => (
-                    <CombinationContainer>
-                      <ElementContainer>
-                        <ElementImg src={getImage(selectedID)} />
-                        <ElementName>{getName(selectedID)}</ElementName>
-                      </ElementContainer>
-                      <ElementSymbol>+</ElementSymbol>
-                      <ElementContainer>
-                        <ElementImg src={getImage(elementID)} />
-                        <ElementName>{getName(elementID)}</ElementName>
-                      </ElementContainer>
-                      <ElementSymbol>=</ElementSymbol>
-                      <ElementContainer>
-                        <ElementImg src={getImage(producesID)} />
-                        <ElementName>{getName(producesID)}</ElementName>
-                      </ElementContainer>
-                    </CombinationContainer>
-                  ))}
+                  {Object.entries(selectedMakes).map(([producesID, elementIDs]) =>
+                    elementIDs.map((elementID) => (
+                      <CombinationContainer>
+                        <ElementContainer>
+                          <ElementImg src={getImage(selectedID)} />
+                          <ElementName>{getName(selectedID)}</ElementName>
+                        </ElementContainer>
+                        <ElementSymbol>+</ElementSymbol>
+                        <ElementContainer>
+                          <ElementImg src={getImage(elementID)} />
+                          <ElementName>{getName(elementID)}</ElementName>
+                        </ElementContainer>
+                        <ElementSymbol>=</ElementSymbol>
+                        <ElementContainer>
+                          <ElementImg src={getImage(producesID)} />
+                          <ElementName>{getName(producesID)}</ElementName>
+                        </ElementContainer>
+                      </CombinationContainer>
+                    ))
+                  )}
                 </>
               )}
             </>
