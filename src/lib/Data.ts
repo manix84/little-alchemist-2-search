@@ -37,10 +37,20 @@ const useData = () => {
   return {
     isLoading,
     error,
-    getName: (id: string) => data?.[id]?.n,
+    getName: (id: string) => data?.[id].n,
     getImage: (id: string) => `https://hints.littlealchemy2.com/icons/${id}.svg`,
-    getCombinations: (id: string) => data?.[id]?.p,
-    getMakes: (id: string) => data?.[id]?.c,
+    getCombinations: (id: string) => data?.[id].p,
+    getMakesCombinations: (id: string) => {
+      const output: { [key: string]: string } = {};
+      data?.[id].c?.map((cid) =>
+        data?.[cid].p
+          ?.filter((combs) => combs[0] === id || combs[1] === id)
+          .forEach((combs) => {
+            output[cid] = combs?.map((cid) => (cid[0] === id ? cid[1] : cid[0])[0])[0];
+          })
+      );
+      return output;
+    },
     getOptions: (): AutocompleteOption[] =>
       Object.entries(data || {})
         .map(([id, element]) => ({

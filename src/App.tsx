@@ -10,11 +10,11 @@ import "./App.css";
 import useData from "./lib/Data";
 
 export const App = () => {
-  const { isLoading, getName, getImage, getOptions, getCombinations, getMakes } = useData();
+  const { isLoading, getName, getImage, getOptions, getCombinations, getMakesCombinations } = useData();
 
   const [selectedID, setSelectedID] = useState<string>();
   const [selectedCombinations, setSelectedCombinations] = useState<string[][]>();
-  const [selectedMakes, setSelectedMakes] = useState<string[]>();
+  const [selectedMakes, setSelectedMakes] = useState<{ [key: string]: string }>();
 
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const theme = React.useMemo(
@@ -29,7 +29,8 @@ export const App = () => {
   useEffect(() => {
     console.log({ selectedID });
     setSelectedCombinations(selectedID ? getCombinations(selectedID) : undefined);
-    setSelectedMakes(selectedID ? getMakes(selectedID) : undefined);
+    setSelectedMakes(selectedID ? getMakesCombinations(selectedID) : undefined);
+    selectedID && console.log({ makesCombinations: getMakesCombinations(selectedID) });
   }, [selectedID]);
 
   return (
@@ -64,10 +65,10 @@ export const App = () => {
           />
           {selectedID && (
             <>
-              <div>
-                <ElementImg src={getImage(selectedID)} alt={getName(selectedID)} />
-              </div>
-              <div>{getName(selectedID)}</div>
+              <PrimaryElementContainer>
+                <PrimaryElementImg src={getImage(selectedID)} alt={getName(selectedID)} />
+              </PrimaryElementContainer>
+              <ElementName>{getName(selectedID)}</ElementName>
               {selectedCombinations && (
                 <>
                   <h2>Combinations</h2>
@@ -75,7 +76,7 @@ export const App = () => {
                     <CombinationContainer>
                       {combination.map((elementID: string, index: number) => (
                         <>
-                          {index > 0 && <ElementContainer>+</ElementContainer>}
+                          {index > 0 && <ElementSymbol>+</ElementSymbol>}
                           <ElementContainer>
                             <ElementImg src={getImage(elementID)} />
                             <ElementName>{getName(elementID)}</ElementName>
@@ -89,11 +90,21 @@ export const App = () => {
               {selectedMakes && (
                 <>
                   <h2>Makes</h2>
-                  {selectedMakes.map((elementID: string) => (
+                  {Object.entries(selectedMakes).map(([producesID, elementID], index) => (
                     <CombinationContainer>
+                      <ElementContainer>
+                        <ElementImg src={getImage(selectedID)} />
+                        <ElementName>{getName(selectedID)}</ElementName>
+                      </ElementContainer>
+                      <ElementSymbol>+</ElementSymbol>
                       <ElementContainer>
                         <ElementImg src={getImage(elementID)} />
                         <ElementName>{getName(elementID)}</ElementName>
+                      </ElementContainer>
+                      <ElementSymbol>=</ElementSymbol>
+                      <ElementContainer>
+                        <ElementImg src={getImage(producesID)} />
+                        <ElementName>{getName(producesID)}</ElementName>
                       </ElementContainer>
                     </CombinationContainer>
                   ))}
@@ -135,16 +146,44 @@ const AutoCompleteIcons = styled.img`
   filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.5));
 `;
 
-const ElementContainer = styled.div``;
+const ElementContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: rgba(127, 127, 127, 0.1);
+  margin: 20px;
+`;
+
+const PrimaryElementContainer = styled(ElementContainer)`
+  height: 200px;
+  width: 200px;
+`;
+
+const ElementSymbol = styled(ElementContainer)`
+  font-size: 2.5em;
+  width: 50px;
+  background-color: transparent;
+`;
 
 const ElementImg = styled.img`
   width: 50px;
-  filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+`;
+const PrimaryElementImg = styled(ElementImg)`
+  width: 150px;
 `;
 
-const ElementName = styled.div``;
+const ElementName = styled.div`
+  text-transform: capitalize;
+  font-weight: 700;
+`;
 
 const CombinationContainer = styled.div`
   display: flex;
   flex-direction: row;
+  gap: 5px;
 `;
