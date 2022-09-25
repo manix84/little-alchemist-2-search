@@ -41,8 +41,8 @@ export const App = () => {
           <img
             src={"https://hints.littlealchemy2.com/img/la2-logo.svg"}
             style={{ filter: "drop-shadow(rgba(0, 0, 0, 0.5) 5px 5px 3px)" }}
-            className='logo'
-            alt='Little Alchemy 2'
+            className={"logo"}
+            alt={"Little Alchemy 2 - Cheats"}
           />
         </Header>
         <Main>
@@ -53,12 +53,12 @@ export const App = () => {
             options={getOptions()}
             sx={{ width: 300 }}
             renderOption={(props, option) => (
-              <Box component='li' sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
-                <AutoCompleteIcon loading='lazy' src={option.image} alt={""} />
+              <Box component={"li"} sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
+                <AutoCompleteIcon loading={"lazy"} src={option.image} alt={""} />
                 {option.label}
               </Box>
             )}
-            renderInput={(params) => <TextField {...params} label='Elements' />}
+            renderInput={(params) => <TextField {...params} label={"Elements"} />}
             onChange={(_event, option) => {
               setSelectedID(option?.id);
             }}
