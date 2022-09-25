@@ -46,7 +46,7 @@ const useData = () => {
         data?.[cid].p
           ?.filter((combs) => combs[0] === id || combs[1] === id)
           .forEach((combs) => {
-            output[cid] = combs?.map((cid) => (cid[0] === id ? cid[1] : cid[0])[0])[0];
+            output[cid] = combs[0] === id ? combs[1] : combs[0];
           })
       );
       return output;
