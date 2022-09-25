@@ -39,7 +39,7 @@ export const App = () => {
       <PageContainer>
         <Header>
           <img
-            src={"https://littlealchemy2.com/img/logo.2b0c661a.svg"}
+            src={"https://hints.littlealchemy2.com/img/la2-logo.svg"}
             style={{ filter: "drop-shadow(rgba(0, 0, 0, 0.5) 5px 5px 3px)" }}
             className='logo'
             alt='Little Alchemy 2'
