@@ -179,6 +179,7 @@ const PrimaryElementImg = styled(ElementImg)`
 
 const ElementName = styled.div`
   text-transform: capitalize;
+  text-align: center;
   font-weight: 700;
 `;
 
