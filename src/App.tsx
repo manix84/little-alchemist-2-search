@@ -54,7 +54,7 @@ export const App = () => {
             sx={{ width: 300 }}
             renderOption={(props, option) => (
               <Box component='li' sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
-                <AutoCompleteIcons loading='lazy' src={option.image} alt={""} />
+                <AutoCompleteIcon loading='lazy' src={option.image} alt={""} />
                 {option.label}
               </Box>
             )}
@@ -67,8 +67,8 @@ export const App = () => {
             <>
               <PrimaryElementContainer>
                 <PrimaryElementImg src={getImage(selectedID)} alt={getName(selectedID)} />
+                <PrimaryElementName>{getName(selectedID)}</PrimaryElementName>
               </PrimaryElementContainer>
-              <ElementName>{getName(selectedID)}</ElementName>
               {selectedCombinations && (
                 <>
                   <h2>Combinations</h2>
@@ -141,7 +141,7 @@ const Main = styled.main`
   align-items: center;
 `;
 
-const AutoCompleteIcons = styled.img`
+const AutoCompleteIcon = styled.img`
   width: 20px;
   filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.5));
 `;
@@ -178,9 +178,13 @@ const PrimaryElementImg = styled(ElementImg)`
 `;
 
 const ElementName = styled.div`
+  font-size: 0.5em;
   text-transform: capitalize;
   text-align: center;
   font-weight: 700;
+`;
+const PrimaryElementName = styled(ElementName)`
+  font-size: 0.9em;
 `;
 
 const CombinationContainer = styled.div`
