@@ -29,13 +29,8 @@ jobs:
     - name: Pre-Deploy
       run: npm run build
 
-    - name: GH Pages deploy
-      uses: Cecilapp/GitHub-Pages-deploy@3.2.1
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        # A verified email.
-        email: manix84@gmail.com
-        # Where static files are.
-        build_dir: build
-        # Which branch to push files.
-        branch: gh-pages
-      
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
