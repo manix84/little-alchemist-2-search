@@ -46,11 +46,9 @@ const useData = () => {
         output[cid] = [];
         data?.[cid].p
           ?.filter((combs) => combs.some((comb) => comb === id))
-          .forEach((combs) =>
-            combs.forEach((comb) => {
-              if (comb !== id) output[cid].push(comb);
-            })
-          );
+          .forEach((combs) => {
+            output[cid].push(combs[0] === id ? combs[1] : combs[0]);
+          });
       });
       return output;
     },
