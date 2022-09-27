@@ -1,0 +1,41 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 2 
+        
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - name: Install dependencies
+      run: npm clean-install
+      
+    - name: Pre-Deploy
+      run: npm run build
+
+    - name: GH Pages deploy
+      uses: Cecilapp/GitHub-Pages-deploy@3.2.1
+      with:
+        # A verified email.
+        email: manix84@gmail.com
+        # Where static files are.
+        build_dir: build
+        # Which branch to push files.
+        branch: gh-pages
+      
