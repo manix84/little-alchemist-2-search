@@ -71,7 +71,7 @@ export const App = () => {
               </PrimaryElementContainer>
               {selectedCombinations && (
                 <>
-                  <h2>Combinations</h2>
+                  <h2>Combinations ({Object.values(selectedCombinations).length})</h2>
                   {selectedCombinations.map((combination: string[]) => (
                     <CombinationContainer>
                       {combination.map((elementID: string, index: number) => (
@@ -89,7 +89,9 @@ export const App = () => {
               )}
               {selectedMakes && (
                 <>
-                  <h2>Makes</h2>
+                  <h2>
+                    Makes ({Object.values(selectedMakes).reduce((currentCount, row) => currentCount + row.length, 0)})
+                  </h2>
                   {Object.entries(selectedMakes).map(([producesID, elementIDs]) =>
                     elementIDs.map((elementID) => (
                       <CombinationContainer>
