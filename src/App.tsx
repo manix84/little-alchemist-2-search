@@ -157,7 +157,7 @@ const ElementContainer = styled.div`
   width: 120px;
   border-radius: 8px;
   background-color: rgba(127, 127, 127, 0.1);
-  margin: 20px;
+  margin: 12px 0;
 `;
 
 const PrimaryElementContainer = styled(ElementContainer)`
@@ -193,4 +193,5 @@ const CombinationContainer = styled.div`
   display: flex;
   flex-direction: row;
   gap: 5px;
+  max-width: 90vw;
 `;
