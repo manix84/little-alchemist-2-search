@@ -42,7 +42,7 @@ const useData = () => {
     getCombinations: (id: string) => data?.[id].p,
     getMakesCombinations: (id: string) => {
       const output: { [key: string]: string[] } = {};
-      data?.[id].c?.map((cid) => {
+      data?.[id].c?.forEach((cid) => {
         output[cid] = [];
         data?.[cid].p
           ?.filter((combs) => combs.some((comb) => comb === id))
