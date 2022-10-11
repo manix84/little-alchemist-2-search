@@ -1,11 +1,11 @@
 import Autocomplete from "@mui/material/Autocomplete";
-import styled from "styled-components/macro";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import React, { useEffect, useState } from "react";
+import styled from "styled-components";
 import "./App.css";
 import useData from "./lib/Data";
 
