@@ -1,15 +1,6 @@
 {
-  "extends": ["react-app", "shared-config"],
+  "extends": ["react-app"],
   "rules": {
-    "additional-rule": "warn",
     "react-hooks/exhaustive-deps": "off"
-  },
-  "overrides": [
-    {
-      "files": ["**/*.ts?(x)"],
-      "rules": {
-        "additional-typescript-only-rule": "warn"
-      }
-    }
-  ]
+  }
 }
